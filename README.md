@@ -9,17 +9,19 @@
 > Audience · Sync) composed into one cohesive, research-grounded intelligence stack.
 > Refuses the loudness war and the AI-vocal-impersonation grift.
 
-[![Status](https://img.shields.io/badge/status-charter_v0.1-f59e0b?style=for-the-badge&labelColor=0d1117)](#-status)
-[![Tier](https://img.shields.io/badge/tier-domain_sub--stack-c084fc?style=for-the-badge&labelColor=0d1117)](#-where-this-sits)
-[![Sub-systems](https://img.shields.io/badge/sub--systems-6-7fffd4?style=for-the-badge&labelColor=0d1117)](#-the-six-sub-systems)
+![Status](https://img.shields.io/badge/status-charter_v0.1-f59e0b?style=for-the-badge&labelColor=0d1117)
+![Tier](https://img.shields.io/badge/tier-domain_sub--stack-c084fc?style=for-the-badge&labelColor=0d1117)
+![Sub-systems](https://img.shields.io/badge/sub--systems-6-7fffd4?style=for-the-badge&labelColor=0d1117)
 [![Built on SIP](https://img.shields.io/badge/Built_on-SIP-78a6ff?style=for-the-badge&labelColor=0d1117)](https://github.com/frankxai/Starlight-Intelligence-System)
 [![License: MIT](https://img.shields.io/badge/license-MIT-white?style=for-the-badge&labelColor=0d1117)](https://opensource.org/licenses/MIT)
 
-[**🎚️ The six sub-systems**](#-the-six-sub-systems) · [**🧠 The synthesis edge**](#-the-synthesis-edge) · [**👤 Who it's for**](#-who-this-is-for) · [**🗺️ Where it sits**](#-where-this-sits)
+[**🎚️ The six sub-systems**](#six-sub-systems) · [**🧠 The synthesis edge**](#synthesis-edge) · [**👤 Who it's for**](#who-its-for) · [**🗺️ Where it sits**](#where-it-sits)
 
 </div>
 
 ---
+
+<a id="status"></a>
 
 > [!NOTE]
 > **Status — charter (v0.1).** This repo is the public home for the Music / Sound Intelligence
@@ -44,6 +46,8 @@ this public reference.
 
 ---
 
+<a id="synthesis-edge"></a>
+
 ## 🧠 The synthesis edge
 
 Most music advice runs on one of three modes: (1) the recycled producer-influencer playbook;
@@ -60,6 +64,8 @@ sustains. Metadata is load-bearing infrastructure, not paperwork. Sync literacy 
 catalog from sunk cost into compounding revenue. Every sub-system inherits that synthesis.
 
 ---
+
+<a id="six-sub-systems"></a>
 
 ## 🎚️ The six sub-systems
 
@@ -96,6 +102,8 @@ Performance; Production's mix-master decisions compose with Sync's brief fit.
 
 ---
 
+<a id="who-its-for"></a>
+
 ## 👤 Who this is for
 
 - **Sovereign sound practitioners** running their own catalog — fork this, shape it to your voice, run release cycles through it.
@@ -106,6 +114,8 @@ Performance; Production's mix-master decisions compose with Sync's brief fit.
 **Not** for: viral-hit formulas, algorithm-gaming playbooks, or generic content schedules. The vertical refuses those by design.
 
 ---
+
+<a id="where-it-sits"></a>
 
 ## 🗺️ Where this sits
 
