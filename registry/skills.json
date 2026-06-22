@@ -1,0 +1,95 @@
+{
+  "$schema_note": "All music skills across the ecosystem. format: skill-md-dir = directory with SKILL.md + YAML frontmatter (canonical); skill-md-flat = single markdown file.",
+  "version": "1.0.0",
+  "updated": "2026-06-11",
+  "skills": [
+    {
+      "id": "suno-ai-mastery",
+      "repo": "claude-skills-library",
+      "path": "claude-skills-library/free-skills/suno-ai-mastery/SKILL.md",
+      "format": "skill-md-dir",
+      "version": "2.0.0",
+      "external_version": "Suno v4.5+",
+      "summary": "Suno v4.5+ mastery: 5-tier prompt hierarchy, colon syntax, 7 generation modes, 8-minute songs, personas."
+    },
+    {
+      "id": "suno-prompt-architect",
+      "repo": "claude-skills-library",
+      "path": "claude-skills-library/free-skills/suno-prompt-architect/SKILL.md",
+      "format": "skill-md-dir",
+      "version": "1.1.0",
+      "external_version": "Suno v4.5+",
+      "summary": "Professional Suno prompt engineering: 3 variants per request, 200-char ceiling, style stacking."
+    },
+    {
+      "id": "vibe-os-master",
+      "repo": "vibe-os",
+      "path": "vibe-os/skills/vibe-os-master/SKILL.md",
+      "format": "skill-md-dir",
+      "version": "1.1.0",
+      "external_version": "Suno v4.5+ / Hailuo / Udio",
+      "summary": "Research-backed state-change music: circumplex model, 15-state library, ISO transitions, frequency pairing.",
+      "mirrors": ["claude-skills-library/free-skills/vibe-os-master/SKILL.md"]
+    },
+    {
+      "id": "vibe-os-suno-ai-mastery",
+      "repo": "vibe-os",
+      "path": "vibe-os/skills/suno-ai-mastery/SKILL.md",
+      "format": "skill-md-dir",
+      "version": "2.0.0",
+      "external_version": "Suno v4.5+",
+      "summary": "Vibe OS copy of suno-ai-mastery (canonical lives in claude-skills-library)."
+    },
+    {
+      "id": "vibe-os-suno-prompt-architect",
+      "repo": "vibe-os",
+      "path": "vibe-os/skills/suno-prompt-architect/SKILL.md",
+      "format": "skill-md-dir",
+      "version": "1.1.0",
+      "external_version": "Suno v4.5+",
+      "summary": "Vibe OS copy of suno-prompt-architect, tuned for state-change sessions."
+    },
+    {
+      "id": "sound-composition-architecture",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/skills/sound-intelligence/composition-architecture.md",
+      "format": "skill-md-flat",
+      "summary": "Composition architecture skill of the public sound-intelligence vertical."
+    },
+    {
+      "id": "sound-production-systems",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/skills/sound-intelligence/production-systems.md",
+      "format": "skill-md-flat",
+      "summary": "Production systems skill (mix/master/vocal-chain planning)."
+    },
+    {
+      "id": "sound-catalog-systems",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/skills/sound-intelligence/catalog-systems.md",
+      "format": "skill-md-flat",
+      "summary": "Catalog systems skill (metadata, ISRC, release planning)."
+    },
+    {
+      "id": "sound-performance-design",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/skills/sound-intelligence/performance-design.md",
+      "format": "skill-md-flat",
+      "summary": "Performance design skill (sets, live mix, broadcast)."
+    },
+    {
+      "id": "sound-audience-architecture",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/skills/sound-intelligence/audience-architecture.md",
+      "format": "skill-md-flat",
+      "summary": "Audience architecture skill (cohorts, lists, rituals)."
+    },
+    {
+      "id": "sound-sync-licensing",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/skills/sound-intelligence/sync-licensing.md",
+      "format": "skill-md-flat",
+      "summary": "Sync licensing skill (placement, briefs, rights, economics)."
+    }
+  ]
+}

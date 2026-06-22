@@ -1,0 +1,127 @@
+{
+  "$schema_note": "Machine-readable mirror of ECOSYSTEM.md. role: hub|engine|production|substrate|education|discovery|distribution|workflows|index|surface|adjacent",
+  "version": "1.0.0",
+  "updated": "2026-06-11",
+  "repos": [
+    {
+      "id": "music-intelligence-systems",
+      "url": "https://github.com/frankxai/music-intelligence-systems",
+      "role": "hub",
+      "music_assets": ["registry/", "schemas/", "agents/", "exports/", "research/", "ECOSYSTEM.md"],
+      "provides": ["agent-registry", "schemas", "portable-exports", "research-framework", "ecosystem-map"],
+      "requires": ["agent-sources:FrankX", "agent-sources:vibe-os", "agent-sources:ai-music-academy"]
+    },
+    {
+      "id": "vibe-os",
+      "url": "https://github.com/frankxai/vibe-os",
+      "role": "engine",
+      "music_assets": ["tools/vibe-prompt-generator.py", "tools/frequency-generator-pro.py", "tools/vibe-os-mixer.py", "mcp-server/server.py", "skills/", "docs/"],
+      "provides": ["vibe-state-library:15", "mcp-server:vibe-os", "frequency-tools", "research-corpus", "skills:3"],
+      "requires": []
+    },
+    {
+      "id": "FrankX",
+      "url": "https://github.com/frankxai/FrankX",
+      "role": "production",
+      "music_assets": [".claude/agents/music-*.md", ".claude/commands/create-music.md", "data/music-asset-registry.json", "data/inventories/frankx/music.json"],
+      "provides": ["agents:9", "agent-format", "track-catalog:12k+", "command:/create-music"],
+      "requires": []
+    },
+    {
+      "id": "Starlight-Intelligence-System",
+      "url": "https://github.com/frankxai/Starlight-Intelligence-System",
+      "role": "substrate",
+      "music_assets": ["verticals/sound-intelligence/", "verticals/music-is/", "agents/starlight-sound-*.md", "skills/sound-intelligence/", "skills/music-is/"],
+      "provides": ["vertical:sound-intelligence (6 agents, 30 commands)", "vertical:music-is (7 agents, 8 commands)", "attestation-conventions"],
+      "requires": []
+    },
+    {
+      "id": "ai-music-academy",
+      "url": "https://github.com/frankxai/ai-music-academy",
+      "role": "education",
+      "music_assets": ["agents/portable/", "docs/CURRICULUM.md", "docs/ECOSYSTEM-ALIGNMENT.md", "curriculum/", "content/blog/"],
+      "provides": ["curriculum:4-tiers", "portable-agents:6", "lessons:11+", "blog:15+"],
+      "requires": ["exports:music-intelligence-systems (future runtime)"]
+    },
+    {
+      "id": "awesome-music-agent-skills",
+      "url": "https://github.com/frankxai/awesome-music-agent-skills",
+      "role": "discovery",
+      "music_assets": ["README.md"],
+      "provides": ["curated-list:150+", "mcp-server-directory", "datasets-directory"],
+      "requires": []
+    },
+    {
+      "id": "claude-skills-library",
+      "url": "https://github.com/frankxai/claude-skills-library",
+      "role": "distribution",
+      "music_assets": ["free-skills/suno-ai-mastery/", "free-skills/suno-prompt-architect/", "free-skills/vibe-os-master/"],
+      "provides": ["skills:3 (canonical SKILL.md format)"],
+      "requires": []
+    },
+    {
+      "id": "agentic-creator-os",
+      "url": "https://github.com/frankxai/agentic-creator-os",
+      "role": "workflows",
+      "music_assets": [".claude/agents/music-production.md"],
+      "provides": ["agent:music-production (education-focused)", "command:/create-music pattern"],
+      "requires": []
+    },
+    {
+      "id": "starlight-agent-skills",
+      "url": "https://github.com/frankxai/starlight-agent-skills",
+      "role": "index",
+      "music_assets": ["README.md"],
+      "provides": ["pointer-index"],
+      "requires": ["registry:music-intelligence-systems"]
+    },
+    {
+      "id": "frankx.ai-vercel-website",
+      "url": "https://github.com/frankxai/frankx.ai-vercel-website",
+      "role": "surface",
+      "music_assets": ["app/music-intelligence/", "app/music/", "app/music/templates/", "app/music-lab/", "app/vibe/", "data/music-asset-registry.json", "data/music-intelligence-ecosystem.json", "components/music/"],
+      "provides": ["public-hub:frankx.ai/music-intelligence", "free-templates:frankx.ai/music/templates", "music-lab:8 instruments"],
+      "requires": ["catalog:FrankX"]
+    },
+    {
+      "id": "agentic-intelligence-system",
+      "url": "https://github.com/frankxai/agentic-intelligence-system",
+      "role": "adjacent",
+      "music_assets": [],
+      "provides": ["discoverability-conventions:agents.json,llms.txt"],
+      "requires": []
+    },
+    {
+      "id": "second-brain-os",
+      "url": "https://github.com/frankxai/second-brain-os",
+      "role": "adjacent",
+      "music_assets": [],
+      "provides": ["pkm-substrate"],
+      "requires": []
+    },
+    {
+      "id": "starlight-cosmos-engine",
+      "url": "https://github.com/frankxai/starlight-cosmos-engine",
+      "role": "adjacent",
+      "music_assets": [],
+      "provides": ["monorepo-foundation"],
+      "requires": []
+    },
+    {
+      "id": "starlight-swarm",
+      "url": "https://github.com/frankxai/starlight-swarm",
+      "role": "adjacent",
+      "music_assets": [],
+      "provides": ["multi-agent-orchestration (early)"],
+      "requires": []
+    },
+    {
+      "id": "starlight-evals",
+      "url": "https://github.com/frankxai/starlight-evals",
+      "role": "adjacent",
+      "music_assets": [],
+      "provides": ["eval-lanes (future: listening-eval lane)"],
+      "requires": []
+    }
+  ]
+}

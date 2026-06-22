@@ -1,0 +1,390 @@
+{
+  "$schema_note": "Every music agent across the ecosystem. Field conventions follow agentic-intelligence-system (AIS) agents.json style. canonical_source paths resolve relative to a side-by-side clone layout (all repos under one parent dir). portable=true means tools/export-agents.mjs emits it to exports/.",
+  "version": "1.0.0",
+  "updated": "2026-06-11",
+  "agents": [
+    {
+      "id": "lyric-writer",
+      "name": "Lyric Writer",
+      "repo": "music-intelligence-systems",
+      "canonical_source": "music-intelligence-systems/agents/lyric-writer.md",
+      "tier": "hub-canonical",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Lyric craft grounded in lyrics-psychology research: themes, prosody, rhyme architecture, Suno-ready formatting."
+    },
+    {
+      "id": "film-sync-composer",
+      "name": "Film & Sync Composer",
+      "repo": "music-intelligence-systems",
+      "canonical_source": "music-intelligence-systems/agents/film-sync-composer.md",
+      "tier": "hub-canonical",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Score and sync thinking: brief decoding, cue design, spotting, sync-licensing readiness."
+    },
+    {
+      "id": "music-theory-teacher",
+      "name": "Music Theory Teacher",
+      "repo": "music-intelligence-systems",
+      "canonical_source": "music-intelligence-systems/agents/music-theory-teacher.md",
+      "tier": "hub-canonical",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "The language of music taught through what the student is already making — intervals to orchestration, AI-era native."
+    },
+    {
+      "id": "orchestration-architect",
+      "name": "Orchestration Architect",
+      "repo": "music-intelligence-systems",
+      "canonical_source": "music-intelligence-systems/agents/orchestration-architect.md",
+      "tier": "hub-canonical",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Orchestral arrangement and ensemble writing: voicing, register, density, doubling, and AI-prompt translation of orchestral intent."
+    },
+    {
+      "id": "music-producer",
+      "name": "Music Producer",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-producer.md",
+      "tier": "pillar-2",
+      "model_hint": "opus",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write",
+        "Task"
+      ],
+      "portable": true,
+      "summary": "Top-level music production orchestrator: composes catalog, mastery, prompt, QC, licensing, release specialists."
+    },
+    {
+      "id": "music-suno-prompt-architect",
+      "name": "Suno Prompt Architect",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-suno-prompt-architect.md",
+      "tier": "pillar-2",
+      "model_hint": "sonnet",
+      "tools": [
+        "Read",
+        "Skill",
+        "Bash",
+        "Write"
+      ],
+      "portable": true,
+      "summary": "3-variant Suno prompts (anchor/paraphrase/contrarian), 200-char ceiling, style stacking."
+    },
+    {
+      "id": "music-suno-mastery",
+      "name": "Suno Mastery (genre specialist)",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-suno-mastery.md",
+      "tier": "pillar-2",
+      "model_hint": "sonnet",
+      "tools": [
+        "Read",
+        "Skill",
+        "Bash",
+        "Write"
+      ],
+      "portable": true,
+      "summary": "Genre-specific production briefs across 12+ styles."
+    },
+    {
+      "id": "music-create-wizard",
+      "name": "Music Create Wizard",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-create-wizard.md",
+      "tier": "pillar-2",
+      "model_hint": "sonnet",
+      "tools": [
+        "Read",
+        "Skill",
+        "Bash",
+        "Write"
+      ],
+      "portable": false,
+      "summary": "Guided multi-step Suno creation flow (repo-internal draft persistence)."
+    },
+    {
+      "id": "music-catalog-indexer",
+      "name": "Music Catalog Indexer",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-catalog-indexer.md",
+      "tier": "pillar-2",
+      "model_hint": "haiku",
+      "tools": [
+        "Read",
+        "Glob",
+        "Bash",
+        "Write"
+      ],
+      "portable": false,
+      "summary": "Source-of-truth indexer for the 12k+ song catalog (repo-internal data paths)."
+    },
+    {
+      "id": "music-mastering-qc",
+      "name": "Mastering QC",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-mastering-qc.md",
+      "tier": "pillar-2",
+      "model_hint": "sonnet",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write"
+      ],
+      "portable": true,
+      "summary": "Loudness/quality gate: -14 LUFS targeting, true-peak, DR via ffmpeg loudnorm + ebur128."
+    },
+    {
+      "id": "music-licensing",
+      "name": "Music Licensing",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-licensing.md",
+      "tier": "pillar-2",
+      "model_hint": "haiku",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write"
+      ],
+      "portable": true,
+      "summary": "Use-case → license classification, platform ToS lookup, template emission."
+    },
+    {
+      "id": "music-release-manager",
+      "name": "Music Release Manager",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-release-manager.md",
+      "tier": "pillar-2",
+      "model_hint": "opus",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write",
+        "Task"
+      ],
+      "portable": false,
+      "summary": "Release pipeline across Distrokid/Spotify/Apple/YouTube with QC + licensing gates (repo-internal dispatch)."
+    },
+    {
+      "id": "music-video-batch",
+      "name": "Music Video Batch",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-video-batch.md",
+      "tier": "pillar-2",
+      "model_hint": "sonnet",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write"
+      ],
+      "portable": false,
+      "summary": "Batch lyric-video generation via Remotion (repo-internal render pipeline)."
+    },
+    {
+      "id": "starlight-sound-composition",
+      "name": "Sound Composition",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/agents/starlight-sound-composition.md",
+      "tier": "sound-intelligence",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Composition sub-system of the public sound-intelligence vertical (arrange, demo, lyric, score, transition commands)."
+    },
+    {
+      "id": "starlight-sound-production",
+      "name": "Sound Production",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/agents/starlight-sound-production.md",
+      "tier": "sound-intelligence",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Production sub-system: mix plan, master plan, vocal chain, sound design, recall."
+    },
+    {
+      "id": "starlight-sound-catalog",
+      "name": "Sound Catalog",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/agents/starlight-sound-catalog.md",
+      "tier": "sound-intelligence",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Catalog sub-system: metadata pack, ISRC mint, release plan, version map, deplatform recovery."
+    },
+    {
+      "id": "starlight-sound-performance",
+      "name": "Sound Performance",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/agents/starlight-sound-performance.md",
+      "tier": "sound-intelligence",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Performance sub-system: set design, live mix, broadcast prep, residency, audience contract."
+    },
+    {
+      "id": "starlight-sound-audience",
+      "name": "Sound Audience",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/agents/starlight-sound-audience.md",
+      "tier": "sound-intelligence",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Audience sub-system: cohort map, list architecture, ritual design, sovereign publish."
+    },
+    {
+      "id": "starlight-sound-sync",
+      "name": "Sound Sync",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/agents/starlight-sound-sync.md",
+      "tier": "sound-intelligence",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Sync sub-system: placement thesis, brief fit, rights pack, license economics."
+    },
+    {
+      "id": "music-curator",
+      "name": "Music Curator (A&R gate)",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-curator.md",
+      "tier": "music-is",
+      "model_hint": "opus",
+      "tools": [],
+      "portable": false,
+      "summary": "A&R quality gate of the operated label vertical."
+    },
+    {
+      "id": "music-archivist",
+      "name": "Music Archivist",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-archivist.md",
+      "tier": "music-is",
+      "model_hint": "haiku",
+      "tools": [],
+      "portable": false,
+      "summary": "Label catalog archivist."
+    },
+    {
+      "id": "persona-keeper",
+      "name": "Persona Keeper",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/persona-keeper.md",
+      "tier": "music-is",
+      "model_hint": "opus",
+      "tools": [],
+      "portable": false,
+      "summary": "Artist-persona spawning and continuity."
+    },
+    {
+      "id": "music-producer-label",
+      "name": "Music Producer (label)",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-producer.md",
+      "tier": "music-is",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Label-side asset generation."
+    },
+    {
+      "id": "music-distributor",
+      "name": "Music Distributor",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-distributor.md",
+      "tier": "music-is",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Distribution operations."
+    },
+    {
+      "id": "music-amplifier",
+      "name": "Music Amplifier",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-amplifier.md",
+      "tier": "music-is",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Amplification/promotion operations."
+    },
+    {
+      "id": "royalty-architect",
+      "name": "Royalty Architect",
+      "repo": "Starlight-Intelligence-System",
+      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/royalty-architect.md",
+      "tier": "music-is",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Monetization and royalty structure (cross-cutting)."
+    },
+    {
+      "id": "vibe-os-master",
+      "name": "Vibe OS Master",
+      "repo": "vibe-os",
+      "canonical_source": "vibe-os/skills/vibe-os-master/SKILL.md",
+      "tier": "engine",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Research-backed state-change music specialist: state library, ISO-principle transitions, frequency pairing."
+    },
+    {
+      "id": "academy-teaching-assistant",
+      "name": "Teaching Assistant (5 personas)",
+      "repo": "ai-music-academy",
+      "canonical_source": "ai-music-academy/agents/portable/teaching-assistant.md",
+      "tier": "academy",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Music education assistant with 5 selectable teacher personas (Aria, Max, Sage, Vega, Luna)."
+    },
+    {
+      "id": "academy-music-producer",
+      "name": "Academy Music Producer",
+      "repo": "ai-music-academy",
+      "canonical_source": "ai-music-academy/agents/portable/music-producer.md",
+      "tier": "academy",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "AI music production coach: prompt engineering, genre technique, arrangement feedback."
+    },
+    {
+      "id": "academy-content-creator",
+      "name": "Academy Content Creator",
+      "repo": "ai-music-academy",
+      "canonical_source": "ai-music-academy/agents/portable/content-creator.md",
+      "tier": "academy",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Lesson and course content generator for music education."
+    },
+    {
+      "id": "acos-music-production",
+      "name": "ACOS Music Production",
+      "repo": "agentic-creator-os",
+      "canonical_source": "agentic-creator-os/.claude/agents/music-production.md",
+      "tier": "workflows",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": false,
+      "summary": "Education-focused music production agent (AI Music Academy content + Suno mastery + licensing)."
+    }
+  ]
+}

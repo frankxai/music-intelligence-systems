@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/vibe-state.schema.json",
+  "title": "Vibe State",
+  "description": "Formalizes the vibe-os VibeState model (vibe-os/tools/vibe-prompt-generator.py): a target psychological/physiological state with research-backed musical parameters. The 15-state reference library ships with vibe-os; this schema lets anyone define compatible new states.",
+  "type": "object",
+  "required": ["name", "description", "optimal_bpm", "bpm_range", "keys", "mode", "instruments", "timbre", "energy", "music_styles"],
+  "properties": {
+    "name": { "type": "string", "description": "Display name, e.g. 'Deep Focus'" },
+    "description": { "type": "string", "description": "What the state is for, in plain language" },
+    "optimal_bpm": { "type": "integer", "minimum": 30, "maximum": 220 },
+    "bpm_range": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 30, "maximum": 220 },
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[low, high] tempo window supported by entrainment research for this state"
+    },
+    "keys": { "type": "array", "items": { "type": "string" }, "minItems": 1, "description": "Preferred keys, e.g. 'C Major', 'A Minor'" },
+    "mode": { "type": "string", "enum": ["major", "minor", "mixed"], "description": "Mode-valence mapping (major≈positive valence, minor≈negative/introspective)" },
+    "instruments": { "type": "array", "items": { "type": "string" }, "minItems": 1, "description": "Timbre-emotion associated instrument palette" },
+    "avoid_instruments": { "type": "array", "items": { "type": "string" }, "description": "Instruments that work against the target state" },
+    "timbre": { "type": "string", "enum": ["bright", "warm", "soft", "powerful"], "description": "Dominant timbre character" },
+    "energy": { "type": "string", "enum": ["very low", "low", "low-medium", "medium", "medium-high", "high", "very high"] },
+    "lyric_themes": { "type": "array", "items": { "type": "string" }, "description": "Lyrics-psychology themes; empty/omitted = instrumental recommended" },
+    "affirmations": { "type": "array", "items": { "type": "string" }, "description": "First-person present-tense statements for lyric prompts" },
+    "music_styles": { "type": "array", "items": { "type": "string" }, "minItems": 1, "description": "Genre/style tags usable directly in generation prompts" },
+    "frequency_pairing": {
+      "type": ["string", "null"],
+      "enum": ["delta", "theta", "alpha", "beta", "gamma", null],
+      "description": "Brainwave band to layer under the music (binaural/isochronic), or null"
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Evidence grading per research/METHODOLOGY.md",
+      "properties": {
+        "grade": { "type": "string", "enum": ["strong", "preliminary", "anecdotal"] },
+        "citations": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "additionalProperties": false
+}

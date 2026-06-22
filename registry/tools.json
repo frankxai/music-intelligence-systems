@@ -1,0 +1,97 @@
+{
+  "$schema_note": "Executable tools, MCP servers, and commands across the ecosystem. kind: mcp-server|cli|command|web",
+  "version": "1.0.0",
+  "updated": "2026-06-11",
+  "tools": [
+    {
+      "id": "vibe-os-mcp-server",
+      "kind": "mcp-server",
+      "repo": "vibe-os",
+      "path": "vibe-os/mcp-server/server.py",
+      "status": "shipped",
+      "provides": ["list_vibe_states", "generate_vibe_prompt", "generate_transition_prompt", "generate_custom_prompt", "list_frequency_presets", "design_frequency_session", "plan_session_mix"],
+      "install": "pip install -r mcp-server/requirements.txt && claude mcp add vibe-os -- python3 mcp-server/server.py"
+    },
+    {
+      "id": "vibe-prompt-generator",
+      "kind": "cli",
+      "repo": "vibe-os",
+      "path": "vibe-os/tools/vibe-prompt-generator.py",
+      "status": "shipped",
+      "provides": ["state-prompts", "transitions", "custom-prompts", "json-output"]
+    },
+    {
+      "id": "frequency-generator-pro",
+      "kind": "cli",
+      "repo": "vibe-os",
+      "path": "vibe-os/tools/frequency-generator-pro.py",
+      "status": "shipped",
+      "provides": ["binaural", "isochronic", "solfeggio", "pink-noise", "brown-noise", "24bit-wav"]
+    },
+    {
+      "id": "vibe-os-mixer",
+      "kind": "cli",
+      "repo": "vibe-os",
+      "path": "vibe-os/tools/vibe-os-mixer.py",
+      "status": "shipped",
+      "provides": ["music+frequency-mixing", "crossfade", "session-assembly"]
+    },
+    {
+      "id": "create-music-command",
+      "kind": "command",
+      "repo": "FrankX",
+      "path": "FrankX/.claude/commands/create-music.md",
+      "status": "shipped",
+      "provides": ["guided-suno-workflow"]
+    },
+    {
+      "id": "sound-commands",
+      "kind": "command",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/verticals/sound-intelligence/",
+      "status": "shipped",
+      "provides": ["30 /sound-* commands across composition/production/catalog/performance/audience/sync"]
+    },
+    {
+      "id": "music-is-commands",
+      "kind": "command",
+      "repo": "Starlight-Intelligence-System",
+      "path": "Starlight-Intelligence-System/verticals/music-is/",
+      "status": "shipped",
+      "provides": ["/music-release", "/music-song", "/music-label-board", "/music-persona", "/music-canvas", "/music-amplify", "/music-sync-pitch"]
+    },
+    {
+      "id": "export-agents",
+      "kind": "cli",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/tools/export-agents.mjs",
+      "status": "shipped",
+      "provides": ["claude-project-export", "custom-gpt-export", "gemini-gem-export", "system-prompt-export"]
+    },
+    {
+      "id": "validate-registry",
+      "kind": "cli",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/tools/validate-registry.mjs",
+      "status": "shipped",
+      "provides": ["registry-validation"]
+    },
+    {
+      "id": "music-lab",
+      "kind": "web",
+      "repo": "frankx.ai-vercel-website",
+      "path": "frankx.ai-vercel-website/app/music-lab/",
+      "status": "shipped",
+      "provides": ["8 free interactive instruments: piano, drums, dj-pads, hang, singing-bowls, for-kids"],
+      "url": "https://frankx.ai/music-lab"
+    },
+    {
+      "id": "music-catalog-mcp",
+      "kind": "mcp-server",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/mcp/README.md",
+      "status": "specified",
+      "provides": ["catalog query over track-metadata schema (spec only — see mcp/README.md)"]
+    }
+  ]
+}

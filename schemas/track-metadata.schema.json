@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/track-metadata.schema.json",
+  "title": "Track Metadata",
+  "description": "Track entry shape, derived from the FrankX data/music-asset-registry.json catalog format. Use for any AI-generated or conventional track registry.",
+  "type": "object",
+  "required": ["title", "status"],
+  "properties": {
+    "sunoId": { "type": "string", "description": "Generation-platform id (Suno UUID), if AI-generated there" },
+    "inventoryId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Kebab-case stable slug" },
+    "title": { "type": "string" },
+    "status": { "type": "string", "enum": ["published", "draft", "archived"] },
+    "section": { "type": ["string", "null"], "description": "Optional curation slot, e.g. 'featured'" },
+    "genre": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "plays": { "type": "integer", "minimum": 0 },
+        "likes": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "origins": {
+      "type": "object",
+      "description": "Provenance of each asset component",
+      "properties": {
+        "cover": { "type": "string" },
+        "animation": { "type": "string" },
+        "audioMaster": { "type": "string" }
+      }
+    },
+    "assetRefs": {
+      "type": "object",
+      "properties": {
+        "sunoUrl": { "type": ["string", "null"], "format": "uri" },
+        "embedUrl": { "type": ["string", "null"], "format": "uri" },
+        "audioUrl": { "type": ["string", "null"], "format": "uri" },
+        "videoUrl": { "type": ["string", "null"], "format": "uri" },
+        "coverUrl": { "type": ["string", "null"], "format": "uri" },
+        "googleDriveFolder": { "type": ["string", "null"] },
+        "notionPageId": { "type": ["string", "null"] }
+      }
+    },
+    "vibe_state": { "type": "string", "description": "Optional: the vibe-state this track targets (name from a vibe-state library)" },
+    "usage": { "type": "array", "items": { "type": "string" }, "description": "Where the track is used (content, film, sync placements)" },
+    "license": { "type": "string", "description": "License classification (see FrankX music-licensing agent taxonomy)" },
+    "notes": { "type": "string" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}

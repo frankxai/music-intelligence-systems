@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/skill.schema.json",
+  "title": "Music Skill Definition",
+  "description": "Canonical skill shape. Mirrors the claude-skills-library SKILL.md YAML frontmatter plus registry fields used by registry/skills.json.",
+  "type": "object",
+  "required": ["id", "repo", "path", "format", "summary"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "repo": { "type": "string", "description": "Home repo id (must exist in registry/repos.json)" },
+    "path": { "type": "string", "description": "'<repo>/<path>' to the SKILL.md (or flat .md)" },
+    "format": { "type": "string", "enum": ["skill-md-dir", "skill-md-flat"], "description": "skill-md-dir = directory with SKILL.md + frontmatter (canonical)" },
+    "version": { "type": "string", "description": "SemVer from frontmatter, if present" },
+    "external_version": { "type": "string", "description": "Pinned external platform version, e.g. 'Suno v4.5+'" },
+    "summary": { "type": "string", "maxLength": 300 },
+    "mirrors": { "type": "array", "items": { "type": "string" }, "description": "Paths of known copies; the entry's own path is canonical" }
+  },
+  "additionalProperties": true
+}

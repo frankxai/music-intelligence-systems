@@ -1,0 +1,181 @@
+{
+  "generated": "2026-06-22T19:26:41.341Z",
+  "generator": "export-agents.mjs 1.0.0",
+  "targets": [
+    "claude-projects",
+    "custom-gpts",
+    "gemini-gems",
+    "system-prompts"
+  ],
+  "agents": [
+    {
+      "id": "lyric-writer",
+      "canonical_source": "music-intelligence-systems/agents/lyric-writer.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/lyric-writer/instructions.md",
+        "exports/custom-gpts/lyric-writer/gpt-config.md",
+        "exports/gemini-gems/lyric-writer/gem-instructions.md",
+        "exports/system-prompts/lyric-writer.md"
+      ],
+      "gpt_instructions_chars": 5099,
+      "truncated_sections": []
+    },
+    {
+      "id": "film-sync-composer",
+      "canonical_source": "music-intelligence-systems/agents/film-sync-composer.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/film-sync-composer/instructions.md",
+        "exports/custom-gpts/film-sync-composer/gpt-config.md",
+        "exports/gemini-gems/film-sync-composer/gem-instructions.md",
+        "exports/system-prompts/film-sync-composer.md"
+      ],
+      "gpt_instructions_chars": 4797,
+      "truncated_sections": []
+    },
+    {
+      "id": "music-theory-teacher",
+      "canonical_source": "music-intelligence-systems/agents/music-theory-teacher.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/music-theory-teacher/instructions.md",
+        "exports/custom-gpts/music-theory-teacher/gpt-config.md",
+        "exports/gemini-gems/music-theory-teacher/gem-instructions.md",
+        "exports/system-prompts/music-theory-teacher.md"
+      ],
+      "gpt_instructions_chars": 4503,
+      "truncated_sections": []
+    },
+    {
+      "id": "orchestration-architect",
+      "canonical_source": "music-intelligence-systems/agents/orchestration-architect.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/orchestration-architect/instructions.md",
+        "exports/custom-gpts/orchestration-architect/gpt-config.md",
+        "exports/gemini-gems/orchestration-architect/gem-instructions.md",
+        "exports/system-prompts/orchestration-architect.md"
+      ],
+      "gpt_instructions_chars": 5764,
+      "truncated_sections": []
+    },
+    {
+      "id": "music-producer",
+      "canonical_source": "FrankX/.claude/agents/music-producer.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/music-producer/instructions.md",
+        "exports/custom-gpts/music-producer/gpt-config.md",
+        "exports/gemini-gems/music-producer/gem-instructions.md",
+        "exports/system-prompts/music-producer.md"
+      ],
+      "gpt_instructions_chars": 3913,
+      "truncated_sections": []
+    },
+    {
+      "id": "music-suno-prompt-architect",
+      "canonical_source": "FrankX/.claude/agents/music-suno-prompt-architect.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/music-suno-prompt-architect/instructions.md",
+        "exports/custom-gpts/music-suno-prompt-architect/gpt-config.md",
+        "exports/gemini-gems/music-suno-prompt-architect/gem-instructions.md",
+        "exports/system-prompts/music-suno-prompt-architect.md"
+      ],
+      "gpt_instructions_chars": 4290,
+      "truncated_sections": []
+    },
+    {
+      "id": "music-suno-mastery",
+      "canonical_source": "FrankX/.claude/agents/music-suno-mastery.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/music-suno-mastery/instructions.md",
+        "exports/custom-gpts/music-suno-mastery/gpt-config.md",
+        "exports/gemini-gems/music-suno-mastery/gem-instructions.md",
+        "exports/system-prompts/music-suno-mastery.md"
+      ],
+      "gpt_instructions_chars": 4483,
+      "truncated_sections": []
+    },
+    {
+      "id": "music-mastering-qc",
+      "canonical_source": "FrankX/.claude/agents/music-mastering-qc.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/music-mastering-qc/instructions.md",
+        "exports/custom-gpts/music-mastering-qc/gpt-config.md",
+        "exports/gemini-gems/music-mastering-qc/gem-instructions.md",
+        "exports/system-prompts/music-mastering-qc.md"
+      ],
+      "gpt_instructions_chars": 4505,
+      "truncated_sections": []
+    },
+    {
+      "id": "music-licensing",
+      "canonical_source": "FrankX/.claude/agents/music-licensing.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/music-licensing/instructions.md",
+        "exports/custom-gpts/music-licensing/gpt-config.md",
+        "exports/gemini-gems/music-licensing/gem-instructions.md",
+        "exports/system-prompts/music-licensing.md"
+      ],
+      "gpt_instructions_chars": 4730,
+      "truncated_sections": []
+    },
+    {
+      "id": "vibe-os-master",
+      "canonical_source": "vibe-os/skills/vibe-os-master/SKILL.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/vibe-os-master/instructions.md",
+        "exports/custom-gpts/vibe-os-master/gpt-config.md",
+        "exports/gemini-gems/vibe-os-master/gem-instructions.md",
+        "exports/system-prompts/vibe-os-master.md"
+      ],
+      "gpt_instructions_chars": 5766,
+      "truncated_sections": []
+    },
+    {
+      "id": "academy-teaching-assistant",
+      "canonical_source": "ai-music-academy/agents/portable/teaching-assistant.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/academy-teaching-assistant/instructions.md",
+        "exports/custom-gpts/academy-teaching-assistant/gpt-config.md",
+        "exports/gemini-gems/academy-teaching-assistant/gem-instructions.md",
+        "exports/system-prompts/academy-teaching-assistant.md"
+      ],
+      "gpt_instructions_chars": 7764,
+      "truncated_sections": []
+    },
+    {
+      "id": "academy-music-producer",
+      "canonical_source": "ai-music-academy/agents/portable/music-producer.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/academy-music-producer/instructions.md",
+        "exports/custom-gpts/academy-music-producer/gpt-config.md",
+        "exports/gemini-gems/academy-music-producer/gem-instructions.md",
+        "exports/system-prompts/academy-music-producer.md"
+      ],
+      "gpt_instructions_chars": 7514,
+      "truncated_sections": []
+    },
+    {
+      "id": "academy-content-creator",
+      "canonical_source": "ai-music-academy/agents/portable/content-creator.md",
+      "source_found": true,
+      "outputs": [
+        "exports/claude-projects/academy-content-creator/instructions.md",
+        "exports/custom-gpts/academy-content-creator/gpt-config.md",
+        "exports/gemini-gems/academy-content-creator/gem-instructions.md",
+        "exports/system-prompts/academy-content-creator.md"
+      ],
+      "gpt_instructions_chars": 6460,
+      "truncated_sections": []
+    }
+  ]
+}

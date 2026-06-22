@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/agent.schema.json",
+  "title": "Music Agent Definition",
+  "description": "Canonical agent definition shape. Mirrors the FrankX .claude/agents/*.md YAML frontmatter plus the registry entry fields used by registry/agents.json.",
+  "type": "object",
+  "required": ["id", "name", "repo", "canonical_source", "portable", "summary"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Kebab-case unique id" },
+    "name": { "type": "string" },
+    "repo": { "type": "string", "description": "Home repo id (must exist in registry/repos.json)" },
+    "canonical_source": { "type": "string", "description": "repo-relative path: '<repo>/<path>' resolved against a side-by-side clone layout" },
+    "tier": { "type": "string", "description": "Grouping: hub-canonical | pillar-2 | sound-intelligence | music-is | engine | academy | workflows" },
+    "model_hint": { "type": "string", "enum": ["haiku", "sonnet", "opus"], "description": "Suggested model class" },
+    "tools": { "type": "array", "items": { "type": "string" }, "description": "Tool names the source definition declares (empty = persona-only)" },
+    "portable": { "type": "boolean", "description": "true = exported by tools/export-agents.mjs to exports/" },
+    "summary": { "type": "string", "maxLength": 300 }
+  },
+  "additionalProperties": true
+}

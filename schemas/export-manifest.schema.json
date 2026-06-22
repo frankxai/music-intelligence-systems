@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/export-manifest.schema.json",
+  "title": "Export Manifest",
+  "description": "Manifest written by tools/export-agents.mjs describing one generation run of exports/.",
+  "type": "object",
+  "required": ["generated", "generator", "targets", "agents"],
+  "properties": {
+    "generated": { "type": "string", "format": "date-time" },
+    "generator": { "type": "string", "description": "Tool + version, e.g. 'export-agents.mjs 1.0.0'" },
+    "targets": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["claude-projects", "custom-gpts", "gemini-gems", "system-prompts"] }
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "canonical_source", "outputs"],
+        "properties": {
+          "id": { "type": "string" },
+          "canonical_source": { "type": "string" },
+          "source_found": { "type": "boolean" },
+          "outputs": { "type": "array", "items": { "type": "string" } },
+          "gpt_instructions_chars": { "type": "integer", "description": "Length of the Custom GPT instructions (ceiling 8000)" },
+          "truncated_sections": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
