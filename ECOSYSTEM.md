@@ -24,7 +24,7 @@ research            states              prompts              generation
 
 ### music-intelligence-systems (this repo) — THE HUB
 - **Role:** Registry, schemas, portable exports, research engine, this map.
-- **Provides:** `registry/*.json`, `schemas/*.json`, `exports/` (Claude Projects / Custom GPTs / Gemini Gems / generic), 4 canonical agents (`agents/`), `research/`.
+- **Provides:** `registry/*.json`, `schemas/*.json`, `exports/` (Claude Projects / Custom GPTs / Gemini Gems / generic), 5 canonical agents (`agents/`) — including `swarm-orchestrator`, which routes any music/vibe ask to the right agent(s)/tool(s) across all 6 repos (see `tools/swarm-router.mjs` for the deterministic keyword-scoring companion) — and `research/`.
 - **Consumes:** Agent sources from FrankX, vibe-os, ai-music-academy; patterns from Starlight verticals.
 
 ### vibe-os — the state-change engine

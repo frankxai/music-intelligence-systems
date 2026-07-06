@@ -1,7 +1,7 @@
 {
   "$schema_note": "Every music agent across the ecosystem. Field conventions follow agentic-intelligence-system (AIS) agents.json style. canonical_source paths resolve relative to a side-by-side clone layout (all repos under one parent dir). portable=true means tools/export-agents.mjs emits it to exports/.",
   "version": "1.0.0",
-  "updated": "2026-06-11",
+  "updated": "2026-07-06",
   "agents": [
     {
       "id": "lyric-writer",
@@ -385,6 +385,17 @@
       "tools": [],
       "portable": false,
       "summary": "Education-focused music production agent (AI Music Academy content + Suno mastery + licensing)."
+    },
+    {
+      "id": "swarm-orchestrator",
+      "name": "Swarm Orchestrator",
+      "repo": "music-intelligence-systems",
+      "canonical_source": "music-intelligence-systems/agents/swarm-orchestrator.md",
+      "tier": "hub-canonical",
+      "model_hint": "sonnet",
+      "tools": [],
+      "portable": true,
+      "summary": "Routes any music/vibe ask to the right ecosystem agent(s) and tool(s) across all 6 repos, grounded in registry/agents.json and registry/tools.json. Pairs with tools/swarm-router.mjs for deterministic keyword-overlap scoring."
     }
   ]
 }
