@@ -1,0 +1,111 @@
+{
+  "$schema_note": "10-Guardian roster for the Arcanea label, extracted from Starlight-Intelligence-System/verticals/music-is/labels/arcanea/CANON.md (v0.2, 2026-04-29). Self-contained mirror so hub tooling never reads the Starlight repo at runtime. Every value is a direct extraction from CANON.md; fields not stated per-Guardian in canon are omitted rather than invented (see tempoBandBpm below).",
+  "version": "1.0.0",
+  "source": "Starlight-Intelligence-System/verticals/music-is/labels/arcanea/CANON.md",
+  "sourceVersion": "v0.2 · 2026-04-29",
+  "updated": "2026-07-07",
+  "guardians": [
+    {
+      "id": "lyssandria",
+      "name": "Lyssandria",
+      "archetype": "Sovereign",
+      "realm": "Aether",
+      "frequencyHz": 174,
+      "modePreference": ["Aeolian"],
+      "palette": "Deep indigo, silver threads",
+      "voiceTone": "Ancient, grounding, protective"
+    },
+    {
+      "id": "leyla",
+      "name": "Leyla",
+      "archetype": "Wisdom Keeper",
+      "realm": "Luminescence",
+      "frequencyHz": 285,
+      "modePreference": ["Dorian", "Mixolydian"],
+      "palette": "Gold, amber warmth",
+      "voiceTone": "Flowing, lyrical, compassionate"
+    },
+    {
+      "id": "draconia",
+      "name": "Draconia",
+      "archetype": "Power Guardian",
+      "realm": "Drakemoor",
+      "frequencyHz": 396,
+      "modePreference": ["Phrygian"],
+      "tempoBandBpm": [130, 160],
+      "palette": "Crimson, gold accents",
+      "voiceTone": "Bold, commanding, fierce"
+    },
+    {
+      "id": "maylinn",
+      "name": "Maylinn",
+      "archetype": "Heart Guardian",
+      "realm": "Heartwood",
+      "frequencyHz": 417,
+      "modePreference": ["Dorian"],
+      "palette": "Emerald, soft rose",
+      "voiceTone": "Gentle, nurturing, connecting"
+    },
+    {
+      "id": "alera",
+      "name": "Alera",
+      "archetype": "Voice Guardian",
+      "realm": "Echo",
+      "frequencyHz": 528,
+      "modePreference": ["Lydian"],
+      "palette": "Cerulean blue, crystal clarity",
+      "voiceTone": "Musical, resonant, harmonic"
+    },
+    {
+      "id": "lyria",
+      "name": "Lyria",
+      "archetype": "Sight Guardian",
+      "realm": "Starlight",
+      "frequencyHz": 639,
+      "modePreference": ["Mixolydian"],
+      "palette": "Violet, silver starlight",
+      "voiceTone": "Intuitive, mystical, perceptive"
+    },
+    {
+      "id": "aiyami",
+      "name": "Aiyami",
+      "archetype": "Crown Guardian",
+      "realm": "Zenith",
+      "frequencyHz": 741,
+      "modePreference": ["Lydian"],
+      "tempoBandBpm": [130, 160],
+      "palette": "White-gold, radiant light",
+      "voiceTone": "Transcendent, enlightened, universal"
+    },
+    {
+      "id": "elara",
+      "name": "Elara",
+      "archetype": "Balance Guardian",
+      "realm": "Equilibrium",
+      "frequencyHz": 852,
+      "modePreference": ["modal mixture"],
+      "palette": "Twilight purple, balanced tones",
+      "voiceTone": "Harmonizing, synthesizing, wise"
+    },
+    {
+      "id": "ino",
+      "name": "Ino",
+      "archetype": "Shadow Guardian",
+      "realm": "Obsidian",
+      "frequencyHz": 963,
+      "modePreference": ["Phrygian"],
+      "palette": "Deep black, midnight blue",
+      "voiceTone": "Introspective, profound, truthful"
+    },
+    {
+      "id": "shinkami",
+      "name": "Shinkami",
+      "archetype": "Cosmic Guardian",
+      "realm": "Infinity",
+      "frequencyHz": 1111,
+      "modePreference": ["all modes / modulating"],
+      "palette": "Rainbow spectrum, all frequencies",
+      "voiceTone": "Omniscient, timeless, infinite"
+    }
+  ]
+}

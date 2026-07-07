@@ -77,6 +77,22 @@
       "provides": ["registry-validation"]
     },
     {
+      "id": "tag-arcanea-guardian",
+      "kind": "cli",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/tools/tag-arcanea-guardian.mjs",
+      "status": "shipped",
+      "provides": ["guardian-matching", "frequency-scoring", "arcanea-label-tagging"]
+    },
+    {
+      "id": "album-builder",
+      "kind": "cli",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/tools/album-builder.mjs",
+      "status": "shipped",
+      "provides": ["album-manifest-validation", "tracklist-generation", "release-manifest-summary"]
+    },
+    {
       "id": "music-lab",
       "kind": "web",
       "repo": "frankx.ai-vercel-website",

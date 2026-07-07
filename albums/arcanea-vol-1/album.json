@@ -1,0 +1,57 @@
+{
+  "title": "Arcanea, Vol. 1",
+  "label": "Arcanea",
+  "tracks": [
+    {
+      "title": "Arcanea (light me up) (Remastered)",
+      "sunoId": "9ff8a563-4ebf-4481-85c1-9f445cfce9e1",
+      "status": "published"
+    },
+    {
+      "title": "Arcanean Legends",
+      "sunoId": "eb702834-22c6-44b3-8d5b-bba83c1e9801",
+      "status": "published"
+    },
+    {
+      "title": "Arcanean Starlight",
+      "sunoId": "5d17255b-f997-4f4c-82ea-9fa1d5aa982a",
+      "status": "published"
+    },
+    {
+      "title": "Alera — Theme No. 1",
+      "guardian": "alera",
+      "frequencyHz": 528,
+      "bpm": 86,
+      "mode": "Lydian",
+      "durationSec": 272,
+      "status": "planned"
+    },
+    {
+      "title": "Lyssandria — Theme No. 1",
+      "guardian": "lyssandria",
+      "frequencyHz": 174,
+      "mode": "Aeolian",
+      "status": "planned"
+    },
+    {
+      "title": "Maylinn — Theme No. 1",
+      "guardian": "maylinn",
+      "frequencyHz": 417,
+      "mode": "Dorian",
+      "status": "planned"
+    }
+  ],
+  "sequence": [
+    "9ff8a563-4ebf-4481-85c1-9f445cfce9e1",
+    "eb702834-22c6-44b3-8d5b-bba83c1e9801",
+    "5d17255b-f997-4f4c-82ea-9fa1d5aa982a",
+    "Alera — Theme No. 1",
+    "Lyssandria — Theme No. 1",
+    "Maylinn — Theme No. 1"
+  ],
+  "releaseTargets": ["Spotify", "Apple Music", "YouTube", "Distrokid"],
+  "masteringTarget": {
+    "lufsIntegrated": [-18, -16],
+    "notes": "Score-grade, dynamic-range-protected master for sync delivery, per Arcanea CANON.md production posture."
+  }
+}

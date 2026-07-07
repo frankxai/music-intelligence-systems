@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/album.schema.json",
+  "title": "Album Manifest",
+  "description": "Album-level manifest for a label release (e.g. Arcanea Guardian albums). One album.json per album, validated by tools/album-builder.mjs. Track entries are intentionally lighter than schemas/track-metadata.schema.json — an album manifest is a sequencing + Guardian-theme layer, not the full catalog record.",
+  "type": "object",
+  "required": ["title", "label", "tracks", "sequence", "masteringTarget"],
+  "properties": {
+    "title": { "type": "string", "description": "Album title" },
+    "label": { "type": "string", "description": "Label id/name, e.g. 'Arcanea'" },
+    "guardianTheme": { "type": "string", "description": "Optional: the Guardian (or cross-Guardian pairing) this album is themed around, e.g. 'Alera' or 'Alera x Maylinn'" },
+    "tracks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title", "status"],
+        "properties": {
+          "title": { "type": "string" },
+          "sunoId": { "type": "string", "description": "Generation-platform id, if AI-generated there" },
+          "guardian": { "type": "string", "description": "Guardian id from data/arcanea-guardians.json this track binds to (canon-binding requirement)" },
+          "frequencyHz": { "type": "number", "description": "Track's tuned Solfeggio frequency, if canon-bound" },
+          "bpm": { "type": "integer", "minimum": 30, "maximum": 220 },
+          "key": { "type": "string" },
+          "mode": { "type": "string" },
+          "durationSec": { "type": "integer", "minimum": 0 },
+          "status": { "type": "string", "enum": ["published", "planned", "draft", "archived"] }
+        },
+        "additionalProperties": true
+      }
+    },
+    "sequence": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" },
+      "description": "Ordered play sequence. Each entry references a track by sunoId if present, else by title — must resolve to exactly one entry in `tracks`."
+    },
+    "releaseTargets": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Distribution platforms this album targets, e.g. ['Spotify', 'Apple Music', 'YouTube']"
+    },
+    "masteringTarget": {
+      "type": "object",
+      "required": ["lufsIntegrated"],
+      "properties": {
+        "lufsIntegrated": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "[low, high] LUFS-integrated window. Arcanea-label sync-grade default per CANON.md is [-18, -16]."
+        },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}
