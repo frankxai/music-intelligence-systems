@@ -41,6 +41,31 @@
         "notionPageId": { "type": ["string", "null"] }
       }
     },
+    "audio": {
+      "type": "object",
+      "description": "Audio-measured features captured at intake by FrankX analyze-audio.py (D6 — breaks the canon-fit circularity: a scorer that only reads declared/prompt metadata can never disagree with the prompt that generated it). `measured` overrides declared metadata (genre/bpm/key claims) for canon-tagging purposes; `mismatchFlags` records where they disagree so intake can react (e.g. below-threshold match -> no Guardian proposed, never nearest-by-default).",
+      "properties": {
+        "measured": {
+          "type": "object",
+          "description": "Raw measured values as emitted by analyze-audio.py (librosa for bpm/pitch/key, ffmpeg ebur128 for LUFS).",
+          "properties": {
+            "durationSec": { "type": "number", "minimum": 0, "description": "Measured track duration in seconds." },
+            "lufsIntegrated": { "type": "number", "description": "Integrated loudness in LUFS (ffmpeg ebur128), independent of any declared mastering target." },
+            "bpm": { "type": "number", "minimum": 30, "maximum": 300, "description": "Measured tempo." },
+            "pitchHz": { "type": "number", "minimum": 0, "description": "Detected reference/fundamental pitch in Hz." },
+            "keyGuess": { "type": "string", "description": "Detected key/mode guess, e.g. 'C# minor'." },
+            "analyzedWith": { "type": "array", "items": { "type": "string" }, "description": "Tool/library provenance for this measurement pass, e.g. ['librosa', 'ffmpeg-ebur128']." }
+          },
+          "additionalProperties": true
+        },
+        "mismatchFlags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Field names where `measured` disagrees with declared metadata (e.g. 'bpm', 'key', 'genre'). A non-empty list below the canon-fit match threshold means the tagger proposes no Guardian, per D6."
+        }
+      },
+      "additionalProperties": true
+    },
     "vibe_state": { "type": "string", "description": "Optional: the vibe-state this track targets (name from a vibe-state library)" },
     "usage": { "type": "array", "items": { "type": "string" }, "description": "Where the track is used (content, film, sync placements)" },
     "license": { "type": "string", "description": "License classification (see FrankX music-licensing agent taxonomy)" },

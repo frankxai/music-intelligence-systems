@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/take-log.schema.json",
+  "title": "Take Log Entry",
+  "description": "One row per Suno generation take — the learning-loop's raw event log (D5). Deliberately includes kill/rework verdicts alongside keeps: negative data is what a real learning loop needs most, and the prior state of this system had none. The FrankX aggregator (aggregate-take-stats.mjs) reads an array of these entries to produce schemas/take-stats.schema.json. This file is the hub's schema authority for the learning loop; the FrankX ingest/take-logging path writes against it, never the other way around.",
+  "type": "object",
+  "required": ["sunoId", "prompt", "verdict"],
+  "properties": {
+    "sunoId": { "type": "string", "description": "Generation-platform id (Suno UUID) for this specific take. Identity key — never title-slug (Suno's duplicate-title default guarantees slug collisions)." },
+    "prompt": { "type": "string", "description": "The exact prompt text submitted to Suno for this take." },
+    "guardianIntent": { "type": ["string", "null"], "description": "Guardian id (data/arcanea-guardians.json) this take was targeted for at generation time, if canon-bound. May differ from the post-hoc measured canon-tag — that delta is prediction-accountability data (D5)." },
+    "bpm": { "type": "integer", "minimum": 30, "maximum": 300, "description": "Tempo targeted by the prompt for this take." },
+    "mode": { "type": "string", "description": "Key/mode targeted, e.g. 'D minor', or a named Suno generation mode." },
+    "vocalPosture": { "type": "string", "description": "Vocal delivery/posture targeted, e.g. 'breathy-lead', 'instrumental', 'choir-wash'." },
+    "verdict": {
+      "type": "string",
+      "enum": ["keep", "rework", "kill"],
+      "description": "Frank's human verdict on this take — the central learning signal. 'rework' and 'kill' are not failures to discard; they are the data the keep-rate ledger needs to bias future prompt-packs away from what doesn't work."
+    },
+    "keptAt": { "type": ["string", "null"], "format": "date-time", "description": "Timestamp the verdict was recorded." }
+  },
+  "additionalProperties": true
+}
