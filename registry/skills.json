@@ -1,8 +1,16 @@
 {
   "$schema_note": "All music skills across the ecosystem. format: skill-md-dir = directory with SKILL.md + YAML frontmatter (canonical); skill-md-flat = single markdown file.",
-  "version": "1.0.0",
-  "updated": "2026-06-11",
+  "version": "1.1.0",
+  "updated": "2026-07-08",
   "skills": [
+    {
+      "id": "lyric-craft",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/skills/lyric-craft/SKILL.md",
+      "format": "skill-md-dir",
+      "version": "1.0.0",
+      "summary": "Master-level lyric craft canon: seven working methods from the masters, prosody/singability mechanics, hard anti-slop gate, English/Arcanea-mythic/hybrid register system, rewrite protocol. Knowledge source for the lyric-writer agent."
+    },
     {
       "id": "suno-ai-mastery",
       "repo": "claude-skills-library",
