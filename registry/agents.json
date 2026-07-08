@@ -34,7 +34,7 @@
       "model_hint": "sonnet",
       "tools": [],
       "portable": true,
-      "summary": "The language of music taught through what the student is already making — intervals to orchestration, AI-era native."
+      "summary": "The language of music taught through what the student is already making \u2014 intervals to orchestration, AI-era native."
     },
     {
       "id": "orchestration-architect",
@@ -155,7 +155,7 @@
         "Write"
       ],
       "portable": true,
-      "summary": "Use-case → license classification, platform ToS lookup, template emission."
+      "summary": "Use-case \u2192 license classification, platform ToS lookup, template emission."
     },
     {
       "id": "music-release-manager",
@@ -258,7 +258,7 @@
       "id": "music-curator",
       "name": "Music Curator (A&R gate)",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-curator.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/music-curator.md",
       "tier": "music-is",
       "model_hint": "opus",
       "tools": [],
@@ -269,7 +269,7 @@
       "id": "music-archivist",
       "name": "Music Archivist",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-archivist.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/music-archivist.md",
       "tier": "music-is",
       "model_hint": "haiku",
       "tools": [],
@@ -280,7 +280,7 @@
       "id": "persona-keeper",
       "name": "Persona Keeper",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/persona-keeper.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/persona-keeper.md",
       "tier": "music-is",
       "model_hint": "opus",
       "tools": [],
@@ -291,7 +291,7 @@
       "id": "music-producer-label",
       "name": "Music Producer (label)",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-producer.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/music-producer.md",
       "tier": "music-is",
       "model_hint": "sonnet",
       "tools": [],
@@ -302,7 +302,7 @@
       "id": "music-distributor",
       "name": "Music Distributor",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-distributor.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/music-distributor.md",
       "tier": "music-is",
       "model_hint": "sonnet",
       "tools": [],
@@ -313,7 +313,7 @@
       "id": "music-amplifier",
       "name": "Music Amplifier",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/music-amplifier.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/music-amplifier.md",
       "tier": "music-is",
       "model_hint": "sonnet",
       "tools": [],
@@ -324,7 +324,7 @@
       "id": "royalty-architect",
       "name": "Royalty Architect",
       "repo": "Starlight-Intelligence-System",
-      "canonical_source": "Starlight-Intelligence-System/verticals/music-is/agents/royalty-architect.md",
+      "canonical_source": "Starlight-Intelligence-System/agents/royalty-architect.md",
       "tier": "music-is",
       "model_hint": "sonnet",
       "tools": [],
@@ -396,6 +396,53 @@
       "tools": [],
       "portable": true,
       "summary": "Routes any music/vibe ask to the right ecosystem agent(s) and tool(s) across all 6 repos, grounded in registry/agents.json and registry/tools.json. Pairs with tools/swarm-router.mjs for deterministic keyword-overlap scoring."
+    },
+    {
+      "id": "music-album-orchestrator",
+      "name": "music-album-orchestrator",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-album-orchestrator.md",
+      "tier": "orchestrator",
+      "model_hint": "opus",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write",
+        "Task"
+      ],
+      "portable": false,
+      "summary": "Top-level ALBUM orchestrator \u2014 composes the 9 Pillar-2 music agents + hub album tooling into an intake-to-release flow. Runs /album (ingest/sequence/status/release). Starts where a track is rendered, ends album-ready."
+    },
+    {
+      "id": "music-brief-writer",
+      "name": "music-brief-writer",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-brief-writer.md",
+      "tier": "specialist",
+      "model_hint": "sonnet",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write"
+      ],
+      "portable": false,
+      "summary": "Module 8 hinge \u2014 turns an approved Suno sidecar into a build-ready brief with per-asset engine routing (per MEDIA-TOOLING-DOCTRINE), audio-measured fields, and human-gated Guardian binding."
+    },
+    {
+      "id": "music-mission-control",
+      "name": "music-mission-control",
+      "repo": "FrankX",
+      "canonical_source": "FrankX/.claude/agents/music-mission-control.md",
+      "tier": "orchestrator",
+      "model_hint": "opus",
+      "tools": [
+        "Read",
+        "Bash",
+        "Write",
+        "Task"
+      ],
+      "portable": false,
+      "summary": "Daily operator (/daily-music) \u2014 reads the track-state spine, pending gates, and album completeness into TODAY'S MISSION (max 3 music + 2 content, leverage-ordered), dispatches picks, logs reflection for tomorrow."
     }
   ]
 }
