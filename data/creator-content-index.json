@@ -1,0 +1,5168 @@
+{
+  "items": [
+    {
+      "title": "AI Doesn't Have To Be Soulless (And Here's How I Know)",
+      "path": "/home/user/FrankX/content/blog/01-ai-doesnt-have-to-be-soulless.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "AI",
+        "Creativity",
+        "Technology",
+        "Personal Story"
+      ]
+    },
+    {
+      "title": "The Creative Frequency Framework: How to Find Your Authentic Creative Voice in the AI Age",
+      "path": "/home/user/FrankX/content/blog/02-the-soul-frequency-framework.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2024-08-22",
+      "tags": [
+        "Creativity",
+        "Personal Development",
+        "AI Tools",
+        "Framework"
+      ]
+    },
+    {
+      "title": "The Golden Age of Intelligence: Flagship Atlas for Agentic Marketing Teams",
+      "path": "/home/user/FrankX/content/blog/08-golden-age-of-intelligence.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-09-19",
+      "tags": [
+        "ai strategy",
+        "agentic operations",
+        "seo",
+        "publishing systems",
+        "automation"
+      ]
+    },
+    {
+      "title": "The 30-Minute Creator OS: Build Your Minimum Viable Creative System",
+      "path": "/home/user/FrankX/content/blog/30-minute-creator-os-quick-start.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-09",
+      "tags": [
+        "creator-os",
+        "productivity",
+        "quick-start",
+        "workflow",
+        "ai-tools"
+      ]
+    },
+    {
+      "title": "ACOS for Enterprise: Team Deployment and Governance Guide",
+      "path": "/home/user/FrankX/content/blog/acos-enterprise-deployment-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "enterprise",
+        "deployment",
+        "governance",
+        "teams",
+        "acos"
+      ]
+    },
+    {
+      "title": "The ACOS Hooks System: Automated Quality Gates",
+      "path": "/home/user/FrankX/content/blog/acos-hooks-system-quality-gates.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "hooks",
+        "quality",
+        "automation",
+        "claude code",
+        "acos"
+      ]
+    },
+    {
+      "title": "The Philosophy Behind ACOS: Technology That Amplifies, Not Replaces",
+      "path": "/home/user/FrankX/content/blog/acos-philosophy-technology-amplifies.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "philosophy",
+        "ai collaboration",
+        "creator tools",
+        "acos",
+        "vision"
+      ]
+    },
+    {
+      "title": "ACOS Use Cases: Find Your Creator Type and Ideal Workflow",
+      "path": "/home/user/FrankX/content/blog/acos-use-cases-creator-types.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27"
+    },
+    {
+      "title": "ACOS v10: Autonomous Intelligence — The System That Improves Itself",
+      "path": "/home/user/FrankX/content/blog/acos-v10-autonomous-intelligence.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "ACOS Quick Start: Zero to Production in 10 Minutes",
+      "path": "/home/user/FrankX/content/blog/acos-zero-to-production-quickstart.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "tutorial",
+        "getting started",
+        "quick start",
+        "claude code",
+        "beginner"
+      ]
+    },
+    {
+      "title": "The 2026 AEO Knowledge Graph: From SEO to Entity-First Authority",
+      "path": "/home/user/FrankX/content/blog/aeo-knowledge-graph-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-05"
+    },
+    {
+      "title": "How to Get Cited by ChatGPT and Perplexity: The AEO Playbook for 2026",
+      "path": "/home/user/FrankX/content/blog/aeo-playbook-get-cited-by-ai-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AEO",
+        "AI Search",
+        "SEO",
+        "ChatGPT",
+        "Perplexity"
+      ]
+    },
+    {
+      "title": "Agent Family Architecture vs Agent Swarms",
+      "path": "/home/user/FrankX/content/blog/agent-family-architecture.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "agent architecture",
+        "multi-agent",
+        "agent swarm",
+        "self-led ai",
+        "ai design"
+      ]
+    },
+    {
+      "title": "Building Privacy-First AI Transparency: The Agent Feed Architecture",
+      "path": "/home/user/FrankX/content/blog/agent-feed-privacy-first-ai-transparency.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-03",
+      "tags": [
+        "ai-agents",
+        "privacy",
+        "architecture",
+        "claude-code",
+        "transparency"
+      ]
+    },
+    {
+      "title": "Agentic AI Roadmap 2025: From Studio Rituals to Enterprise Governance",
+      "path": "/home/user/FrankX/content/blog/agentic-ai-roadmap-2025.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2025-01-22",
+      "tags": [
+        "Agentic AI",
+        "Roadmap",
+        "Intelligence Atlas",
+        "Vibe OS",
+        "Enterprise Governance"
+      ]
+    },
+    {
+      "title": "Agentic AI Roadmap 2026: From Multi-Agent Systems to Enterprise Orchestration",
+      "path": "/home/user/FrankX/content/blog/agentic-ai-roadmap-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Agentic AI",
+        "Roadmap",
+        "Multi-Agent Systems",
+        "MCP Protocol",
+        "Enterprise Governance"
+      ]
+    },
+    {
+      "title": "The Complete Guide to Agentic Creator OS v6: Your AI Operating System",
+      "path": "/home/user/FrankX/content/blog/agentic-creator-os-complete-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27"
+    },
+    {
+      "title": "The Agentic Creator OS: How to Orchestrate AI Like a Studio",
+      "path": "/home/user/FrankX/content/blog/agentic-creator-os.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-09-18"
+    },
+    {
+      "title": "The Agentic OS Family: One Architecture, Installed Into Real Businesses",
+      "path": "/home/user/FrankX/content/blog/agentic-os-family-foundry-launch.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-11",
+      "tags": [
+        "agentic-os",
+        "business-os",
+        "foundry",
+        "claude-code",
+        "ai-architecture",
+        "open-source"
+      ]
+    },
+    {
+      "title": "Agentic SEO Publishing Masterplan: 12-Day Accelerator from September 19",
+      "path": "/home/user/FrankX/content/blog/agentic-seo-publishing-masterplan.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2024-09-19",
+      "tags": [
+        "seo",
+        "agentic ai",
+        "content strategy",
+        "publishing operations",
+        "automation"
+      ]
+    },
+    {
+      "title": "5 Agentic Workflows That Save Creators 10+ Hours Per Week",
+      "path": "/home/user/FrankX/content/blog/agentic-workflows-save-hours.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-22",
+      "tags": [
+        "workflows",
+        "automation",
+        "productivity",
+        "agentic ai"
+      ]
+    },
+    {
+      "title": "AGI in 2026: What Current Progress Means for Students, Creators, and Your Career",
+      "path": "/home/user/FrankX/content/blog/agi-2026-opportunities-students-creators.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "agi",
+        "artificial general intelligence",
+        "careers",
+        "students",
+        "ai jobs",
+        "future of work",
+        "personal development"
+      ]
+    },
+    {
+      "title": "AI Agent Memory: From Chat History to Persistent Systems",
+      "path": "/home/user/FrankX/content/blog/ai-agent-memory-persistent-systems.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Memory",
+        "Agent Architecture",
+        "Claude Code",
+        "RAG",
+        "MCP"
+      ]
+    },
+    {
+      "title": "AI Agents Need an Inner Family, Not Just a Task List",
+      "path": "/home/user/FrankX/content/blog/ai-agents-inner-family.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai architecture",
+        "agentic systems",
+        "multi-agent",
+        "self-led ai"
+      ]
+    },
+    {
+      "title": "How AI Agents Are Transforming Due Diligence in 2026",
+      "path": "/home/user/FrankX/content/blog/ai-agents-transform-due-diligence.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "AI Architecture Patterns for Solo Builders",
+      "path": "/home/user/FrankX/content/blog/ai-architecture-patterns-solo-builders.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Architecture",
+        "Solo Builder",
+        "AI Systems",
+        "ACOS",
+        "MCP"
+      ]
+    },
+    {
+      "title": "Launching the AI Center of Excellence: A New Era for FrankX",
+      "path": "/home/user/FrankX/content/blog/ai-coe-launch.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "AI Architecture",
+        "AI CoE",
+        "Production AI",
+        "FrankX",
+        "Announcement"
+      ]
+    },
+    {
+      "title": "AI Doesn't Have To Be Soulless (And Here's How I Know)",
+      "path": "/home/user/FrankX/content/blog/ai-doesnt-have-to-be-soulless.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "AI",
+        "Creativity",
+        "Technology",
+        "Personal Story"
+      ]
+    },
+    {
+      "title": "AI Engineering Without the Hype: Simon Willison's Practical Protocol",
+      "path": "/home/user/FrankX/content/blog/ai-engineering-without-hype-willison.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-19",
+      "tags": [
+        "AI Engineering",
+        "LLMs",
+        "Simon Willison",
+        "Pragmatism"
+      ]
+    },
+    {
+      "title": "The Family & Professional's Guide to Thriving with AI (Not Just Surviving It)",
+      "path": "/home/user/FrankX/content/blog/ai-guide-for-families-and-professionals.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "AI Education",
+        "Family",
+        "Professional Development",
+        "Practical AI"
+      ]
+    },
+    {
+      "title": "AI for Athletes and Fitness Creators: The 2026 Playbook",
+      "path": "/home/user/FrankX/content/blog/ai-health-fitness-athletes-creators-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Health AI",
+        "Fitness",
+        "Athletes",
+        "AI Tools",
+        "Creators"
+      ]
+    },
+    {
+      "title": "The 2026 AI Image & Video Playbook: Which Model, Which Subscription, Zero Extra API Cost",
+      "path": "/home/user/FrankX/content/blog/ai-image-video-generation-playbook-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "ai image generation",
+        "ai video generation",
+        "nano banana",
+        "grok imagine",
+        "creator tools",
+        "ai cost optimization"
+      ]
+    },
+    {
+      "title": "The AI Model Routing Guide: Which Model for Which Agent (Q2 2026 Edition)",
+      "path": "/home/user/FrankX/content/blog/ai-model-routing-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-10",
+      "tags": [
+        "frontier-models",
+        "model-routing",
+        "agentic-ai",
+        "ai-architecture",
+        "ai-2026",
+        "ai-coe"
+      ]
+    },
+    {
+      "title": "AI Video Generation in 2026: Sora, Runway, Kling, Veo",
+      "path": "/home/user/FrankX/content/blog/ai-video-generation-2026-sora-runway-kling-veo.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Video",
+        "Sora",
+        "Runway",
+        "Video Production",
+        "Generative AI"
+      ]
+    },
+    {
+      "title": "AI Workshops for Students: What Actually Worked",
+      "path": "/home/user/FrankX/content/blog/ai-workshops-for-students-what-worked.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Education",
+        "Students",
+        "Workshops",
+        "Teaching AI",
+        "Curriculum"
+      ]
+    },
+    {
+      "title": "Arcanea: Building Worlds with AI Agents",
+      "path": "/home/user/FrankX/content/blog/arcanea-building-worlds-ai-agents.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "Arcanea",
+        "World Building",
+        "AI Agents",
+        "Creative AI",
+        "ACOS"
+      ]
+    },
+    {
+      "title": "The Best AI and MCP Affiliate Programs in 2026 (Ranked by What Actually Pays)",
+      "path": "/home/user/FrankX/content/blog/best-ai-affiliate-programs-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "affiliate marketing",
+        "ai tools",
+        "mcp",
+        "creator economy",
+        "monetization",
+        "passive income"
+      ]
+    },
+    {
+      "title": "Best AI Browser 2026: ChatGPT Atlas vs Perplexity Comet vs Dia",
+      "path": "/home/user/FrankX/content/blog/best-ai-browser-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI browser",
+        "ChatGPT Atlas",
+        "Perplexity Comet",
+        "Dia browser",
+        "agentic browsing",
+        "Gemini in Chrome"
+      ]
+    },
+    {
+      "title": "Best AI Coding Tool for Beginners 2026: Cursor vs GitHub Copilot vs Replit Agent",
+      "path": "/home/user/FrankX/content/blog/best-ai-coding-tools-for-beginners-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI coding tools",
+        "beginners",
+        "Cursor",
+        "GitHub Copilot",
+        "Replit Agent"
+      ]
+    },
+    {
+      "title": "Best AI Headshot Generator 2026: Aragon vs HeadshotPro vs The Photo AI (Tested)",
+      "path": "/home/user/FrankX/content/blog/best-ai-headshot-generator-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Headshots",
+        "Aragon AI",
+        "HeadshotPro",
+        "AI Tools",
+        "LinkedIn"
+      ]
+    },
+    {
+      "title": "Best AI Image Generators in 2026: GPT Image 2, Nano Banana, Midjourney, FLUX",
+      "path": "/home/user/FrankX/content/blog/best-ai-image-generators-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "AI Image Generation",
+        "GPT Image",
+        "Midjourney",
+        "FLUX",
+        "Generative AI"
+      ]
+    },
+    {
+      "title": "Best AI Logo Maker 2026: Looka vs Canva vs Ideogram vs Recraft",
+      "path": "/home/user/FrankX/content/blog/best-ai-logo-maker-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI logo maker",
+        "AI design tools",
+        "Recraft",
+        "Looka",
+        "Canva",
+        "Ideogram",
+        "vector graphics",
+        "brand identity"
+      ]
+    },
+    {
+      "title": "Best AI Meeting Assistant 2026: Granola vs Otter vs Fathom vs Fireflies",
+      "path": "/home/user/FrankX/content/blog/best-ai-meeting-assistant-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI meeting assistant",
+        "Granola",
+        "Otter",
+        "Fathom",
+        "Fireflies",
+        "productivity tools"
+      ]
+    },
+    {
+      "title": "Best AI Note-Taking and Second-Brain Tools 2026: Notion AI vs Mem vs Reflect vs Obsidian",
+      "path": "/home/user/FrankX/content/blog/best-ai-note-taking-tools-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "second brain",
+        "AI note-taking",
+        "Notion AI",
+        "Obsidian",
+        "knowledge management"
+      ]
+    },
+    {
+      "title": "Best AI Presentation Maker 2026: Gamma vs Canva vs NotebookLM (and Why Tome Is Gone)",
+      "path": "/home/user/FrankX/content/blog/best-ai-presentation-maker-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI Presentations",
+        "Gamma",
+        "Canva",
+        "NotebookLM",
+        "Productivity Tools"
+      ]
+    },
+    {
+      "title": "Best AI Product Photography Tools 2026 for Amazon and Shopify Sellers",
+      "path": "/home/user/FrankX/content/blog/best-ai-product-photography-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI product photography",
+        "ecommerce",
+        "Amazon sellers",
+        "Shopify",
+        "AI image tools",
+        "Photoroom",
+        "product photos"
+      ]
+    },
+    {
+      "title": "Best AI Resume Builder 2026: Teal vs Rezi vs Kickresume vs Just Using Claude",
+      "path": "/home/user/FrankX/content/blog/best-ai-resume-builder-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI resume builder",
+        "ATS optimization",
+        "Teal",
+        "Rezi",
+        "Claude",
+        "job search"
+      ]
+    },
+    {
+      "title": "Best AI Tool for YouTube Shorts and TikTok 2026: Opus Clip vs AutoShorts vs Faceless",
+      "path": "/home/user/FrankX/content/blog/best-ai-shorts-tiktok-tools-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Video",
+        "YouTube Shorts",
+        "TikTok",
+        "Faceless YouTube",
+        "Short-Form Content"
+      ]
+    },
+    {
+      "title": "The AI Superpowers Stack 2026: The Best Tool and MCP for Every Creator Job",
+      "path": "/home/user/FrankX/content/blog/best-ai-superpowers-stack-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-06",
+      "tags": [
+        "AI Tools",
+        "MCP",
+        "Creator Stack",
+        "AI Agents",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "The Best AI Tools for Creators in 2026: A GenCreator's Production Stack",
+      "path": "/home/user/FrankX/content/blog/best-ai-tools-for-creators-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Best AI Video Editor 2026: CapCut vs Descript vs Premiere AI vs Runway",
+      "path": "/home/user/FrankX/content/blog/best-ai-video-editor-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Best AI Video Generators June 2026: What Creators on X Are Actually Shipping With",
+      "path": "/home/user/FrankX/content/blog/best-ai-video-generators-2026-x-aggregated.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-12",
+      "tags": [
+        "AI Video",
+        "Higgsfield",
+        "Seedance",
+        "Kling",
+        "Veo",
+        "Sora",
+        "Runway",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "Best AI Writing Tools 2026: When You Actually Need One vs Just Using Claude",
+      "path": "/home/user/FrankX/content/blog/best-ai-writing-tools-vs-claude-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Writing Tools",
+        "Claude",
+        "Copy.ai",
+        "SEO",
+        "Content Workflow"
+      ]
+    },
+    {
+      "title": "Best Cheap AI Music Generator 2026: Free Tiers and Commercial Rights Compared",
+      "path": "/home/user/FrankX/content/blog/best-cheap-ai-music-generator-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Music",
+        "Suno",
+        "Udio",
+        "Commercial Rights",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "Best ElevenLabs Alternatives 2026: The Cheapest AI Voice That Still Sounds Human",
+      "path": "/home/user/FrankX/content/blog/best-elevenlabs-alternatives-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-06",
+      "tags": [
+        "AI Voice",
+        "Text to Speech",
+        "ElevenLabs",
+        "Voice Cloning",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "Best Local LLM to Run on Your Own Machine in 2026 (by RAM: 8GB / 16GB / 32GB)",
+      "path": "/home/user/FrankX/content/blog/best-local-llm-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "local-llm",
+        "open-models",
+        "ollama",
+        "lm-studio",
+        "privacy"
+      ]
+    },
+    {
+      "title": "Best No-Code AI Agent Builders 2026: n8n vs Lindy vs Relay vs Make",
+      "path": "/home/user/FrankX/content/blog/best-no-code-ai-agent-builders-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI agents",
+        "no-code",
+        "n8n",
+        "automation",
+        "MCP",
+        "Lindy",
+        "Make",
+        "Zapier"
+      ]
+    },
+    {
+      "title": "Brand Evolution: From Consciousness to Systems",
+      "path": "/home/user/FrankX/content/blog/brand-evolution-from-consciousness-to-systems.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-26"
+    },
+    {
+      "title": "Build Your Own Jarvis: Turn Claude Code Into Your Personal Intelligence System",
+      "path": "/home/user/FrankX/content/blog/build-your-own-jarvis-claude-code.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Building Custom Skills for ACOS: The Complete Developer Guide",
+      "path": "/home/user/FrankX/content/blog/building-custom-skills-acos.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "tutorial",
+        "claude code",
+        "skills",
+        "development",
+        "acos"
+      ]
+    },
+    {
+      "title": "Building Automated Deal Flow Pipelines with AI and n8n",
+      "path": "/home/user/FrankX/content/blog/building-deal-flow-pipelines-ai.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "Building a Research Intelligence System: How I Use AI Agents for Daily Knowledge Operations",
+      "path": "/home/user/FrankX/content/blog/building-research-intelligence-system.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "ChatGPT vs Claude vs Gemini 2026: Which AI Assistant for Everyday Use?",
+      "path": "/home/user/FrankX/content/blog/chatgpt-vs-claude-vs-gemini-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Assistants",
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "AI Tools",
+        "Consumer AI"
+      ]
+    },
+    {
+      "title": "Cheapest Way to Access GPT-5.5, Claude Opus 4.8 and Gemini 3.1 in 2026 (Subscription vs API vs Gateway)",
+      "path": "/home/user/FrankX/content/blog/cheapest-frontier-model-access-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI pricing",
+        "GPT-5.5",
+        "Claude Opus 4.8",
+        "Gemini 3.1",
+        "OpenRouter",
+        "API costs"
+      ]
+    },
+    {
+      "title": "Claude Code 2.1: How MCP Tool Search Changed Everything",
+      "path": "/home/user/FrankX/content/blog/claude-code-2-1-mcp-revolution.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Claude Code",
+        "MCP",
+        "AI Development",
+        "Anthropic",
+        "Developer Tools"
+      ]
+    },
+    {
+      "title": "Claude Code Mastery: The Top 5 Resources of 2026",
+      "path": "/home/user/FrankX/content/blog/claude-code-mastery-top-resources.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-19",
+      "tags": [
+        "Claude Code",
+        "AI Engineering",
+        "Learning Resources",
+        "Top List"
+      ]
+    },
+    {
+      "title": "Claude Code Pricing Explained 2026: Pro vs Max 5x vs Max 20x vs API (When Each Wins)",
+      "path": "/home/user/FrankX/content/blog/claude-code-pricing-explained-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Claude Code",
+        "AI pricing",
+        "developer tools",
+        "Anthropic",
+        "AI coding"
+      ]
+    },
+    {
+      "title": "Claude Code Skills 2026: The 10 You Actually Need",
+      "path": "/home/user/FrankX/content/blog/claude-code-skills-2026-the-10-you-need.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Claude Code",
+        "Skills",
+        "ACOS",
+        "AI Development",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Claude Fable 5: Benchmarks, Pricing, and What Four Day-One Evals Actually Show",
+      "path": "/home/user/FrankX/content/blog/claude-fable-5-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-10",
+      "tags": [
+        "anthropic",
+        "claude-fable-5",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai",
+        "claude-code"
+      ]
+    },
+    {
+      "title": "Claude Fable 5 Prompting Guide: Seven Rules from Measured Behavior, Not Vibes",
+      "path": "/home/user/FrankX/content/blog/claude-fable-5-prompting-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-10",
+      "tags": [
+        "anthropic",
+        "claude-fable-5",
+        "prompt-engineering",
+        "agentic-ai",
+        "claude-code",
+        "ai-2026"
+      ]
+    },
+    {
+      "title": "Claude Opus 4.6: What Actually Changed and Why It Matters",
+      "path": "/home/user/FrankX/content/blog/claude-opus-4-6-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-06",
+      "tags": [
+        "anthropic",
+        "claude",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "Claude Opus 4.8: A Modest Bump That Quietly Tops the Leaderboard",
+      "path": "/home/user/FrankX/content/blog/claude-opus-4-8-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "anthropic",
+        "claude",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "The Thoughtful Entrepreneur's Guide to Building AI-Powered Businesses That Actually Serve Humanity",
+      "path": "/home/user/FrankX/content/blog/conscious-ai-for-entrepreneurs.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "Entrepreneurship",
+        "AI Business",
+        "Ethical Business",
+        "Startup Strategy"
+      ]
+    },
+    {
+      "title": "The Agentic AI Framework: Imprinting Impact",
+      "path": "/home/user/FrankX/content/blog/conscious-ai-framework.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2025-01-06",
+      "tags": [
+        "Agentic AI",
+        "Governance",
+        "Guardian Pattern",
+        "Identity"
+      ]
+    },
+    {
+      "title": "Agentic AI Integration OS: 7 Layers To Align Teams, Agents, and Trust",
+      "path": "/home/user/FrankX/content/blog/conscious-ai-integration-operating-system.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-01-23",
+      "tags": [
+        "Agentic AI",
+        "AI Integration",
+        "Governance",
+        "Agentic Systems",
+        "Roadmap"
+      ]
+    },
+    {
+      "title": "Why Every Creator Needs an Intelligence System in 2026",
+      "path": "/home/user/FrankX/content/blog/creator-intelligence-systems-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-20"
+    },
+    {
+      "title": "The Creator's AI Toolkit: Build Your Complete Content System",
+      "path": "/home/user/FrankX/content/blog/creators-ai-toolkit-workshop.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false
+    },
+    {
+      "title": "The Creator's Life Architecture: A System for Whole-Life Mastery",
+      "path": "/home/user/FrankX/content/blog/creators-life-architecture-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2024-12-22"
+    },
+    {
+      "title": "Cursor vs Claude Code vs Windsurf in 2026: Which AI Coding Agent for Which Job",
+      "path": "/home/user/FrankX/content/blog/cursor-vs-claude-code-vs-windsurf-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Coding Agents",
+        "Claude Code",
+        "Cursor",
+        "Windsurf",
+        "AI Development"
+      ]
+    },
+    {
+      "title": "DeepSeek R1: What Open-Weight Reasoning Actually Means",
+      "path": "/home/user/FrankX/content/blog/deepseek-r1-open-weight-reasoning-analysis.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "DeepSeek",
+        "Open Source AI",
+        "Reasoning",
+        "AI Models",
+        "MoE"
+      ]
+    },
+    {
+      "title": "DeepSeek V4: Open-Weight Frontier Reasoning at One-Sixth the Price",
+      "path": "/home/user/FrankX/content/blog/deepseek-v4-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "deepseek",
+        "open-weights",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "moe"
+      ]
+    },
+    {
+      "title": "Design Sprint: Three AI Teams Compete to Define frankx.ai's Visual Identity",
+      "path": "/home/user/FrankX/content/blog/design-sprint-week-10-visual-identity-competition.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Your Body Is Part of Your AI Stack",
+      "path": "/home/user/FrankX/content/blog/embodied-creator-os.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "embodied cognition",
+        "creator performance",
+        "ai architecture",
+        "physical ai",
+        "creator os"
+      ]
+    },
+    {
+      "title": "The Enterprise Agent Roadmap 2026: Multi-Agent Orchestration Patterns",
+      "path": "/home/user/FrankX/content/blog/enterprise-agent-roadmap.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Enterprise AI",
+        "Multi-Agent",
+        "LangGraph",
+        "CrewAI",
+        "MCP"
+      ]
+    },
+    {
+      "title": "EU Inc Explained: The '28th Regime' That Could Finally Unify European Startups",
+      "path": "/home/user/FrankX/content/blog/eu-inc-28th-regime-european-startups.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "eu inc",
+        "european startups",
+        "28th regime",
+        "business",
+        "founders",
+        "investors",
+        "european union"
+      ]
+    },
+    {
+      "title": "Best AI Tools for a Faceless YouTube Channel in 2026 (Full Stack Under $60/mo)",
+      "path": "/home/user/FrankX/content/blog/faceless-youtube-ai-tools-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-06"
+    },
+    {
+      "title": "FrankX Business Plan Canvas",
+      "path": "/home/user/FrankX/content/blog/frankx-business-plan-canvas.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-03-01",
+      "tags": [
+        "Business Model",
+        "Product Strategy",
+        "Creator Economy"
+      ]
+    },
+    {
+      "title": "FrankX Intelligence Atlas Vol. I: Architecting the Agentic Era",
+      "path": "/home/user/FrankX/content/blog/frankx-intelligence-atlas-volume-1.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-01-21",
+      "tags": [
+        "Intelligence Atlas",
+        "Agentic AI",
+        "Generative AI Strategy",
+        "Creative AI Systems",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "title": "The FrankX Intelligence Ecosystem: How 5 Systems Work Together to Build What Matters",
+      "path": "/home/user/FrankX/content/blog/frankx-intelligence-ecosystem-complete-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "FrankX Vision, Mission, and Values",
+      "path": "/home/user/FrankX/content/blog/frankx-vision-mission-values.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-03-01",
+      "tags": [
+        "Vision",
+        "Mission",
+        "Values",
+        "Brand"
+      ]
+    },
+    {
+      "title": "From Latest X Tweets to Blog Gold: How I Aggregate 'Best of X' Into Reference Pieces",
+      "path": "/home/user/FrankX/content/blog/from-x-tweets-to-blog-gold-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-12",
+      "tags": [
+        "Content Strategy",
+        "X Research",
+        "Blog Workflow",
+        "AEO",
+        "Rich Embeds"
+      ]
+    },
+    {
+      "title": "Claude, GPT, Gemini, DeepSeek: Which Model for Which Task?",
+      "path": "/home/user/FrankX/content/blog/frontier-model-landscape-2026-claude-gpt-gemini-deepseek.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Frontier Models",
+        "Claude",
+        "GPT",
+        "Gemini",
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "Gemini 3.5 Pro: What We Actually Know Before GA",
+      "path": "/home/user/FrankX/content/blog/gemini-3-5-pro-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "google",
+        "gemini",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Gemma 4: Google's Open-Weight Family Now Runs a 31B Frontier Model on One GPU",
+      "path": "/home/user/FrankX/content/blog/gemma-3-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "google",
+        "gemma",
+        "open-weight-models",
+        "local-llms",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "The 3-Tier Shipping System: How GenCreators Build Creative Momentum",
+      "path": "/home/user/FrankX/content/blog/gencreator-3-tier-shipping-system.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "The 7 Dimensions of a GenCreator: A Complete Guide to Creative Self-Assessment",
+      "path": "/home/user/FrankX/content/blog/gencreator-7-dimensions-complete-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Getting Started with Agentic Creator OS",
+      "path": "/home/user/FrankX/content/blog/getting-started-agentic-creator-os.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "tutorial",
+        "claude code",
+        "agentic ai",
+        "getting started"
+      ]
+    },
+    {
+      "title": "Golden Age Field Guide: Principles and Rituals",
+      "path": "/home/user/FrankX/content/blog/golden-age-field-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-03-01",
+      "tags": [
+        "Golden Age",
+        "AI",
+        "Strategy",
+        "Creators"
+      ]
+    },
+    {
+      "title": "The Golden Age of Creators: Why Now Is Different",
+      "path": "/home/user/FrankX/content/blog/golden-age-of-creators-why-now-is-different.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Golden Age",
+        "Creator Economy",
+        "AI Tools",
+        "Systems",
+        "Vision"
+      ]
+    },
+    {
+      "title": "The Golden Age of Intelligence: Agentic SEO OS for Exponential Reach",
+      "path": "/home/user/FrankX/content/blog/golden-age-of-intelligence.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2024-09-19",
+      "tags": [
+        "Agentic SEO",
+        "Intelligence Era",
+        "Content Strategy",
+        "Automation",
+        "Growth Systems"
+      ]
+    },
+    {
+      "title": "GPT-5.5 (\\\"Spud\\\"): What Actually Changed and Why It Matters",
+      "path": "/home/user/FrankX/content/blog/gpt-5-5-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "openai",
+        "gpt-5-5",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "gpt-oss in 2026: OpenAI's Open-Weight Models, One Year On",
+      "path": "/home/user/FrankX/content/blog/gpt-oss-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "openai",
+        "gpt-oss",
+        "open-weight-models",
+        "local-llms",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Grok 4.3: xAI Trades the Crown for the Price Tag",
+      "path": "/home/user/FrankX/content/blog/grok-4-3-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "xai",
+        "grok",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "HeyGen vs Synthesia vs Argil 2026: The Best AI Avatar and Talking-Head Tool",
+      "path": "/home/user/FrankX/content/blog/heygen-vs-synthesia-vs-argil-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI avatars",
+        "HeyGen",
+        "Synthesia",
+        "Argil",
+        "talking-head video",
+        "AI video",
+        "faceless content"
+      ]
+    },
+    {
+      "title": "How to Build Your soul.md — A Creator's Operating File",
+      "path": "/home/user/FrankX/content/blog/how-to-build-your-soul-md.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-10",
+      "tags": [
+        "gencreator",
+        "soul-md",
+        "creator-os",
+        "self-assessment",
+        "framework"
+      ]
+    },
+    {
+      "title": "How to Write a CLAUDE.md That Actually Works",
+      "path": "/home/user/FrankX/content/blog/how-to-write-claude-md-that-works.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Claude Code",
+        "CLAUDE.md",
+        "AI Development",
+        "ACOS",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "IACOS: How to Configure Claude Code as Your Investment Research OS",
+      "path": "/home/user/FrankX/content/blog/iacos-investment-research-os.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-14",
+      "tags": [
+        "iacos",
+        "claude-code",
+        "investment-research",
+        "acos",
+        "mcp-servers"
+      ]
+    },
+    {
+      "title": "Inner HR: The AI Agent for Your Internal Team",
+      "path": "/home/user/FrankX/content/blog/inner-hr-ai-agent.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai agents",
+        "leadership",
+        "self-leadership",
+        "ifs",
+        "decision hygiene"
+      ]
+    },
+    {
+      "title": "The Intelligence Revolution Playbook: Navigating the $10T Shift",
+      "path": "/home/user/FrankX/content/blog/intelligence-revolution-2025.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-09-16"
+    },
+    {
+      "title": "Karpathy's AI Vision: A Deep Dive",
+      "path": "/home/user/FrankX/content/blog/karpathys-ai-vision-deep-dive.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Kimi K2.6: The Open-Weight Model That Ties GPT-5.5 on Coding at One-Eighth the Price",
+      "path": "/home/user/FrankX/content/blog/kimi-k2-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "moonshot",
+        "kimi",
+        "open-weights",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "Llama 4 Maverick in 2026: Still Meta's Open Flagship, Now Running Behind the Pack",
+      "path": "/home/user/FrankX/content/blog/llama-4-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "meta",
+        "llama",
+        "open-weights",
+        "local-llms",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "How to Run Your Own LLM Evals in Claude Code (No Eval Platform Required)",
+      "path": "/home/user/FrankX/content/blog/llm-evals-claude-code-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-10",
+      "tags": [
+        "claude-code",
+        "llm-evals",
+        "agentic-ai",
+        "benchmarks",
+        "ai-2026",
+        "anthropic"
+      ]
+    },
+    {
+      "title": "I Had 18 Broken MCP Servers — So I Built a Doctor",
+      "path": "/home/user/FrankX/content/blog/mcp-doctor-claude-code-server-optimization.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-08",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "developer-tools",
+        "open-source",
+        "ai-tooling"
+      ]
+    },
+    {
+      "title": "MCP Server Guide 2026: ClawHub, Smithery, and What to Install",
+      "path": "/home/user/FrankX/content/blog/mcp-ecosystem-2026-clawhub-smithery-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Build Your First MCP Server: The Model Context Protocol Workshop",
+      "path": "/home/user/FrankX/content/blog/mcp-server-architecture-workshop.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-16",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "AI Integration",
+        "Claude Code",
+        "Developer Tools",
+        "Workshops"
+      ]
+    },
+    {
+      "title": "MCP Server Integration: Connect ACOS to Everything",
+      "path": "/home/user/FrankX/content/blog/mcp-server-integration-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "mcp",
+        "claude code",
+        "integration",
+        "api",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Meaning as an Operating System: The Future of AI Is Not More Information",
+      "path": "/home/user/FrankX/content/blog/meaning-as-operating-system.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "meaning",
+        "relevance realization",
+        "vervaeke",
+        "ai architecture",
+        "personal os"
+      ]
+    },
+    {
+      "title": "Memory as Exile: Why AI Systems Need Integration Loops",
+      "path": "/home/user/FrankX/content/blog/memory-as-exile-ai.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai memory",
+        "agentic systems",
+        "ifs",
+        "self-led ai",
+        "agent architecture"
+      ]
+    },
+    {
+      "title": "Microsoft's 7 MAI Models: The In-House Frontier Bet",
+      "path": "/home/user/FrankX/content/blog/microsoft-mai-frontier-models-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-03",
+      "tags": [
+        "microsoft",
+        "mai",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Misinformation Guardian Hackathon Build Log (February 12, 2026)",
+      "path": "/home/user/FrankX/content/blog/misinformation-guardian-hackathon-build-log-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-02-12",
+      "tags": [
+        "misinformation-guardian",
+        "hackathon",
+        "realitydiffusion",
+        "trust-and-safety",
+        "multi-agent-systems"
+      ]
+    },
+    {
+      "title": "Mistral Large 3: The 675B Open-Weight Frontier Model Europe Has Been Waiting For",
+      "path": "/home/user/FrankX/content/blog/mistral-large-3-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "mistral",
+        "open-weight",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "eu-sovereign-ai"
+      ]
+    },
+    {
+      "title": "Multi-Agent Orchestration Patterns: Building Production Systems in 2026",
+      "path": "/home/user/FrankX/content/blog/multi-agent-orchestration-patterns-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Multi-Agent",
+        "LangGraph",
+        "CrewAI",
+        "Orchestration",
+        "Production AI"
+      ]
+    },
+    {
+      "title": "12,000 Songs Later: What AI Music Taught Me About Creative Systems",
+      "path": "/home/user/FrankX/content/blog/music-as-consciousness-technology.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2024-08-22",
+      "tags": [
+        "Music",
+        "AI Creativity",
+        "Creative Technology",
+        "Suno AI",
+        "Creative Process"
+      ]
+    },
+    {
+      "title": "My $100/Month AI Stack: Every Tool I Actually Use",
+      "path": "/home/user/FrankX/content/blog/my-100-month-ai-stack-every-tool-i-actually-use.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Tools",
+        "AI Stack",
+        "Productivity",
+        "Creator Tools",
+        "Cost"
+      ]
+    },
+    {
+      "title": "n8n Automation: 9 Workflows That Run My Creative Empire",
+      "path": "/home/user/FrankX/content/blog/n8n-automation-ai-creators-9-workflows.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "No Bad Parts: A Better Debugging Model for AI Failure Modes",
+      "path": "/home/user/FrankX/content/blog/no-bad-parts-ai-debugging.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai architecture",
+        "agentic systems",
+        "debugging",
+        "self-led ai"
+      ]
+    },
+    {
+      "title": "No Bad Parts: What Richard Schwartz Teaches Us About Building Sovereign AI",
+      "path": "/home/user/FrankX/content/blog/no-bad-parts-sovereign-ai.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai architecture",
+        "agentic systems",
+        "ifs",
+        "self-led ai",
+        "multi-agent",
+        "agent design"
+      ]
+    },
+    {
+      "title": "Nvidia CES 2026: Jensen Huang Declares the 'ChatGPT Moment for Physical AI'",
+      "path": "/home/user/FrankX/content/blog/nvidia-ces-2026-physical-ai-revolution.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-16",
+      "tags": [
+        "nvidia",
+        "ces 2026",
+        "physical ai",
+        "rubin",
+        "autonomous vehicles",
+        "robotics",
+        "enterprise ai"
+      ]
+    },
+    {
+      "title": "NVIDIA GTC 2026: An AI Architect's Breakdown of Vera Rubin, Groq LPUs, and the Agentic Infrastructure Shift",
+      "path": "/home/user/FrankX/content/blog/nvidia-gtc-2026-ai-architect-breakdown.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-17"
+    },
+    {
+      "title": "The Observability Stack for Production Multi-Agent Systems",
+      "path": "/home/user/FrankX/content/blog/observability-stack-multi-agent-systems-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "observability",
+        "multi-agent",
+        "langsmith",
+        "production",
+        "monitoring"
+      ]
+    },
+    {
+      "title": "Running Local AI Models with Ollama: The Privacy Guide",
+      "path": "/home/user/FrankX/content/blog/ollama-local-ai-models-privacy-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Ollama",
+        "Local AI",
+        "Privacy",
+        "Llama",
+        "Self-Hosted"
+      ]
+    },
+    {
+      "title": "Ollama vs LM Studio vs Jan 2026: The Best Way to Run AI Locally",
+      "path": "/home/user/FrankX/content/blog/ollama-vs-lm-studio-vs-jan-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "local LLM",
+        "Ollama",
+        "LM Studio",
+        "Jan",
+        "privacy",
+        "open source AI",
+        "self-hosted AI"
+      ]
+    },
+    {
+      "title": "OpenClaw, NemoClaw, NanoClaw: The AI Agent Ecosystem",
+      "path": "/home/user/FrankX/content/blog/openclaw-explained-ai-agent-everyone-talking-about.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "OpenClaw",
+        "AI Agents",
+        "NemoClaw",
+        "Open Source",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "Oracle GenAI Agents vs LangGraph vs CrewAI: Enterprise AI Agent Comparison 2026",
+      "path": "/home/user/FrankX/content/blog/oracle-genai-agents-vs-langgraph-crewai-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Oracle",
+        "OCI GenAI",
+        "LangGraph",
+        "CrewAI",
+        "Enterprise AI",
+        "AI Agents"
+      ]
+    },
+    {
+      "title": "Build Your Personal AI Assistant: The Complete Setup Workshop",
+      "path": "/home/user/FrankX/content/blog/personal-ai-assistant-setup-workshop.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-16",
+      "tags": [
+        "Claude Code",
+        "AI Assistant",
+        "Developer Tools",
+        "CLAUDE.md",
+        "MCP Servers",
+        "Workshops"
+      ]
+    },
+    {
+      "title": "How to Build a Personal AI Center of Excellence for Under $100 a Month (2026)",
+      "path": "/home/user/FrankX/content/blog/personal-ai-coe-under-100-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Center of Excellence",
+        "personal AI stack",
+        "AI budget",
+        "AI governance",
+        "creator tools"
+      ]
+    },
+    {
+      "title": "Microsoft Phi-4 in 2026: The Open-Weight Small Model That Runs on Your Laptop",
+      "path": "/home/user/FrankX/content/blog/phi-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "microsoft",
+        "phi",
+        "open-weight",
+        "small-language-models",
+        "local-ai",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "The Predictive Mind: Why You Don't See Reality, You See Your Model",
+      "path": "/home/user/FrankX/content/blog/predictive-mind-reality-models.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "predictive processing",
+        "active inference",
+        "free energy principle",
+        "consciousness",
+        "ai architecture"
+      ]
+    },
+    {
+      "title": "The 7 Pillars of Production Agent Systems: What Actually Matters in 2026",
+      "path": "/home/user/FrankX/content/blog/production-agent-patterns-7-pillars.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "tags": [
+        "AI Agents",
+        "Production AI",
+        "LLM",
+        "Architecture",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "title": "AWS Bedrock AgentCore Deep Dive: Production Patterns for Enterprise AI Agents",
+      "path": "/home/user/FrankX/content/blog/production-agent-patterns-aws-bedrock.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false
+    },
+    {
+      "title": "Enterprise Agentic Architecture: Decision Framework for Production",
+      "path": "/home/user/FrankX/content/blog/production-agentic-ai-systems.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "production-systems",
+        "decision-framework",
+        "ai-strategy"
+      ]
+    },
+    {
+      "title": "Production LLMs & AI Agents on OCI: Part 1 - The Six-Plane Enterprise Architecture",
+      "path": "/home/user/FrankX/content/blog/production-llm-agents-oci-part-1-architecture.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Production LLMs & AI Agents on OCI: Part 2 - Six Agent Orchestration Patterns",
+      "path": "/home/user/FrankX/content/blog/production-llm-agents-oci-part-2-agent-patterns.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Production LLMs & AI Agents on OCI: Part 3 - The Operating Model",
+      "path": "/home/user/FrankX/content/blog/production-llm-agents-oci-part-3-operating-model.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Prompt Engineering in 2026: What Still Works",
+      "path": "/home/user/FrankX/content/blog/prompt-engineering-2026-what-still-works.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Prompt Engineering",
+        "AI Models",
+        "Claude",
+        "GPT",
+        "Techniques"
+      ]
+    },
+    {
+      "title": "The 5C Framework: Mastering Prompt Engineering for Any AI System",
+      "path": "/home/user/FrankX/content/blog/prompt-engineering-mastery-workshop.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "tags": [
+        "Prompt Engineering",
+        "AI Communication",
+        "5C Framework",
+        "Chain-of-Thought",
+        "Workshops",
+        "AI Skills"
+      ]
+    },
+    {
+      "title": "Props to the Builders of This Era",
+      "path": "/home/user/FrankX/content/blog/props-to-the-builders-of-this-era.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Qwen3.7-Max: Alibaba's Agent Flagship Cracks the Global Top 5 — and Runs for 35 Hours",
+      "path": "/home/user/FrankX/content/blog/qwen3-max-analysis-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "alibaba",
+        "qwen",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "RAG for Creators: Search Your Own Content with AI",
+      "path": "/home/user/FrankX/content/blog/rag-for-creators-search-your-own-content-with-ai.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "RAG",
+        "Vector Search",
+        "AI Memory",
+        "ChromaDB",
+        "Knowledge"
+      ]
+    },
+    {
+      "title": "Golden Age of Intelligence: Reader-First Growth Playbook",
+      "path": "/home/user/FrankX/content/blog/reader-first-golden-age.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-09-20",
+      "tags": [
+        "golden age of intelligence",
+        "ai marketing",
+        "audience strategy",
+        "seo",
+        "reader experience"
+      ]
+    },
+    {
+      "title": "Reality Architecture: Imagination to Product, Faster with AI",
+      "path": "/home/user/FrankX/content/blog/reality-architecture-generative-ai-neuroscience.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Science of Using Music to Change Your State",
+      "path": "/home/user/FrankX/content/blog/science-of-state-change-music.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2025-01-05",
+      "tags": [
+        "music",
+        "psychology",
+        "productivity",
+        "creativity",
+        "vibe-os"
+      ]
+    },
+    {
+      "title": "SEO & AEO Optimization with ACOS: Rank in Search and AI Engines",
+      "path": "/home/user/FrankX/content/blog/seo-aeo-optimization-acos.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "seo",
+        "aeo",
+        "content strategy",
+        "ai optimization",
+        "marketing"
+      ]
+    },
+    {
+      "title": "Ship Daily, Compound Forever: The GenCreator Shipping System",
+      "path": "/home/user/FrankX/content/blog/ship-daily-compound-creator.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-10",
+      "tags": [
+        "gencreator",
+        "shipping",
+        "compounding",
+        "creator-os",
+        "productivity"
+      ]
+    },
+    {
+      "title": "How the Starlight Intelligence System Learns",
+      "path": "/home/user/FrankX/content/blog/sis-trajectory-learning-how-ai-agents-improve.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "SIS",
+        "AI Learning",
+        "Agent Intelligence",
+        "ACOS",
+        "Memory"
+      ]
+    },
+    {
+      "title": "The six primitives of an AI agent",
+      "path": "/home/user/FrankX/content/blog/six-primitives-ai-agent.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-04-24",
+      "tags": [
+        "AI Agents",
+        "Vercel AI SDK",
+        "Agent Card",
+        "A2A Protocol",
+        "Open Agent Specification"
+      ]
+    },
+    {
+      "title": "How I Built a Learning System for AI Agents",
+      "path": "/home/user/FrankX/content/blog/starlight-intelligence-system-how-ai-agents-learn.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-27",
+      "tags": [
+        "ai-strategy",
+        "automation",
+        "creator-os",
+        "agentic-systems"
+      ]
+    },
+    {
+      "title": "Suno AI After 12,000 Songs: What I Actually Learned",
+      "path": "/home/user/FrankX/content/blog/suno-ai-12000-songs-production-lessons.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Create Music Without Musical Training: The Suno AI Music Creation Workshop",
+      "path": "/home/user/FrankX/content/blog/suno-ai-music-creation-workshop.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-01-16",
+      "tags": [
+        "Suno AI",
+        "AI Music",
+        "Music Creation",
+        "Vibe OS",
+        "Workshops",
+        "Meditation Music",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "title": "How to Use Suno AI for Professional Music Production",
+      "path": "/home/user/FrankX/content/blog/suno-music-production-workflow.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-01-13",
+      "tags": [
+        "Suno AI",
+        "Music Production",
+        "AI Music",
+        "Vibe OS",
+        "Creative Workflows"
+      ]
+    },
+    {
+      "title": "The Complete Suno Prompt Engineering Guide: From Beginner to Pro",
+      "path": "/home/user/FrankX/content/blog/suno-prompt-engineering-complete-guide.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-01-24",
+      "tags": [
+        "suno",
+        "ai-music",
+        "prompt-engineering",
+        "music-production",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Suno vs Udio 2026: Which AI Music Tool Is Safe to Release Commercially",
+      "path": "/home/user/FrankX/content/blog/suno-vs-udio-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-06",
+      "tags": [
+        "Suno",
+        "Udio",
+        "AI Music",
+        "Commercial License",
+        "Music Production",
+        "Suno v5"
+      ]
+    },
+    {
+      "title": "Swarm Intelligence: Multi-Agent Orchestration for Creators",
+      "path": "/home/user/FrankX/content/blog/swarm-intelligence-multi-agent-orchestration.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Terminal-First AI Development: Drop VS Code Tabs, Keep Your Laptop Alive",
+      "path": "/home/user/FrankX/content/blog/terminal-first-ai-workflow-claude-code.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-01"
+    },
+    {
+      "title": "The Creative OS: A Guide to Building Your Creative Operating System",
+      "path": "/home/user/FrankX/content/blog/the-creative-os.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-09-27",
+      "tags": [
+        "creative-os",
+        "creativity",
+        "productivity",
+        "workflow",
+        "ai-tools"
+      ]
+    },
+    {
+      "title": "The Great Transition: Why Building Your Own Business Is the Smartest Move You Can Make Right Now",
+      "path": "/home/user/FrankX/content/blog/the-great-transition-build-your-own-business.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-02-18"
+    },
+    {
+      "title": "The Research + Generation Flywheel: Sandcastles-Style Analysis + Higgsfield/Grok Execution",
+      "path": "/home/user/FrankX/content/blog/the-research-generation-flywheel-sandcastles-higgsfield-grok-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-12",
+      "tags": [
+        "Short Form",
+        "Sandcastles",
+        "AI Video",
+        "Hooks",
+        "Content Strategy",
+        "Creator Workflow"
+      ]
+    },
+    {
+      "title": "How I Configured Claude Code with ACOS and 21 MCP Servers",
+      "path": "/home/user/FrankX/content/blog/ultimate-ai-coding-agent-setup-acos-claude-code-mcp.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Ultimate Canva AI Workflow in 2026: Magic Studio, Brand Kits, and the Creator Setup",
+      "path": "/home/user/FrankX/content/blog/ultimate-canva-ai-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Canva",
+        "AI Design",
+        "Magic Studio",
+        "Creator Tools",
+        "Workflow",
+        "Brand Kit"
+      ]
+    },
+    {
+      "title": "The Ultimate CapCut Workflow in 2026: The AI Editing Setup for Short-Form and Faceless Channels",
+      "path": "/home/user/FrankX/content/blog/ultimate-capcut-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06"
+    },
+    {
+      "title": "The Ultimate Descript Workflow in 2026: Edit Video and Audio by Editing Text",
+      "path": "/home/user/FrankX/content/blog/ultimate-descript-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-06-07",
+      "tags": [
+        "Descript",
+        "video editing",
+        "podcasting",
+        "content workflow",
+        "AI tools"
+      ]
+    },
+    {
+      "title": "The Ultimate ElevenLabs Workflow in 2026: Voice Cloning, Agents, and the Setup That Wins",
+      "path": "/home/user/FrankX/content/blog/ultimate-elevenlabs-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "ElevenLabs",
+        "AI Voice",
+        "Voice Cloning",
+        "Conversational AI",
+        "Content Pipeline",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "The Ultimate Gamma Workflow in 2026: From Prompt to Investor-Ready Deck",
+      "path": "/home/user/FrankX/content/blog/ultimate-gamma-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Gamma",
+        "AI presentations",
+        "pitch deck",
+        "creator tools",
+        "workflow"
+      ]
+    },
+    {
+      "title": "The Ultimate Guide to AI Coding Agents in 2026: Claude Code, OpenCode, Cline, and Beyond",
+      "path": "/home/user/FrankX/content/blog/ultimate-guide-ai-coding-agents-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-01-16"
+    },
+    {
+      "title": "The Ultimate HeyGen Workflow in 2026: Avatars, Cloning, and the Faceless Video Setup",
+      "path": "/home/user/FrankX/content/blog/ultimate-heygen-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "HeyGen",
+        "AI avatars",
+        "avatar cloning",
+        "faceless video",
+        "AI video",
+        "talking-head video",
+        "video automation"
+      ]
+    },
+    {
+      "title": "The Ultimate Higgsfield Workflow in 2026: Soul ID, Cinematic Video, and the Claude Code MCP Setup",
+      "path": "/home/user/FrankX/content/blog/ultimate-higgsfield-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Higgsfield",
+        "AI Video",
+        "Soul ID",
+        "MCP",
+        "Claude Code",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "The Ultimate n8n Workflow in 2026: AI Agents, MCP, and the Automation Backend That Wins",
+      "path": "/home/user/FrankX/content/blog/ultimate-n8n-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "n8n",
+        "AI agents",
+        "MCP",
+        "automation",
+        "workflow",
+        "Claude Code",
+        "RAG"
+      ]
+    },
+    {
+      "title": "The Ultimate Opus Clip Workflow in 2026: Long Video to Viral Shorts on Autopilot",
+      "path": "/home/user/FrankX/content/blog/ultimate-opus-clip-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "Opus Clip",
+        "video repurposing",
+        "short-form video",
+        "AI video",
+        "creator workflow",
+        "content automation"
+      ]
+    },
+    {
+      "title": "The Ultimate Perplexity Workflow in 2026: Deep Research Setup, Comet, and How to Actually Use It",
+      "path": "/home/user/FrankX/content/blog/ultimate-perplexity-workflow-2026.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Perplexity",
+        "Comet browser",
+        "Deep Research",
+        "AI research",
+        "Perplexity Pro",
+        "research workflow"
+      ]
+    },
+    {
+      "title": "The Ultimate Guide: Using [ElevenLabs](https://try.elevenlabs.io/7x6qh6upgry8) for faceless Youtube channels and [Higgsfield](https://go.agenticincome.ai/higgsfield) for B-roll",
+      "path": "/home/user/FrankX/content/blog/using-elevenlabs-for-faceless-youtube-channels-and-higgsfield-for-b-roll.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-06-23"
+    },
+    {
+      "title": "Why Vercel AI SDK is the right first-agent stack in 2026",
+      "path": "/home/user/FrankX/content/blog/vercel-ai-sdk-first-agent-stack.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-04-24",
+      "tags": [
+        "Vercel AI SDK",
+        "AI Agents",
+        "Claude Agent SDK",
+        "OpenAI Agents",
+        "Google ADK"
+      ]
+    },
+    {
+      "title": "Vercel + Claude Code: Ship a Next.js Site in One Session",
+      "path": "/home/user/FrankX/content/blog/vercel-claude-code-nextjs-deploy-one-session.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Vercel",
+        "Claude Code",
+        "Next.js",
+        "Deployment",
+        "MCP"
+      ]
+    },
+    {
+      "title": "Vibe OS: Engineering Neuro-State with the RPM Model",
+      "path": "/home/user/FrankX/content/blog/vibe-os-creative-soul.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2025-01-08",
+      "tags": [
+        "Vibe OS",
+        "Psycho-acoustics",
+        "Suno",
+        "RPM",
+        "Neuro-Aesthetics"
+      ]
+    },
+    {
+      "title": "Vibe OS: Multi-LLM Agent Ecosystem for Music Creation and AI Orchestration",
+      "path": "/home/user/FrankX/content/blog/vibe-os-platform-introduction.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-02-17"
+    },
+    {
+      "title": "How I Built a Visual Intelligence System After Losing Track of 408 Images",
+      "path": "/home/user/FrankX/content/blog/visual-intelligence-system-ai-image-management.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Voice AI Agents in 2026: Build Audio-First Experiences",
+      "path": "/home/user/FrankX/content/blog/voice-ai-agents-2026-elevenlabs-hume-audio.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "Voice AI",
+        "ElevenLabs",
+        "Text to Speech",
+        "AI Agents",
+        "Audio"
+      ]
+    },
+    {
+      "title": "What Is a GenCreator? The New Breed of AI-Native Creator",
+      "path": "/home/user/FrankX/content/blog/what-is-a-gencreator.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "What is Agentic AI? The Shift From Tools to Collaborators",
+      "path": "/home/user/FrankX/content/blog/what-is-agentic-ai.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2025-02-15",
+      "tags": [
+        "Agentic AI",
+        "AI Architecture",
+        "Claude Code",
+        "Production AI"
+      ]
+    },
+    {
+      "title": "Why Everyone Needs Their Own AI Center of Excellence",
+      "path": "/home/user/FrankX/content/blog/why-everyone-needs-personal-ai-coe.mdx",
+      "surface": "frankx-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "AI Doesn't Have To Be Soulless (And Here's How I Know)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/01-ai-doesnt-have-to-be-soulless.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "AI",
+        "Creativity",
+        "Technology",
+        "Personal Story"
+      ]
+    },
+    {
+      "title": "The Creative Frequency Framework: How to Find Your Authentic Creative Voice in the AI Age",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/02-the-soul-frequency-framework.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2024-08-22",
+      "tags": [
+        "Creativity",
+        "Personal Development",
+        "AI Tools",
+        "Framework"
+      ]
+    },
+    {
+      "title": "The Golden Age of Intelligence: Flagship Atlas for Agentic Marketing Teams",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/08-golden-age-of-intelligence.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-09-19",
+      "tags": [
+        "ai strategy",
+        "agentic operations",
+        "seo",
+        "publishing systems",
+        "automation"
+      ]
+    },
+    {
+      "title": "The 30-Minute Creator OS: Build Your Minimum Viable Creative System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/30-minute-creator-os-quick-start.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-09",
+      "tags": [
+        "creator-os",
+        "productivity",
+        "quick-start",
+        "workflow",
+        "ai-tools"
+      ]
+    },
+    {
+      "title": "ACOS for Enterprise: Team Deployment and Governance Guide",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-enterprise-deployment-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "enterprise",
+        "deployment",
+        "governance",
+        "teams",
+        "acos"
+      ]
+    },
+    {
+      "title": "The ACOS Hooks System: Automated Quality Gates",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-hooks-system-quality-gates.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "hooks",
+        "quality",
+        "automation",
+        "claude code",
+        "acos"
+      ]
+    },
+    {
+      "title": "The Philosophy Behind ACOS: Technology That Amplifies, Not Replaces",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-philosophy-technology-amplifies.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "philosophy",
+        "ai collaboration",
+        "creator tools",
+        "acos",
+        "vision"
+      ]
+    },
+    {
+      "title": "ACOS Use Cases: Find Your Creator Type and Ideal Workflow",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-use-cases-creator-types.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27"
+    },
+    {
+      "title": "ACOS v10: Autonomous Intelligence — The System That Improves Itself",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-v10-autonomous-intelligence.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "ACOS v11: Visual Intelligence and Site Integrity — What Changed and Why",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-v11-visual-intelligence-site-integrity.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-31",
+      "tags": [
+        "ACOS",
+        "Visual Intelligence",
+        "Quality Gates",
+        "Site Integrity",
+        "AI"
+      ]
+    },
+    {
+      "title": "ACOS Quick Start: Zero to Production in 10 Minutes",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/acos-zero-to-production-quickstart.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "tutorial",
+        "getting started",
+        "quick start",
+        "claude code",
+        "beginner"
+      ]
+    },
+    {
+      "title": "The 2026 AEO Knowledge Graph: From SEO to Entity-First Authority",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/aeo-knowledge-graph-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-05"
+    },
+    {
+      "title": "How to Get Cited by ChatGPT and Perplexity: The AEO Playbook for 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/aeo-playbook-get-cited-by-ai-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AEO",
+        "AI Search",
+        "SEO",
+        "ChatGPT",
+        "Perplexity"
+      ]
+    },
+    {
+      "title": "Agent Family Architecture vs Agent Swarms",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agent-family-architecture.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "agent architecture",
+        "multi-agent",
+        "agent swarm",
+        "self-led ai",
+        "ai design"
+      ]
+    },
+    {
+      "title": "Building Privacy-First AI Transparency: The Agent Feed Architecture",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agent-feed-privacy-first-ai-transparency.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-03",
+      "tags": [
+        "ai-agents",
+        "privacy",
+        "architecture",
+        "claude-code",
+        "transparency"
+      ]
+    },
+    {
+      "title": "Agentic AI Roadmap 2025: From Studio Rituals to Enterprise Governance",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-ai-roadmap-2025.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2025-01-22",
+      "tags": [
+        "Agentic AI",
+        "Roadmap",
+        "Intelligence Atlas",
+        "Vibe OS",
+        "Enterprise Governance"
+      ]
+    },
+    {
+      "title": "Agentic AI Roadmap 2026: From Multi-Agent Systems to Enterprise Orchestration",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-ai-roadmap-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Agentic AI",
+        "Roadmap",
+        "Multi-Agent Systems",
+        "MCP Protocol",
+        "Enterprise Governance"
+      ]
+    },
+    {
+      "title": "The Complete Guide to Agentic Creator OS v6: Your AI Operating System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-creator-os-complete-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27"
+    },
+    {
+      "title": "The Agentic Creator OS: How to Orchestrate AI Like a Studio",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-creator-os.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-09-18"
+    },
+    {
+      "title": "The Agentic OS Family: One Architecture, Installed Into Real Businesses",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-os-family-foundry-launch.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-11",
+      "tags": [
+        "agentic-os",
+        "business-os",
+        "foundry",
+        "claude-code",
+        "ai-architecture",
+        "open-source"
+      ]
+    },
+    {
+      "title": "Agentic SEO Publishing Masterplan: 12-Day Accelerator from September 19",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-seo-publishing-masterplan.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2024-09-19",
+      "tags": [
+        "seo",
+        "agentic ai",
+        "content strategy",
+        "publishing operations",
+        "automation"
+      ]
+    },
+    {
+      "title": "5 Agentic Workflows That Save Creators 10+ Hours Per Week",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agentic-workflows-save-hours.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-22",
+      "tags": [
+        "workflows",
+        "automation",
+        "productivity",
+        "agentic ai"
+      ]
+    },
+    {
+      "title": "AGI in 2026: What Current Progress Means for Students, Creators, and Your Career",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/agi-2026-opportunities-students-creators.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "agi",
+        "artificial general intelligence",
+        "careers",
+        "students",
+        "ai jobs",
+        "future of work",
+        "personal development"
+      ]
+    },
+    {
+      "title": "AI Agent Memory: From Chat History to Persistent Systems",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-agent-memory-persistent-systems.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Memory",
+        "Agent Architecture",
+        "Claude Code",
+        "RAG",
+        "MCP"
+      ]
+    },
+    {
+      "title": "AI Agents Need an Inner Family, Not Just a Task List",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-agents-inner-family.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai architecture",
+        "agentic systems",
+        "multi-agent",
+        "self-led ai"
+      ]
+    },
+    {
+      "title": "How AI Agents Are Transforming Due Diligence in 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-agents-transform-due-diligence.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "AI Architecture Patterns for Solo Builders",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-architecture-patterns-solo-builders.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Architecture",
+        "Solo Builder",
+        "AI Systems",
+        "ACOS",
+        "MCP"
+      ]
+    },
+    {
+      "title": "Launching the AI Center of Excellence: A New Era for FrankX",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-coe-launch.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "AI Architecture",
+        "AI CoE",
+        "Production AI",
+        "FrankX",
+        "Announcement"
+      ]
+    },
+    {
+      "title": "AI Doesn't Have To Be Soulless (And Here's How I Know)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-doesnt-have-to-be-soulless.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "AI",
+        "Creativity",
+        "Technology",
+        "Personal Story"
+      ]
+    },
+    {
+      "title": "AI Engineering Without the Hype: Simon Willison's Practical Protocol",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-engineering-without-hype-willison.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-19",
+      "tags": [
+        "AI Engineering",
+        "LLMs",
+        "Simon Willison",
+        "Pragmatism"
+      ]
+    },
+    {
+      "title": "The Family & Professional's Guide to Thriving with AI (Not Just Surviving It)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-guide-for-families-and-professionals.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "AI Education",
+        "Family",
+        "Professional Development",
+        "Practical AI"
+      ]
+    },
+    {
+      "title": "AI for Athletes and Fitness Creators: The 2026 Playbook",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-health-fitness-athletes-creators-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Health AI",
+        "Fitness",
+        "Athletes",
+        "AI Tools",
+        "Creators"
+      ]
+    },
+    {
+      "title": "The 2026 AI Image & Video Playbook: Which Model, Which Subscription, Zero Extra API Cost",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-image-video-generation-playbook-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "ai image generation",
+        "ai video generation",
+        "nano banana",
+        "grok imagine",
+        "creator tools",
+        "ai cost optimization"
+      ]
+    },
+    {
+      "title": "The AI Model Routing Guide: Which Model for Which Agent (Q2 2026 Edition)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-model-routing-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-10",
+      "tags": [
+        "frontier-models",
+        "model-routing",
+        "agentic-ai",
+        "ai-architecture",
+        "ai-2026",
+        "ai-coe"
+      ]
+    },
+    {
+      "title": "AI Skills Are the New Operating Layer",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-skills-operating-layer.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-15",
+      "tags": [
+        "ai-skills",
+        "ai-coe",
+        "agentic-systems",
+        "operating-knowledge",
+        "founder-ai"
+      ]
+    },
+    {
+      "title": "AI Video Generation in 2026: Sora, Runway, Kling, Veo",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-video-generation-2026-sora-runway-kling-veo.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Video",
+        "Sora",
+        "Runway",
+        "Video Production",
+        "Generative AI"
+      ]
+    },
+    {
+      "title": "AI Workshops for Students: What Actually Worked",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ai-workshops-for-students-what-worked.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Education",
+        "Students",
+        "Workshops",
+        "Teaching AI",
+        "Curriculum"
+      ]
+    },
+    {
+      "title": "Arcanea: Building Worlds with AI Agents",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/arcanea-building-worlds-ai-agents.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "Arcanea",
+        "World Building",
+        "AI Agents",
+        "Creative AI",
+        "ACOS"
+      ]
+    },
+    {
+      "title": "The Best AI and MCP Affiliate Programs in 2026 (Ranked by What Actually Pays)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-affiliate-programs-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "affiliate marketing",
+        "ai tools",
+        "mcp",
+        "creator economy",
+        "monetization",
+        "passive income"
+      ]
+    },
+    {
+      "title": "Best AI Browser 2026: ChatGPT Atlas vs Perplexity Comet vs Dia",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-browser-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI browser",
+        "ChatGPT Atlas",
+        "Perplexity Comet",
+        "Dia browser",
+        "agentic browsing",
+        "Gemini in Chrome"
+      ]
+    },
+    {
+      "title": "Best AI Coding Tool for Beginners 2026: Cursor vs GitHub Copilot vs Replit Agent",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-coding-tools-for-beginners-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI coding tools",
+        "beginners",
+        "Cursor",
+        "GitHub Copilot",
+        "Replit Agent"
+      ]
+    },
+    {
+      "title": "Best AI Headshot Generator 2026: Aragon vs HeadshotPro vs The Photo AI (Tested)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-headshot-generator-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Headshots",
+        "Aragon AI",
+        "HeadshotPro",
+        "AI Tools",
+        "LinkedIn"
+      ]
+    },
+    {
+      "title": "Best AI Image Generators in 2026: GPT Image 2, Nano Banana, Midjourney, FLUX",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-image-generators-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "AI Image Generation",
+        "GPT Image",
+        "Midjourney",
+        "FLUX",
+        "Generative AI"
+      ]
+    },
+    {
+      "title": "Best AI Logo Maker 2026: Looka vs Canva vs Ideogram vs Recraft",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-logo-maker-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI logo maker",
+        "AI design tools",
+        "Recraft",
+        "Looka",
+        "Canva",
+        "Ideogram",
+        "vector graphics",
+        "brand identity"
+      ]
+    },
+    {
+      "title": "Best AI Meeting Assistant 2026: Granola vs Otter vs Fathom vs Fireflies",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-meeting-assistant-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI meeting assistant",
+        "Granola",
+        "Otter",
+        "Fathom",
+        "Fireflies",
+        "productivity tools"
+      ]
+    },
+    {
+      "title": "Best AI Note-Taking and Second-Brain Tools 2026: Notion AI vs Mem vs Reflect vs Obsidian",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-note-taking-tools-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "second brain",
+        "AI note-taking",
+        "Notion AI",
+        "Obsidian",
+        "knowledge management"
+      ]
+    },
+    {
+      "title": "Best AI Presentation Maker 2026: Gamma vs Canva vs NotebookLM (and Why Tome Is Gone)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-presentation-maker-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI Presentations",
+        "Gamma",
+        "Canva",
+        "NotebookLM",
+        "Productivity Tools"
+      ]
+    },
+    {
+      "title": "Best AI Product Photography Tools 2026 for Amazon and Shopify Sellers",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-product-photography-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI product photography",
+        "ecommerce",
+        "Amazon sellers",
+        "Shopify",
+        "AI image tools",
+        "Photoroom",
+        "product photos"
+      ]
+    },
+    {
+      "title": "Best AI Resume Builder 2026: Teal vs Rezi vs Kickresume vs Just Using Claude",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-resume-builder-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI resume builder",
+        "ATS optimization",
+        "Teal",
+        "Rezi",
+        "Claude",
+        "job search"
+      ]
+    },
+    {
+      "title": "Best AI Tool for YouTube Shorts and TikTok 2026: Opus Clip vs AutoShorts vs Faceless",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-shorts-tiktok-tools-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Video",
+        "YouTube Shorts",
+        "TikTok",
+        "Faceless YouTube",
+        "Short-Form Content"
+      ]
+    },
+    {
+      "title": "The AI Superpowers Stack 2026: The Best Tool and MCP for Every Creator Job",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-superpowers-stack-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-06",
+      "tags": [
+        "AI Tools",
+        "MCP",
+        "Creator Stack",
+        "AI Agents",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "The Best AI Tools for Creators in 2026: A GenCreator's Production Stack",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-tools-for-creators-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Best AI Video Editor 2026: CapCut vs Descript vs Premiere AI vs Runway",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-video-editor-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07"
+    },
+    {
+      "title": "Best AI Video Generators June 2026: What Creators on X Are Actually Shipping With",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-video-generators-2026-x-aggregated.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-12",
+      "tags": [
+        "AI Video",
+        "Higgsfield",
+        "Seedance",
+        "Kling",
+        "Veo",
+        "Sora",
+        "Runway",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "Best AI Writing Tools 2026: When You Actually Need One vs Just Using Claude",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-ai-writing-tools-vs-claude-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Writing Tools",
+        "Claude",
+        "Copy.ai",
+        "SEO",
+        "Content Workflow"
+      ]
+    },
+    {
+      "title": "Best Cheap AI Music Generator 2026: Free Tiers and Commercial Rights Compared",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-cheap-ai-music-generator-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Music",
+        "Suno",
+        "Udio",
+        "Commercial Rights",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "Best ElevenLabs Alternatives 2026: The Cheapest AI Voice That Still Sounds Human",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-elevenlabs-alternatives-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-06",
+      "tags": [
+        "AI Voice",
+        "Text to Speech",
+        "ElevenLabs",
+        "Voice Cloning",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "Best Local LLM to Run on Your Own Machine in 2026 (by RAM: 8GB / 16GB / 32GB)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-local-llm-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "local-llm",
+        "open-models",
+        "ollama",
+        "lm-studio",
+        "privacy"
+      ]
+    },
+    {
+      "title": "Best No-Code AI Agent Builders 2026: n8n vs Lindy vs Relay vs Make",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-no-code-ai-agent-builders-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI agents",
+        "no-code",
+        "n8n",
+        "automation",
+        "MCP",
+        "Lindy",
+        "Make",
+        "Zapier"
+      ]
+    },
+    {
+      "title": "The Best Open & Local LLMs in 2026: A Self-Host Field Guide",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/best-open-local-llms-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "open-source",
+        "local-llm",
+        "self-hosting",
+        "frontier-models",
+        "ai-2026"
+      ]
+    },
+    {
+      "title": "Brand Evolution: From Consciousness to Systems",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/brand-evolution-from-consciousness-to-systems.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-26"
+    },
+    {
+      "title": "Build Your Own Jarvis: Turn Claude Code Into Your Personal Intelligence System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/build-your-own-jarvis-claude-code.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-20"
+    },
+    {
+      "title": "Building Custom Skills for ACOS: The Complete Developer Guide",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/building-custom-skills-acos.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "tutorial",
+        "claude code",
+        "skills",
+        "development",
+        "acos"
+      ]
+    },
+    {
+      "title": "Building Automated Deal Flow Pipelines with AI and n8n",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/building-deal-flow-pipelines-ai.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "Building a Research Intelligence System: How I Use AI Agents for Daily Knowledge Operations",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/building-research-intelligence-system.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "ChatGPT vs Claude vs Gemini 2026: Which AI Assistant for Everyday Use?",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/chatgpt-vs-claude-vs-gemini-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Assistants",
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "AI Tools",
+        "Consumer AI"
+      ]
+    },
+    {
+      "title": "Cheapest Way to Access GPT-5.5, Claude Opus 4.8 and Gemini 3.1 in 2026 (Subscription vs API vs Gateway)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/cheapest-frontier-model-access-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI pricing",
+        "GPT-5.5",
+        "Claude Opus 4.8",
+        "Gemini 3.1",
+        "OpenRouter",
+        "API costs"
+      ]
+    },
+    {
+      "title": "Anthropic Paused the Claude Agent SDK Credit Change. Here's What Builders Should Do Now.",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-agent-sdk-credit-pause-agent-stack-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-16",
+      "tags": [
+        "Claude",
+        "Agent SDK",
+        "AI Agents",
+        "OpenClaw",
+        "OpenCode",
+        "AI Coding"
+      ]
+    },
+    {
+      "title": "Claude Code 2.1: How MCP Tool Search Changed Everything",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-code-2-1-mcp-revolution.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Claude Code",
+        "MCP",
+        "AI Development",
+        "Anthropic",
+        "Developer Tools"
+      ]
+    },
+    {
+      "title": "Claude Code Mastery: The Top 5 Resources of 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-code-mastery-top-resources.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-19",
+      "tags": [
+        "Claude Code",
+        "AI Engineering",
+        "Learning Resources",
+        "Top List"
+      ]
+    },
+    {
+      "title": "Claude Code Pricing Explained 2026: Pro vs Max 5x vs Max 20x vs API (When Each Wins)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-code-pricing-explained-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Claude Code",
+        "AI pricing",
+        "developer tools",
+        "Anthropic",
+        "AI coding"
+      ]
+    },
+    {
+      "title": "Claude Code Skills 2026: The 10 You Actually Need",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-code-skills-2026-the-10-you-need.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Claude Code",
+        "Skills",
+        "ACOS",
+        "AI Development",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "Claude Fable 5: Benchmarks, Pricing, and What Four Day-One Evals Actually Show",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-fable-5-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-10",
+      "tags": [
+        "anthropic",
+        "claude-fable-5",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai",
+        "claude-code"
+      ]
+    },
+    {
+      "title": "Claude Fable 5 Prompting Guide: Seven Rules from Measured Behavior, Not Vibes",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-fable-5-prompting-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-10",
+      "tags": [
+        "anthropic",
+        "claude-fable-5",
+        "prompt-engineering",
+        "agentic-ai",
+        "claude-code",
+        "ai-2026"
+      ]
+    },
+    {
+      "title": "Claude Opus 4.6: What Actually Changed and Why It Matters",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-opus-4-6-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-06",
+      "tags": [
+        "anthropic",
+        "claude",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "Claude Opus 4.8: A Modest Bump That Quietly Tops the Leaderboard",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/claude-opus-4-8-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "anthropic",
+        "claude",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "The Thoughtful Entrepreneur's Guide to Building AI-Powered Businesses That Actually Serve Humanity",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/conscious-ai-for-entrepreneurs.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2024-08-22",
+      "tags": [
+        "Entrepreneurship",
+        "AI Business",
+        "Ethical Business",
+        "Startup Strategy"
+      ]
+    },
+    {
+      "title": "The Agentic AI Framework: Imprinting Impact",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/conscious-ai-framework.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2025-01-06",
+      "tags": [
+        "Agentic AI",
+        "Governance",
+        "Guardian Pattern",
+        "Identity"
+      ]
+    },
+    {
+      "title": "Agentic AI Integration OS: 7 Layers To Align Teams, Agents, and Trust",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/conscious-ai-integration-operating-system.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-01-23",
+      "tags": [
+        "Agentic AI",
+        "AI Integration",
+        "Governance",
+        "Agentic Systems",
+        "Roadmap"
+      ]
+    },
+    {
+      "title": "Why Every Creator Needs an Intelligence System in 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/creator-intelligence-systems-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-20",
+      "tags": [
+        "creator economy",
+        "intelligence systems",
+        "ai strategy",
+        "competitive advantage",
+        "future of work"
+      ]
+    },
+    {
+      "title": "The Creator's AI Toolkit: Build Your Complete Content System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/creators-ai-toolkit-workshop.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false
+    },
+    {
+      "title": "The Creator's Life Architecture: A System for Whole-Life Mastery",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/creators-life-architecture-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2024-12-22"
+    },
+    {
+      "title": "Cursor vs Claude Code vs Windsurf in 2026: Which AI Coding Agent for Which Job",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/cursor-vs-claude-code-vs-windsurf-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Coding Agents",
+        "Claude Code",
+        "Cursor",
+        "Windsurf",
+        "AI Development"
+      ]
+    },
+    {
+      "title": "DeepSeek R1: What Open-Weight Reasoning Actually Means",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/deepseek-r1-open-weight-reasoning-analysis.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "DeepSeek",
+        "Open Source AI",
+        "Reasoning",
+        "AI Models",
+        "MoE"
+      ]
+    },
+    {
+      "title": "DeepSeek V4: Open-Weight Frontier Reasoning at One-Sixth the Price",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/deepseek-v4-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "deepseek",
+        "open-weights",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "moe"
+      ]
+    },
+    {
+      "title": "Design Sprint: Three AI Teams Compete to Define frankx.ai's Visual Identity",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/design-sprint-week-10-visual-identity-competition.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Your Body Is Part of Your AI Stack",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/embodied-creator-os.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "embodied cognition",
+        "creator performance",
+        "ai architecture",
+        "physical ai",
+        "creator os"
+      ]
+    },
+    {
+      "title": "The Enterprise Agent Roadmap 2026: Multi-Agent Orchestration Patterns",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/enterprise-agent-roadmap.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Enterprise AI",
+        "Multi-Agent",
+        "LangGraph",
+        "CrewAI",
+        "MCP"
+      ]
+    },
+    {
+      "title": "EU Inc Explained: The '28th Regime' That Could Finally Unify European Startups",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/eu-inc-28th-regime-european-startups.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "eu inc",
+        "european startups",
+        "28th regime",
+        "business",
+        "founders",
+        "investors",
+        "european union"
+      ]
+    },
+    {
+      "title": "Best AI Tools for a Faceless YouTube Channel in 2026 (Full Stack Under $60/mo)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/faceless-youtube-ai-tools-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-06"
+    },
+    {
+      "title": "FrankX Business Plan Canvas",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/frankx-business-plan-canvas.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-03-01",
+      "tags": [
+        "Business Model",
+        "Product Strategy",
+        "Creator Economy"
+      ]
+    },
+    {
+      "title": "FrankX Intelligence Atlas Vol. I: Architecting the Agentic Era",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/frankx-intelligence-atlas-volume-1.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-01-21",
+      "tags": [
+        "Intelligence Atlas",
+        "Agentic AI",
+        "Generative AI Strategy",
+        "Creative AI Systems",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "title": "The FrankX Intelligence Ecosystem: How 5 Systems Work Together to Build What Matters",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/frankx-intelligence-ecosystem-complete-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-02-14"
+    },
+    {
+      "title": "FrankX Vision, Mission, and Values",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/frankx-vision-mission-values.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-03-01",
+      "tags": [
+        "Vision",
+        "Mission",
+        "Values",
+        "Brand"
+      ]
+    },
+    {
+      "title": "From Latest X Tweets to Blog Gold: How I Aggregate 'Best of X' Into Reference Pieces",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/from-x-tweets-to-blog-gold-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-12",
+      "tags": [
+        "Content Strategy",
+        "X Research",
+        "Blog Workflow",
+        "AEO",
+        "Rich Embeds"
+      ]
+    },
+    {
+      "title": "Claude, GPT, Gemini, DeepSeek: Which Model for Which Task?",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/frontier-model-landscape-2026-claude-gpt-gemini-deepseek.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Frontier Models",
+        "Claude",
+        "GPT",
+        "Gemini",
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "You Don't Need Fable 5 to Work on the Frontier. You Need a Model Routing System.",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/frontier-model-routing-without-fable-5.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-17",
+      "tags": [
+        "model-routing",
+        "fable-5",
+        "kilo-code",
+        "grok-4-3",
+        "gemini-3-5",
+        "antigravity",
+        "llm-evals",
+        "frontier-models"
+      ]
+    },
+    {
+      "title": "Gemini 3.5 Pro: What We Actually Know Before GA",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/gemini-3-5-pro-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "google",
+        "gemini",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Gemma 4: Google''s Open-Weight Family Now Runs a 31B Frontier Model on One GPU",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/gemma-3-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "google",
+        "gemma",
+        "open-weight-models",
+        "local-llms",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "The 3-Tier Shipping System: How GenCreators Build Creative Momentum",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/gencreator-3-tier-shipping-system.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "The 7 Dimensions of a GenCreator: A Complete Guide to Creative Self-Assessment",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/gencreator-7-dimensions-complete-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Getting Started with Agentic Creator OS",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/getting-started-agentic-creator-os.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "tutorial",
+        "claude code",
+        "agentic ai",
+        "getting started"
+      ]
+    },
+    {
+      "title": "Golden Age Field Guide: Principles and Rituals",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/golden-age-field-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-03-01",
+      "tags": [
+        "Golden Age",
+        "AI",
+        "Strategy",
+        "Creators"
+      ]
+    },
+    {
+      "title": "The Golden Age of Creators: Why Now Is Different",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/golden-age-of-creators-why-now-is-different.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Golden Age",
+        "Creator Economy",
+        "AI Tools",
+        "Systems",
+        "Vision"
+      ]
+    },
+    {
+      "title": "The Golden Age of Intelligence: Agentic SEO OS for Exponential Reach",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/golden-age-of-intelligence.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2024-09-19",
+      "tags": [
+        "Agentic SEO",
+        "Intelligence Era",
+        "Content Strategy",
+        "Automation",
+        "Growth Systems"
+      ]
+    },
+    {
+      "title": "Compute-Aware AI: Inside Google AI Pro's 2026 Upgrade",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/google-ai-pro-compute-limits-ai-credits-may-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-21"
+    },
+    {
+      "title": "GPT-5.5 (\"Spud\"): What Actually Changed and Why It Matters",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/gpt-5-5-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "openai",
+        "gpt-5-5",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "gpt-oss in 2026: OpenAI''s Open-Weight Models, One Year On",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/gpt-oss-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "openai",
+        "gpt-oss",
+        "open-weight-models",
+        "local-llms",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Grok 4.3: xAI Trades the Crown for the Price Tag",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/grok-4-3-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "xai",
+        "grok",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "HeyGen vs Synthesia vs Argil 2026: The Best AI Avatar and Talking-Head Tool",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/heygen-vs-synthesia-vs-argil-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "AI avatars",
+        "HeyGen",
+        "Synthesia",
+        "Argil",
+        "talking-head video",
+        "AI video",
+        "faceless content"
+      ]
+    },
+    {
+      "title": "How to Build Your soul.md — A Creator's Operating File",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/how-to-build-your-soul-md.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-10",
+      "tags": [
+        "gencreator",
+        "soul-md",
+        "creator-os",
+        "self-assessment",
+        "framework"
+      ]
+    },
+    {
+      "title": "How to Write a CLAUDE.md That Actually Works",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/how-to-write-claude-md-that-works.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Claude Code",
+        "CLAUDE.md",
+        "AI Development",
+        "ACOS",
+        "Productivity"
+      ]
+    },
+    {
+      "title": "IACOS: How to Configure Claude Code as Your Investment Research OS",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/iacos-investment-research-os.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-14",
+      "tags": [
+        "iacos",
+        "claude-code",
+        "investment-research",
+        "acos",
+        "mcp-servers"
+      ]
+    },
+    {
+      "title": "Inner HR: The AI Agent for Your Internal Team",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/inner-hr-ai-agent.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai agents",
+        "leadership",
+        "self-leadership",
+        "ifs",
+        "decision hygiene"
+      ]
+    },
+    {
+      "title": "The Intelligence Revolution Playbook: Navigating the $10T Shift",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/intelligence-revolution-2025.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-09-16"
+    },
+    {
+      "title": "Karpathy's AI Vision: A Deep Dive",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/karpathys-ai-vision-deep-dive.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Kimi K2.6: The Open-Weight Model That Ties GPT-5.5 on Coding at One-Eighth the Price",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/kimi-k2-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "moonshot",
+        "kimi",
+        "open-weights",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "Llama 4 Maverick in 2026: Still Meta''s Open Flagship, Now Running Behind the Pack",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/llama-4-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "meta",
+        "llama",
+        "open-weights",
+        "local-llms",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "How to Run Your Own LLM Evals in Claude Code (No Eval Platform Required)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/llm-evals-claude-code-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-10",
+      "tags": [
+        "claude-code",
+        "llm-evals",
+        "agentic-ai",
+        "benchmarks",
+        "ai-2026",
+        "anthropic"
+      ]
+    },
+    {
+      "title": "Magnifica Humanitas: The Pope, Anthropic, and the Architecture of a Benevolent Future",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/magnifica-humanitas-benevolent-future-arcanea.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-05-26",
+      "tags": [
+        "AI Safety",
+        "Anthropic",
+        "Benevolent AI",
+        "Arcanea",
+        "Starlight Intelligence",
+        "Sovereignty"
+      ]
+    },
+    {
+      "title": "I Had 18 Broken MCP Servers — So I Built a Doctor",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/mcp-doctor-claude-code-server-optimization.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-08",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "developer-tools",
+        "open-source",
+        "ai-tooling"
+      ]
+    },
+    {
+      "title": "MCP Server Guide 2026: ClawHub, Smithery, and What to Install",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/mcp-ecosystem-2026-clawhub-smithery-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Build Your First MCP Server: The Model Context Protocol Workshop",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/mcp-server-architecture-workshop.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-16",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "AI Integration",
+        "Claude Code",
+        "Developer Tools",
+        "Workshops"
+      ]
+    },
+    {
+      "title": "MCP Server Integration: Connect ACOS to Everything",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/mcp-server-integration-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "mcp",
+        "claude code",
+        "integration",
+        "api",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Meaning as an Operating System: The Future of AI Is Not More Information",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/meaning-as-operating-system.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "meaning",
+        "relevance realization",
+        "vervaeke",
+        "ai architecture",
+        "personal os"
+      ]
+    },
+    {
+      "title": "Memory as Exile: Why AI Systems Need Integration Loops",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/memory-as-exile-ai.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai memory",
+        "agentic systems",
+        "ifs",
+        "self-led ai",
+        "agent architecture"
+      ]
+    },
+    {
+      "title": "Microsoft's 7 MAI Models: The In-House Frontier Bet",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/microsoft-mai-frontier-models-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-03",
+      "tags": [
+        "microsoft",
+        "mai",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "Misinformation Guardian Hackathon Build Log (February 12, 2026)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/misinformation-guardian-hackathon-build-log-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-02-12",
+      "tags": [
+        "misinformation-guardian",
+        "hackathon",
+        "realitydiffusion",
+        "trust-and-safety",
+        "multi-agent-systems"
+      ]
+    },
+    {
+      "title": "Mistral Large 3: The 675B Open-Weight Frontier Model Europe Has Been Waiting For",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/mistral-large-3-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "mistral",
+        "open-weight",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "eu-sovereign-ai"
+      ]
+    },
+    {
+      "title": "Multi-Agent Orchestration Patterns: Building Production Systems in 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/multi-agent-orchestration-patterns-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Multi-Agent",
+        "LangGraph",
+        "CrewAI",
+        "Orchestration",
+        "Production AI"
+      ]
+    },
+    {
+      "title": "12,000 Songs Later: What AI Music Taught Me About Creative Systems",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/music-as-consciousness-technology.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2024-08-22",
+      "tags": [
+        "Music",
+        "AI Creativity",
+        "Creative Technology",
+        "Suno AI",
+        "Creative Process"
+      ]
+    },
+    {
+      "title": "The Music Intelligence System: Research, Agents, and Free Tools Behind AI-Era Music",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/music-intelligence-vibe-os-launch.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-07-06",
+      "tags": [
+        "music-intelligence",
+        "vibe-os",
+        "suno-ai",
+        "mcp-server",
+        "ai-music",
+        "open-source"
+      ]
+    },
+    {
+      "title": "My $100/Month AI Stack: Every Tool I Actually Use",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/my-100-month-ai-stack-every-tool-i-actually-use.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Tools",
+        "AI Stack",
+        "Productivity",
+        "Creator Tools",
+        "Cost"
+      ]
+    },
+    {
+      "title": "n8n Automation: 9 Workflows That Run My Creative Empire",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/n8n-automation-ai-creators-9-workflows.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "No Bad Parts: A Better Debugging Model for AI Failure Modes",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/no-bad-parts-ai-debugging.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai architecture",
+        "agentic systems",
+        "debugging",
+        "self-led ai"
+      ]
+    },
+    {
+      "title": "No Bad Parts: What Richard Schwartz Teaches Us About Building Sovereign AI",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/no-bad-parts-sovereign-ai.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "ai architecture",
+        "agentic systems",
+        "ifs",
+        "self-led ai",
+        "multi-agent",
+        "agent design"
+      ]
+    },
+    {
+      "title": "Nvidia CES 2026: Jensen Huang Declares the 'ChatGPT Moment for Physical AI'",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/nvidia-ces-2026-physical-ai-revolution.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-16",
+      "tags": [
+        "nvidia",
+        "ces 2026",
+        "physical ai",
+        "rubin",
+        "autonomous vehicles",
+        "robotics",
+        "enterprise ai"
+      ]
+    },
+    {
+      "title": "NVIDIA GTC 2026: An AI Architect's Breakdown of Vera Rubin, Groq LPUs, and the Agentic Infrastructure Shift",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/nvidia-gtc-2026-ai-architect-breakdown.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-17"
+    },
+    {
+      "title": "The Observability Stack for Production Multi-Agent Systems",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/observability-stack-multi-agent-systems-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "observability",
+        "multi-agent",
+        "langsmith",
+        "production",
+        "monitoring"
+      ]
+    },
+    {
+      "title": "Running Local AI Models with Ollama: The Privacy Guide",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ollama-local-ai-models-privacy-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Ollama",
+        "Local AI",
+        "Privacy",
+        "Llama",
+        "Self-Hosted"
+      ]
+    },
+    {
+      "title": "Ollama vs LM Studio vs Jan 2026: The Best Way to Run AI Locally",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ollama-vs-lm-studio-vs-jan-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "local LLM",
+        "Ollama",
+        "LM Studio",
+        "Jan",
+        "privacy",
+        "open source AI",
+        "self-hosted AI"
+      ]
+    },
+    {
+      "title": "OpenClaw, NemoClaw, NanoClaw: The AI Agent Ecosystem",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/openclaw-explained-ai-agent-everyone-talking-about.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "OpenClaw",
+        "AI Agents",
+        "NemoClaw",
+        "Open Source",
+        "NVIDIA"
+      ]
+    },
+    {
+      "title": "Oracle GenAI Agents vs LangGraph vs CrewAI: Enterprise AI Agent Comparison 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/oracle-genai-agents-vs-langgraph-crewai-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-26",
+      "tags": [
+        "Oracle",
+        "OCI GenAI",
+        "LangGraph",
+        "CrewAI",
+        "Enterprise AI",
+        "AI Agents"
+      ]
+    },
+    {
+      "title": "Build Your Personal AI Assistant: The Complete Setup Workshop",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/personal-ai-assistant-setup-workshop.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-16",
+      "tags": [
+        "Claude Code",
+        "AI Assistant",
+        "Developer Tools",
+        "CLAUDE.md",
+        "MCP Servers",
+        "Workshops"
+      ]
+    },
+    {
+      "title": "How to Build a Personal AI Center of Excellence for Under $100 a Month (2026)",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/personal-ai-coe-under-100-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "AI Center of Excellence",
+        "personal AI stack",
+        "AI budget",
+        "AI governance",
+        "creator tools"
+      ]
+    },
+    {
+      "title": "Microsoft Phi-4 in 2026: The Open-Weight Small Model That Runs on Your Laptop",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/phi-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "microsoft",
+        "phi",
+        "open-weight",
+        "small-language-models",
+        "local-ai",
+        "benchmarks"
+      ]
+    },
+    {
+      "title": "The Predictive Mind: Why You Don''t See Reality, You See Your Model",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/predictive-mind-reality-models.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-05-03",
+      "tags": [
+        "predictive processing",
+        "active inference",
+        "free energy principle",
+        "consciousness",
+        "ai architecture"
+      ]
+    },
+    {
+      "title": "The 7 Pillars of Production Agent Systems: What Actually Matters in 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/production-agent-patterns-7-pillars.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "tags": [
+        "AI Agents",
+        "Production AI",
+        "LLM",
+        "Architecture",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "title": "AWS Bedrock AgentCore Deep Dive: Production Patterns for Enterprise AI Agents",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/production-agent-patterns-aws-bedrock.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false
+    },
+    {
+      "title": "Enterprise Agentic Architecture: Decision Framework for Production",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/production-agentic-ai-systems.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21",
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "production-systems",
+        "decision-framework",
+        "ai-strategy"
+      ]
+    },
+    {
+      "title": "Production LLMs & AI Agents on OCI: Part 1 - The Six-Plane Enterprise Architecture",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/production-llm-agents-oci-part-1-architecture.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Production LLMs & AI Agents on OCI: Part 2 - Six Agent Orchestration Patterns",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/production-llm-agents-oci-part-2-agent-patterns.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Production LLMs & AI Agents on OCI: Part 3 - The Operating Model",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/production-llm-agents-oci-part-3-operating-model.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-21"
+    },
+    {
+      "title": "Prompt Engineering in 2026: What Still Works",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/prompt-engineering-2026-what-still-works.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Prompt Engineering",
+        "AI Models",
+        "Claude",
+        "GPT",
+        "Techniques"
+      ]
+    },
+    {
+      "title": "The 5C Framework: Mastering Prompt Engineering for Any AI System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/prompt-engineering-mastery-workshop.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "tags": [
+        "Prompt Engineering",
+        "AI Communication",
+        "5C Framework",
+        "Chain-of-Thought",
+        "Workshops",
+        "AI Skills"
+      ]
+    },
+    {
+      "title": "Props to the Builders of This Era",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/props-to-the-builders-of-this-era.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Qwen3.7-Max: Alibaba''s Agent Flagship Cracks the Global Top 5 — and Runs for 35 Hours",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/qwen3-max-analysis-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-05",
+      "tags": [
+        "alibaba",
+        "qwen",
+        "frontier-models",
+        "ai-2026",
+        "benchmarks",
+        "agentic-ai"
+      ]
+    },
+    {
+      "title": "RAG for Creators: Search Your Own Content with AI",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/rag-for-creators-search-your-own-content-with-ai.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "RAG",
+        "Vector Search",
+        "AI Memory",
+        "ChromaDB",
+        "Knowledge"
+      ]
+    },
+    {
+      "title": "Golden Age of Intelligence: Reader-First Growth Playbook",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/reader-first-golden-age.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-09-20",
+      "tags": [
+        "golden age of intelligence",
+        "ai marketing",
+        "audience strategy",
+        "seo",
+        "reader experience"
+      ]
+    },
+    {
+      "title": "Reality Architecture: Imagination to Product, Faster with AI",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/reality-architecture-generative-ai-neuroscience.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Science of Using Music to Change Your State",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/science-of-state-change-music.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2025-01-05",
+      "tags": [
+        "music",
+        "psychology",
+        "productivity",
+        "creativity",
+        "vibe-os"
+      ]
+    },
+    {
+      "title": "SEO & AEO Optimization with ACOS: Rank in Search and AI Engines",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/seo-aeo-optimization-acos.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27",
+      "tags": [
+        "seo",
+        "aeo",
+        "content strategy",
+        "ai optimization",
+        "marketing"
+      ]
+    },
+    {
+      "title": "Ship Daily, Compound Forever: The GenCreator Shipping System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ship-daily-compound-creator.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-10",
+      "tags": [
+        "gencreator",
+        "shipping",
+        "compounding",
+        "creator-os",
+        "productivity"
+      ]
+    },
+    {
+      "title": "How the Starlight Intelligence System Learns",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/sis-trajectory-learning-how-ai-agents-improve.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "SIS",
+        "AI Learning",
+        "Agent Intelligence",
+        "ACOS",
+        "Memory"
+      ]
+    },
+    {
+      "title": "The six primitives of an AI agent",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/six-primitives-ai-agent.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-04-24",
+      "tags": [
+        "AI Agents",
+        "Vercel AI SDK",
+        "Agent Card",
+        "A2A Protocol",
+        "Open Agent Specification"
+      ]
+    },
+    {
+      "title": "How to Govern an AI Skill Library",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/skill-libraries-ai-coe-governance.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-15",
+      "tags": [
+        "ai-coe",
+        "ai-skills",
+        "governance",
+        "enterprise-ai",
+        "evals"
+      ]
+    },
+    {
+      "title": "The Creative Frequency Framework: How to Find Your Authentic Creative Voice in the AI Age",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/soul-frequency-framework.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2024-08-20",
+      "tags": [
+        "Creativity",
+        "Personal Development",
+        "AI Tools",
+        "Framework"
+      ]
+    },
+    {
+      "title": "How I Built a Learning System for AI Agents",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/starlight-intelligence-system-how-ai-agents-learn.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-27",
+      "tags": [
+        "ai-strategy",
+        "automation",
+        "creator-os",
+        "agentic-systems"
+      ]
+    },
+    {
+      "title": "Suno AI After 12,000 Songs: What I Actually Learned",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/suno-ai-12000-songs-production-lessons.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "Suno AI",
+        "Music Production",
+        "AI Music",
+        "Prompt Engineering",
+        "Creator"
+      ]
+    },
+    {
+      "title": "Create Music Without Musical Training: The Suno AI Music Creation Workshop",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/suno-ai-music-creation-workshop.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-01-16",
+      "tags": [
+        "Suno AI",
+        "AI Music",
+        "Music Creation",
+        "Vibe OS",
+        "Workshops",
+        "Meditation Music",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "title": "How to Use Suno AI for Professional Music Production",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/suno-music-production-workflow.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-01-13",
+      "tags": [
+        "Suno AI",
+        "Music Production",
+        "AI Music",
+        "Vibe OS",
+        "Creative Workflows"
+      ]
+    },
+    {
+      "title": "The Complete Suno Prompt Engineering Guide: From Beginner to Pro",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/suno-prompt-engineering-complete-guide.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-01-24",
+      "tags": [
+        "suno",
+        "ai-music",
+        "prompt-engineering",
+        "music-production",
+        "tutorial"
+      ]
+    },
+    {
+      "title": "Suno vs Udio 2026: Which AI Music Tool Is Safe to Release Commercially",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/suno-vs-udio-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-06",
+      "tags": [
+        "Suno",
+        "Udio",
+        "AI Music",
+        "Commercial License",
+        "Music Production",
+        "Suno v5"
+      ]
+    },
+    {
+      "title": "Swarm Intelligence: Multi-Agent Orchestration for Creators",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/swarm-intelligence-multi-agent-orchestration.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-27"
+    },
+    {
+      "title": "Terminal-First AI Development: Drop VS Code Tabs, Keep Your Laptop Alive",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/terminal-first-ai-workflow-claude-code.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-01"
+    },
+    {
+      "title": "The Creative OS: A Guide to Building Your Creative Operating System",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/the-creative-os.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-09-27",
+      "tags": [
+        "creative-os",
+        "creativity",
+        "productivity",
+        "workflow",
+        "ai-tools"
+      ]
+    },
+    {
+      "title": "The Great Transition: Why Building Your Own Business Is the Smartest Move You Can Make Right Now",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/the-great-transition-build-your-own-business.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-02-18",
+      "tags": [
+        "entrepreneurship",
+        "ai-tools",
+        "self-sufficiency",
+        "creator-economy",
+        "golden-age",
+        "business-building"
+      ]
+    },
+    {
+      "title": "The Higher Self Protocol: What Happened When I Used AI to Get Closer to God",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/the-higher-self-protocol.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-12",
+      "tags": [
+        "higher-self-protocol",
+        "spirituality",
+        "ai and faith",
+        "contemplative practice",
+        "personal"
+      ]
+    },
+    {
+      "title": "The Research + Generation Flywheel: Sandcastles-Style Analysis + Higgsfield/Grok Execution",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/the-research-generation-flywheel-sandcastles-higgsfield-grok-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-12",
+      "tags": [
+        "Short Form",
+        "Sandcastles",
+        "AI Video",
+        "Hooks",
+        "Content Strategy",
+        "Creator Workflow"
+      ]
+    },
+    {
+      "title": "Trinity AI — The Conscious Operating System for Human Potential",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/trinity-ai-conscious-operating-system.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-04-09",
+      "tags": [
+        "trinity ai",
+        "conscious os",
+        "agentic ai",
+        "personal ai",
+        "sovereign ai",
+        "ai architecture",
+        "mcp servers"
+      ]
+    },
+    {
+      "title": "How I Configured Claude Code with ACOS and 21 MCP Servers",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-ai-coding-agent-setup-acos-claude-code-mcp.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "The Ultimate Canva AI Workflow in 2026: Magic Studio, Brand Kits, and the Creator Setup",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-canva-ai-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Canva",
+        "AI Design",
+        "Magic Studio",
+        "Creator Tools",
+        "Workflow",
+        "Brand Kit"
+      ]
+    },
+    {
+      "title": "The Ultimate CapCut Workflow in 2026: The AI Editing Setup for Short-Form and Faceless Channels",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-capcut-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06"
+    },
+    {
+      "title": "The Ultimate Descript Workflow in 2026: Edit Video and Audio by Editing Text",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-descript-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-06-07",
+      "tags": [
+        "Descript",
+        "video editing",
+        "podcasting",
+        "content workflow",
+        "AI tools"
+      ]
+    },
+    {
+      "title": "The Ultimate ElevenLabs Workflow in 2026: Voice Cloning, Agents, and the Setup That Wins",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-elevenlabs-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "ElevenLabs",
+        "AI Voice",
+        "Voice Cloning",
+        "Conversational AI",
+        "Content Pipeline",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "The Ultimate Gamma Workflow in 2026: From Prompt to Investor-Ready Deck",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-gamma-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Gamma",
+        "AI presentations",
+        "pitch deck",
+        "creator tools",
+        "workflow"
+      ]
+    },
+    {
+      "title": "The Ultimate Guide to AI Coding Agents in 2026: Claude Code, OpenCode, Cline, and Beyond",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-guide-ai-coding-agents-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-01-16"
+    },
+    {
+      "title": "The Ultimate HeyGen Workflow in 2026: Avatars, Cloning, and the Faceless Video Setup",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-heygen-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "HeyGen",
+        "AI avatars",
+        "avatar cloning",
+        "faceless video",
+        "AI video",
+        "talking-head video",
+        "video automation"
+      ]
+    },
+    {
+      "title": "The Ultimate Higgsfield Workflow in 2026: Soul ID, Cinematic Video, and the Claude Code MCP Setup",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-higgsfield-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Higgsfield",
+        "AI Video",
+        "Soul ID",
+        "MCP",
+        "Claude Code",
+        "Creator Tools"
+      ]
+    },
+    {
+      "title": "The Ultimate n8n Workflow in 2026: AI Agents, MCP, and the Automation Backend That Wins",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-n8n-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "n8n",
+        "AI agents",
+        "MCP",
+        "automation",
+        "workflow",
+        "Claude Code",
+        "RAG"
+      ]
+    },
+    {
+      "title": "The Ultimate Opus Clip Workflow in 2026: Long Video to Viral Shorts on Autopilot",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-opus-clip-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-07",
+      "tags": [
+        "Opus Clip",
+        "video repurposing",
+        "short-form video",
+        "AI video",
+        "creator workflow",
+        "content automation"
+      ]
+    },
+    {
+      "title": "The Ultimate Perplexity Workflow in 2026: Deep Research Setup, Comet, and How to Actually Use It",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/ultimate-perplexity-workflow-2026.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-06-06",
+      "tags": [
+        "Perplexity",
+        "Comet browser",
+        "Deep Research",
+        "AI research",
+        "Perplexity Pro",
+        "research workflow"
+      ]
+    },
+    {
+      "title": "Why Vercel AI SDK is the right first-agent stack in 2026",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/vercel-ai-sdk-first-agent-stack.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-04-24",
+      "tags": [
+        "Vercel AI SDK",
+        "AI Agents",
+        "Claude Agent SDK",
+        "OpenAI Agents",
+        "Google ADK"
+      ]
+    },
+    {
+      "title": "Vercel + Claude Code: Ship a Next.js Site in One Session",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/vercel-claude-code-nextjs-deploy-one-session.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "Vercel",
+        "Claude Code",
+        "Next.js",
+        "Deployment",
+        "MCP"
+      ]
+    },
+    {
+      "title": "Vibe OS: Engineering Neuro-State with the RPM Model",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/vibe-os-creative-soul.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2025-01-08",
+      "tags": [
+        "Vibe OS",
+        "Psycho-acoustics",
+        "Suno",
+        "RPM",
+        "Neuro-Aesthetics"
+      ]
+    },
+    {
+      "title": "Vibe OS: Multi-LLM Agent Ecosystem for Music Creation and AI Orchestration",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/vibe-os-platform-introduction.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-02-17"
+    },
+    {
+      "title": "How I Built a Visual Intelligence System After Losing Track of 408 Images",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/visual-intelligence-system-ai-image-management.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21"
+    },
+    {
+      "title": "Voice AI Agents in 2026: Build Audio-First Experiences",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/voice-ai-agents-2026-elevenlabs-hume-audio.mdx",
+      "surface": "prod-blog",
+      "musicRelated": true,
+      "date": "2026-03-21",
+      "tags": [
+        "Voice AI",
+        "ElevenLabs",
+        "Text to Speech",
+        "AI Agents",
+        "Audio"
+      ]
+    },
+    {
+      "title": "What Is a GenCreator? The New Breed of AI-Native Creator",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/what-is-a-gencreator.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-10",
+      "tags": [
+        "gencreator",
+        "creator-os",
+        "ai-strategy",
+        "framework",
+        "generative-creator"
+      ]
+    },
+    {
+      "title": "What is Agentic AI? The Shift From Tools to Collaborators",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/what-is-agentic-ai.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2025-02-15",
+      "tags": [
+        "Agentic AI",
+        "AI Architecture",
+        "Claude Code",
+        "Production AI"
+      ]
+    },
+    {
+      "title": "Why Everyone Needs Their Own AI Center of Excellence",
+      "path": "/home/user/frankx.ai-vercel-website/content/blog/why-everyone-needs-personal-ai-coe.mdx",
+      "surface": "prod-blog",
+      "musicRelated": false,
+      "date": "2026-03-21",
+      "tags": [
+        "AI Architecture",
+        "AI CoE",
+        "Personal AI",
+        "Enterprise AI",
+        "Center of Excellence",
+        "AI Strategy"
+      ]
+    },
+    {
+      "title": "/music-intelligence",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-intelligence/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music-lab/dj-pads",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-lab/dj-pads/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music-lab/drums",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-lab/drums/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music-lab/for-kids/xylophone",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-lab/for-kids/xylophone/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music-lab",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-lab/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music-lab/piano",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-lab/piano/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music-lab/piano/songs",
+      "path": "/home/user/frankx.ai-vercel-website/app/music-lab/piano/songs/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/brainstorm",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/brainstorm/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/create",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/create/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/guitar",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/guitar/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/orchestration",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/orchestration/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/piano",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/piano/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/production",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/production/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/reading",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/reading/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/science",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/science/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/theory",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/theory/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/learn/violin",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/learn/violin/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/templates",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/templates/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/music/tools",
+      "path": "/home/user/frankx.ai-vercel-website/app/music/tools/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/vibe",
+      "path": "/home/user/frankx.ai-vercel-website/app/vibe/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    },
+    {
+      "title": "/vibe/producer",
+      "path": "/home/user/frankx.ai-vercel-website/app/vibe/producer/page.tsx",
+      "surface": "prod-route",
+      "musicRelated": true
+    }
+  ],
+  "stats": {
+    "total": 414,
+    "musicRelated": 80,
+    "bySurface": {
+      "frankx-blog": {
+        "total": 190,
+        "musicRelated": 27
+      },
+      "prod-blog": {
+        "total": 201,
+        "musicRelated": 30
+      },
+      "prod-route": {
+        "total": 23,
+        "musicRelated": 23
+      }
+    }
+  },
+  "notes": [
+    "frankx-blog: skipped 1 file(s) without frontmatter title",
+    "prod-blog: skipped 3 file(s) without frontmatter title"
+  ]
+}
