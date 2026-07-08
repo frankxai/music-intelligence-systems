@@ -379,12 +379,12 @@
       "id": "acos-music-production",
       "name": "ACOS Music Production",
       "repo": "agentic-creator-os",
-      "canonical_source": "agentic-creator-os/.claude/agents/music-production.md",
+      "canonical_source": "agentic-creator-os/.claude/agents/deprecated/music-production.md",
       "tier": "workflows",
       "model_hint": "sonnet",
       "tools": [],
       "portable": false,
-      "summary": "Education-focused music production agent (AI Music Academy content + Suno mastery + licensing)."
+      "summary": "[DEPRECATED \u2014 archived to deprecated/] Education-focused music production agent (AI Music Academy content + Suno mastery + licensing)."
     },
     {
       "id": "swarm-orchestrator",
