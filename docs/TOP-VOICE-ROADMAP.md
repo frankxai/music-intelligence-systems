@@ -60,9 +60,9 @@ aspirational.
 - 1 track through the pipeline (not necessarily canon — catalog and craft tracks count).
 - 2 posts from the archetype grid in `docs/CREATOR-STRATEGY.md` (the Mon–Sun cadence table).
 - The daily music loop is WORKFLOW.md **Loop C** (morning prompt-pack → generation session →
-  post-session pipeline → human gate). Note: no `/daily-music` command is registered yet — if the
-  loop earns a front door, it needs a `BRAND-MAP.md` row and a D8 review first; until then Loop C
-  runs by its written procedure.
+  post-session pipeline → human gate), fronted by the `/daily-music` skill — the daily entry
+  point that turns "what should I do today?" into a max-5-item, human-gated mission plan read
+  from the track-state spine.
 - Sunday review closes the learning loop: re-run `tools/index-creator-content.mjs`, feed reply
   data into hook-learn, log take-log verdicts.
 
