@@ -58,7 +58,7 @@
       "repo": "Starlight-Intelligence-System",
       "path": "Starlight-Intelligence-System/verticals/music-is/",
       "status": "shipped",
-      "provides": ["/music-release", "/music-song", "/music-label-board", "/music-persona", "/music-canvas", "/music-amplify", "/music-sync-pitch"]
+      "provides": ["/music-release", "/music-song", "/music-label-board", "/music-persona", "/music-canvas", "/music-amplify", "/music-sync-pitch", "/music-suno-prompt"]
     },
     {
       "id": "export-agents",

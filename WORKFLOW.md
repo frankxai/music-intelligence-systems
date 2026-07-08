@@ -49,7 +49,7 @@ flowchart TD
     sidecar["Sidecar JSON detected<br/>(Drive intake folder)"]
     catalogidx["Catalog-index<br/>music-catalog-indexer (FrankX)"]
     guardiantag["Guardian-tag<br/>tools/tag-arcanea-guardian.mjs"]
-    briefwriter["Brief-writer<br/>@music-brief-writer (module 8, NOT BUILT)<br/>sets tool per asset from MEDIA-TOOLING-DOCTRINE.md"]
+    briefwriter["Brief-writer<br/>@music-brief-writer (module 8, BUILT — sunoId-identity fixes pending)<br/>sets tool per asset from MEDIA-TOOLING-DOCTRINE.md"]
     cover["Cover<br/>nb-generate nb2 (Higgsfield Soul if identity-locked)"]
     video["Video<br/>Remotion (music-video-batch)"]
     master["Master<br/>ffmpeg loudnorm/ebur128 (music-mastering-qc)"]
@@ -72,8 +72,10 @@ Notes on the real stages (per `docs/engineering/2026-07-album-os.md` §2 and
 
 - **Catalog-index** and **Guardian-tag** are fully built and deterministic (no LLM calls in the
   tagger — see `tools/tag-arcanea-guardian.mjs`).
-- **Brief-writer** is the one gap in this loop. Until it exists, the tool-routing decisions in
-  `docs/MEDIA-TOOLING-DOCTRINE.md` are applied by hand per asset.
+- **Brief-writer** shipped 2026-07-08 (`FrankX/.claude/agents/music-brief-writer.md`, proven against
+  the `FrankX/briefs/ocean-chorus.yaml` fixture) — it applies the tool-routing decisions in
+  `docs/MEDIA-TOOLING-DOCTRINE.md` automatically per asset. Remaining gap: the fixture's `sunoId` is a
+  placeholder, so end-to-end identity resolution against a real catalog entry is still unverified.
 - **Cover / video / master** run in parallel once a brief exists — they all read the same brief,
   none depends on the others.
 - **Sequence** only runs once all three parallel outputs (or at least mastering) are available for

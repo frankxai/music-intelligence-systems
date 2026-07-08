@@ -16,7 +16,9 @@ roadmap builds next.
 ## The 12-module value chain
 
 Twelve modules, five stages, one learning loop back to the start. Status labels are load-bearing —
-most of the chain is already built; the gap is module 8.
+most of the chain is built, including module 8 as of 2026-07-08 (`FrankX/.claude/agents/music-brief-writer.md`
++ a proven fixture at `FrankX/briefs/ocean-chorus.yaml`); the remaining known gap is real-catalog
+sunoId identity — the fixture uses a placeholder id, not yet exercised against a live catalog entry.
 
 ```mermaid
 flowchart LR
@@ -39,7 +41,7 @@ flowchart LR
     canontag["5 Canon-tag<br/>tag-arcanea-guardian.mjs"]:::built
     qc["6 QC / master<br/>music-mastering-qc (ffmpeg)"]:::built
     sequence["7 Sequence<br/>album-builder.mjs"]:::built
-    brief["8 Brief ★<br/>music-brief-writer — NOT BUILT"]:::gap
+    brief["8 Brief ★<br/>music-brief-writer — BUILT (sunoId-identity fixes pending)"]:::partial
   end
 
   subgraph DIST["DISTRIBUTION"]
@@ -67,9 +69,11 @@ flowchart LR
 ```
 
 Source of the module inventory, statuses, and the "brief is the hinge" argument:
-`docs/AGENTIC-MUSIC-INTELLIGENCE-BLUEPRINT.md` §1–3. The brief (module 8) is the single highest-leverage
-build because five downstream modules (9, 10, 11, and the monetization surfaces in 12) all read it —
-see that doc's §3 for the exact contract.
+`docs/AGENTIC-MUSIC-INTELLIGENCE-BLUEPRINT.md` §1–3. The brief (module 8) was the single
+highest-leverage build because five downstream modules (9, 10, 11, and the monetization surfaces in
+12) all read it — see that doc's §3 for the exact contract. It shipped 2026-07-08
+(`@music-brief-writer`); the open item is wiring it against real catalog sunoIds instead of the
+`briefs/ocean-chorus.yaml` fixture's placeholder id.
 
 ## Repo map — who owns what
 
