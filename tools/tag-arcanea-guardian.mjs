@@ -20,6 +20,10 @@
  * Usage:
  *   node tools/tag-arcanea-guardian.mjs --title "Track" --bpm 86 --mode lydian --frequencyHz 528
  *   node tools/tag-arcanea-guardian.mjs '{"title":"Track","bpm":86,"mode":"lydian","frequencyHz":528}'
+ *
+ * Add --json to print machine-readable output instead of the human-readable report
+ * (mirrors evals/music/score.mjs's --json flag). Shape:
+ *   { input, top3: [{ guardian, frequencyHz, score, reasons[] }], version }
  */
 
 import { readFileSync } from "node:fs";
@@ -30,19 +34,28 @@ const HUB = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (p) => JSON.parse(readFileSync(join(HUB, p), "utf8"));
 
 function parseArgs(argv) {
-  if (argv.length === 0) return null;
-  const joined = argv.join(" ").trim();
+  const out = { _json: false };
+  const rest = [];
+  for (const a of argv) {
+    if (a === "--json") {
+      out._json = true;
+      continue;
+    }
+    rest.push(a);
+  }
+  if (rest.length === 0) return out._json ? out : null;
+  const joined = rest.join(" ").trim();
   if (joined.startsWith("{")) {
     try {
-      return JSON.parse(joined);
+      Object.assign(out, JSON.parse(joined));
+      return out;
     } catch (e) {
       console.error(`Failed to parse JSON argument: ${e.message}`);
       process.exit(1);
     }
   }
-  const out = {};
-  for (let i = 0; i < argv.length; i++) {
-    const a = argv[i];
+  for (let i = 0; i < rest.length; i++) {
+    const a = rest[i];
     if (!a.startsWith("--")) continue;
     const eq = a.indexOf("=");
     let key, value;
@@ -51,7 +64,7 @@ function parseArgs(argv) {
       value = a.slice(eq + 1);
     } else {
       key = a.slice(2);
-      value = argv[i + 1] && !argv[i + 1].startsWith("--") ? argv[++i] : "true";
+      value = rest[i + 1] !== undefined && !rest[i + 1].startsWith("--") ? rest[++i] : "true";
     }
     out[key] = value;
   }
@@ -121,14 +134,40 @@ function scoreTrack(track, guardian) {
 }
 
 function main() {
-  const track = parseArgs(process.argv.slice(2));
-  if (!track) {
-    console.error('Usage: node tools/tag-arcanea-guardian.mjs --title "Track" [--bpm N] [--key K] [--mode M] [--frequencyHz N] [--vocalPosture "..."]');
-    console.error('   or: node tools/tag-arcanea-guardian.mjs \'{"title":"Track","bpm":86,"mode":"lydian","frequencyHz":528}\'');
+  const parsed = parseArgs(process.argv.slice(2));
+  if (!parsed) {
+    console.error('Usage: node tools/tag-arcanea-guardian.mjs --title "Track" [--bpm N] [--key K] [--mode M] [--frequencyHz N] [--vocalPosture "..."] [--json]');
+    console.error('   or: node tools/tag-arcanea-guardian.mjs \'{"title":"Track","bpm":86,"mode":"lydian","frequencyHz":528}\' [--json]');
     process.exit(1);
   }
+  const { _json: json, ...track } = parsed;
 
-  const { guardians } = read("data/arcanea-guardians.json");
+  const { guardians, version } = read("data/arcanea-guardians.json");
+
+  const scored = guardians
+    .map((g) => scoreTrack(track, g))
+    .sort((a, b) => b.total - a.total || a.guardian.id.localeCompare(b.guardian.id))
+    .slice(0, 3);
+
+  if (json) {
+    console.log(
+      JSON.stringify(
+        {
+          input: track,
+          top3: scored.map((s) => ({
+            guardian: s.guardian.id,
+            frequencyHz: s.guardian.frequencyHz,
+            score: s.total,
+            reasons: s.reasons,
+          })),
+          version,
+        },
+        null,
+        2
+      )
+    );
+    return;
+  }
 
   console.log(`Track: ${track.title || "(untitled)"}`);
   const providedBits = [];
@@ -140,11 +179,6 @@ function main() {
   console.log(providedBits.length ? `Inputs: ${providedBits.join(", ")}` : "Inputs: (none — every guardian scores 0)");
   if (track.key) console.log('Note: "key" is not scored — canon ties Guardians to modes, not specific keys.');
   console.log("");
-
-  const scored = guardians
-    .map((g) => scoreTrack(track, g))
-    .sort((a, b) => b.total - a.total || a.guardian.id.localeCompare(b.guardian.id))
-    .slice(0, 3);
 
   scored.forEach((s, i) => {
     console.log(`${i + 1}. ${s.guardian.name} (${s.guardian.archetype}, ${s.guardian.frequencyHz} Hz)  — score: ${s.total}`);
