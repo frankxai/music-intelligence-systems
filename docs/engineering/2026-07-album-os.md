@@ -137,6 +137,18 @@ visual             { coverRef, briefRef, paletteLock }
 
 Track entries reference the catalog by `inventoryId` — the album manifest never duplicates track metadata the catalog owns (rule zero, again).
 
+**Contract note (2026-07):** the shape above is this proposal's aspirational full schema; the shipped
+`schemas/album.schema.json` is now the authoritative contract, and it converged on a lighter shape for
+Phase 1 (`title`/`sunoId`/`guardian`/`frequencyHz`/`bpm`/`key`/`mode`/`durationSec`/`status` per track,
+no `inventoryId`/`qc`/`canonTag` nesting yet). Where this prose and the schema file disagree — as they
+did on the track `status` enum until this reconciliation pass — **the schema file wins**; this
+document gets corrected to match, never the reverse. The status lifecycle is now reconciled: the
+schema's `status` enum carries this section's `candidate|selected|culled|mastered|released` lifecycle
+as authoritative, plus `published|planned|draft|archived` kept for backward compatibility with
+existing manifests (e.g. `albums/arcanea-vol-1/album.json`) — see the schema's own field description
+for the deprecation mapping. `masteringProfile` (`sync-score | streaming`) is now in the schema as an
+optional top-level field alongside `masteringTarget`.
+
 ---
 
 ## 3. Canon-tagging design — how a track maps to a Guardian

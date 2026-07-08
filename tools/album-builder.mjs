@@ -35,7 +35,13 @@ try {
 const errors = [];
 const err = (msg) => errors.push(msg);
 
-const TRACK_STATUS = new Set(["published", "planned", "draft", "archived"]);
+// Reconciled with schemas/album.schema.json (2026-07 contract note): candidate/selected/culled/
+// mastered/released is the authoritative pipeline lifecycle from docs/engineering/2026-07-album-os.md
+// §2; published/planned/draft/archived are kept for backward compatibility with existing manifests.
+const TRACK_STATUS = new Set([
+  "candidate", "selected", "culled", "mastered", "released",
+  "published", "planned", "draft", "archived",
+]);
 
 // --- required top-level fields ---
 for (const f of ["title", "label", "tracks", "sequence", "masteringTarget"]) {
@@ -80,6 +86,12 @@ if (album.masteringTarget) {
   if (!Array.isArray(mt.lufsIntegrated) || mt.lufsIntegrated.length !== 2) {
     err("album.masteringTarget.lufsIntegrated: must be a [low, high] pair");
   }
+}
+
+// --- masteringProfile (optional; dispatches sync-score vs. streaming mastering-qc targets) ---
+const MASTERING_PROFILE = new Set(["sync-score", "streaming"]);
+if (album.masteringProfile !== undefined && !MASTERING_PROFILE.has(album.masteringProfile)) {
+  err(`album.masteringProfile: bad value '${album.masteringProfile}' — must be one of ${[...MASTERING_PROFILE].join(", ")}`);
 }
 
 // --- optional cross-check: guardian ids against data/arcanea-guardians.json, if present ---

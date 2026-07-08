@@ -2,13 +2,18 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/album.schema.json",
   "title": "Album Manifest",
-  "description": "Album-level manifest for a label release (e.g. Arcanea Guardian albums). One album.json per album, validated by tools/album-builder.mjs. Track entries are intentionally lighter than schemas/track-metadata.schema.json — an album manifest is a sequencing + Guardian-theme layer, not the full catalog record.",
+  "description": "Album-level manifest for a label release (e.g. Arcanea Guardian albums). One album.json per album, validated by tools/album-builder.mjs. Track entries are intentionally lighter than schemas/track-metadata.schema.json — an album manifest is a sequencing + Guardian-theme layer, not the full catalog record. Contract note (2026-07): this schema file is the authoritative contract for the album manifest — docs/engineering/2026-07-album-os.md §2 is prose describing the same shape, and where the two ever disagree again, this file wins; update the prose to match, not the other way around.",
   "type": "object",
   "required": ["title", "label", "tracks", "sequence", "masteringTarget"],
   "properties": {
     "title": { "type": "string", "description": "Album title" },
     "label": { "type": "string", "description": "Label id/name, e.g. 'Arcanea'" },
     "guardianTheme": { "type": "string", "description": "Optional: the Guardian (or cross-Guardian pairing) this album is themed around, e.g. 'Alera' or 'Alera x Maylinn'" },
+    "masteringProfile": {
+      "type": "string",
+      "enum": ["sync-score", "streaming"],
+      "description": "Per docs/engineering/2026-07-album-os.md §2/§6 Stage 6: which mastering target family this album dispatches to music-mastering-qc. 'sync-score' selects the Arcanea sync-grade window (~-18 to -16 LUFS, see masteringTarget below); 'streaming' selects the generic -14 LUFS streaming default. Optional — when absent, masteringTarget.lufsIntegrated is the sole source of truth (as in existing albums predating this field)."
+    },
     "tracks": {
       "type": "array",
       "minItems": 1,
@@ -24,7 +29,11 @@
           "key": { "type": "string" },
           "mode": { "type": "string" },
           "durationSec": { "type": "integer", "minimum": 0 },
-          "status": { "type": "string", "enum": ["published", "planned", "draft", "archived"] }
+          "status": {
+            "type": "string",
+            "enum": ["candidate", "selected", "culled", "mastered", "released", "published", "planned", "draft", "archived"],
+            "description": "Per docs/engineering/2026-07-album-os.md §2, the authoritative pipeline lifecycle is: candidate (proposed, not yet curated) -> selected (cleared by curate/cull) -> culled (rejected, kept for record — hide, don't delete) -> mastered (passed the QC gate) -> released (shipped to at least one platform). 'published', 'planned', 'draft', and 'archived' are deprecated pre-lifecycle statuses kept in the enum for backward compatibility with existing manifests (e.g. albums/arcanea-vol-1/album.json) — do not use them in new albums; new tooling should treat 'published' ~= 'released', 'planned' ~= 'candidate'/'selected', 'draft' ~= 'candidate', and 'archived' ~= 'culled'."
+          }
         },
         "additionalProperties": true
       }
