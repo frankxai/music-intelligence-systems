@@ -1,7 +1,7 @@
 {
   "$schema_note": "Executable tools, MCP servers, and commands across the ecosystem. kind: mcp-server|cli|command|web",
   "version": "1.0.0",
-  "updated": "2026-06-11",
+  "updated": "2026-07-08",
   "tools": [
     {
       "id": "vibe-os-mcp-server",
@@ -108,6 +108,14 @@
       "path": "music-intelligence-systems/mcp/README.md",
       "status": "specified",
       "provides": ["catalog query over track-metadata schema (spec only — see mcp/README.md)"]
+    },
+    {
+      "id": "music-eval-score",
+      "kind": "cli",
+      "repo": "music-intelligence-systems",
+      "path": "music-intelligence-systems/evals/music/score.mjs",
+      "status": "shipped",
+      "provides": ["canon-fit-scoring", "mastering-pass-gate", "cover-brand-gate-checklist", "model-ab-comparison-template"]
     }
   ]
 }
