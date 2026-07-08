@@ -23,7 +23,11 @@
  *
  * Add --json to print machine-readable output instead of the human-readable report
  * (mirrors evals/music/score.mjs's --json flag). Shape:
- *   { input, top3: [{ guardian, frequencyHz, score, reasons[] }], version }
+ *   { input, top3: [{ guardian, frequencyHz, score, reasons[] }], matched, version }
+ *
+ * Per docs/engineering/2026-07-album-os.md §3.2 ("never force the nearest Guardian"): if the
+ * top score is below MATCH_FLOOR (no axis actually fired), no Guardian is proposed — top3 is
+ * empty and matched is false, in both JSON and human output.
  */
 
 import { readFileSync } from "node:fs";
@@ -32,6 +36,10 @@ import { fileURLToPath } from "node:url";
 
 const HUB = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (p) => JSON.parse(readFileSync(join(HUB, p), "utf8"));
+
+// A score of 0 is exactly what every guardian gets on zero signal (no bpm/mode/frequencyHz/
+// vocalPosture provided) — any score >= 1 required at least one axis to actually fire.
+const MATCH_FLOOR = 1;
 
 function parseArgs(argv) {
   const out = { _json: false };
@@ -149,17 +157,21 @@ function main() {
     .sort((a, b) => b.total - a.total || a.guardian.id.localeCompare(b.guardian.id))
     .slice(0, 3);
 
+  const matched = scored.length > 0 && scored[0].total >= MATCH_FLOOR;
+  const top3 = matched ? scored : [];
+
   if (json) {
     console.log(
       JSON.stringify(
         {
           input: track,
-          top3: scored.map((s) => ({
+          top3: top3.map((s) => ({
             guardian: s.guardian.id,
             frequencyHz: s.guardian.frequencyHz,
             score: s.total,
             reasons: s.reasons,
           })),
+          matched,
           version,
         },
         null,
@@ -180,7 +192,13 @@ function main() {
   if (track.key) console.log('Note: "key" is not scored — canon ties Guardians to modes, not specific keys.');
   console.log("");
 
-  scored.forEach((s, i) => {
+  if (!matched) {
+    console.log("no Guardian proposed — insufficient signal");
+    console.log(`(top score ${scored[0]?.total ?? 0} is below the match floor of ${MATCH_FLOOR}; provide at least one of bpm/mode/frequencyHz/vocalPosture)`);
+    return;
+  }
+
+  top3.forEach((s, i) => {
     console.log(`${i + 1}. ${s.guardian.name} (${s.guardian.archetype}, ${s.guardian.frequencyHz} Hz)  — score: ${s.total}`);
     console.log(`   ${s.reasons.length ? s.reasons.join("; ") : "no matching signal — score is a default tie"}`);
     console.log("");
