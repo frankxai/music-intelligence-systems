@@ -2,7 +2,7 @@
 
 ## Now (shipped in this PR / v1.0)
 
-- Registry: 15 repos, 31 agents, 11 skills, 11 tools
+- Registry: 15 repos, 32 agents, 11 skills, 14 tools
 - 4 hub-native agents: Lyric Writer, Film/Sync Composer, Music Theory Teacher, Orchestration Architect
 - Portability engine: 13 agents × 4 formats = 52 exports
 - vibe-os MCP server: 7 tools, pip-installable

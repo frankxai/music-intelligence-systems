@@ -103,7 +103,7 @@ Full contracts and data-flow diagram: `ECOSYSTEM.md` (this repo). Machine-readab
 | `academy` | ai-music-academy | 3 | academy-teaching-assistant, academy-music-producer, academy-content-creator |
 | `workflows` | agentic-creator-os | 1 | acos-music-production |
 
-Tools + MCP servers in `registry/tools.json` (13 entries): `vibe-os-mcp-server` (7 MCP tools),
+Tools + MCP servers in `registry/tools.json` (14 entries): `vibe-os-mcp-server` (7 MCP tools),
 `vibe-prompt-generator`, `frequency-generator-pro`, `vibe-os-mixer` (all vibe-os, shipped); `tag-arcanea-guardian.mjs`
 and `album-builder.mjs` (this hub, shipped this cycle); `export-agents.mjs`, `validate-registry.mjs`
 (this hub); `create-music-command` (FrankX), `sound-commands` + `music-is-commands` (Starlight,
