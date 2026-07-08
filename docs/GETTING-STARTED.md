@@ -23,23 +23,26 @@ Fastest picks:
 
 **Use case:** You want Claude Code / Desktop / Cursor to design state-change music sessions for you.
 
-```bash
-# Option A: pip
-pip install vibe-os-mcp
+There is no `vibe-os-mcp` package on PyPI — install from source:
 
-# Option B: source (includes WAV rendering)
+```bash
 git clone https://github.com/frankxai/vibe-os
 cd vibe-os
-pip install mcp[cli] scipy numpy
+pip install -r mcp-server/requirements.txt
 ```
 
-Add to your `.mcp.json`:
+Register the server. **Claude Code** (project scope):
+```bash
+claude mcp add vibe-os -- python3 mcp-server/server.py
+```
+
+**Claude Desktop / Cursor** — add to your `.mcp.json`:
 ```json
 {
   "mcpServers": {
     "vibe-os": {
-      "command": "python",
-      "args": ["/path/to/vibe-os/mcp-server/server.py"]
+      "command": "python3",
+      "args": ["/absolute/path/to/vibe-os/mcp-server/server.py"]
     }
   }
 }
@@ -47,7 +50,7 @@ Add to your `.mcp.json`:
 
 Then ask Claude: `list_vibe_states()` → `generate_vibe_prompt("deep-focus")` → paste into Suno.
 
-Full tool reference: `mcp/README.md`
+Full tool reference: `vibe-os/mcp-server/README.md`
 
 ---
 

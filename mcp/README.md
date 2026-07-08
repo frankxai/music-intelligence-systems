@@ -10,24 +10,25 @@ Model Context Protocol servers in the Music Intelligence ecosystem. Status: `shi
 **Path:** `mcp-server/server.py`  
 **Status:** shipped (v0.2.0)
 
-**Install:**
+**Install:** there is no `vibe-os-mcp` package on PyPI — install from source:
 ```bash
-pip install vibe-os-mcp
+git clone https://github.com/frankxai/vibe-os
+cd vibe-os
+pip install -r mcp-server/requirements.txt
 ```
 
-**Or run from source:**
+**Register — Claude Code (project scope):**
 ```bash
-pip install mcp[cli] scipy numpy
-python mcp-server/server.py
+claude mcp add vibe-os -- python3 mcp-server/server.py
 ```
 
-**Claude Code / Desktop config (`.mcp.json`):**
+**Claude Desktop / Cursor config (`.mcp.json`):**
 ```json
 {
   "mcpServers": {
     "vibe-os": {
-      "command": "python",
-      "args": ["/path/to/vibe-os/mcp-server/server.py"]
+      "command": "python3",
+      "args": ["/absolute/path/to/vibe-os/mcp-server/server.py"]
     }
   }
 }
