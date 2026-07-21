@@ -10,7 +10,7 @@
     "n": { "type": "integer", "minimum": 0, "description": "Total take-log entries aggregated into this snapshot." },
     "perGuardian": {
       "type": "object",
-      "description": "Keyed by Guardian id (data/arcanea-guardians.json). Deterministic keep-rate per Guardian across all aggregated takes.",
+      "description": "Keyed by profile id from the label's profile pack (schemas/profile-pack.schema.json). Deterministic keep-rate per profile across all aggregated takes.",
       "additionalProperties": {
         "type": "object",
         "properties": {

@@ -23,7 +23,7 @@
         "properties": {
           "title": { "type": "string" },
           "sunoId": { "type": "string", "description": "Generation-platform id, if AI-generated there" },
-          "guardian": { "type": "string", "description": "Guardian id from data/arcanea-guardians.json this track binds to (canon-binding requirement)" },
+          "guardian": { "type": "string", "description": "Profile id from the label's profile pack (schemas/profile-pack.schema.json) this track binds to (canon-binding requirement)" },
           "frequencyHz": { "type": "number", "description": "Track's tuned Solfeggio frequency, if canon-bound" },
           "bpm": { "type": "integer", "minimum": 30, "maximum": 220 },
           "key": { "type": "string" },

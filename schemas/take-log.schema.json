@@ -8,7 +8,7 @@
   "properties": {
     "sunoId": { "type": "string", "description": "Generation-platform id (Suno UUID) for this specific take. Identity key — never title-slug (Suno's duplicate-title default guarantees slug collisions)." },
     "prompt": { "type": "string", "description": "The exact prompt text submitted to Suno for this take." },
-    "guardianIntent": { "type": ["string", "null"], "description": "Guardian id (data/arcanea-guardians.json) this take was targeted for at generation time, if canon-bound. May differ from the post-hoc measured canon-tag — that delta is prediction-accountability data (D5)." },
+    "guardianIntent": { "type": ["string", "null"], "description": "Profile id (from the label's profile pack, schemas/profile-pack.schema.json) this take was targeted for at generation time, if canon-bound. May differ from the post-hoc measured canon-tag — that delta is prediction-accountability data (D5)." },
     "bpm": { "type": "integer", "minimum": 30, "maximum": 300, "description": "Tempo targeted by the prompt for this take." },
     "mode": { "type": "string", "description": "Key/mode targeted, e.g. 'D minor', or a named Suno generation mode." },
     "vocalPosture": { "type": "string", "description": "Vocal delivery/posture targeted, e.g. 'breathy-lead', 'instrumental', 'choir-wash'." },

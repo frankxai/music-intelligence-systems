@@ -94,7 +94,8 @@ if (album.masteringProfile !== undefined && !MASTERING_PROFILE.has(album.masteri
   err(`album.masteringProfile: bad value '${album.masteringProfile}' — must be one of ${[...MASTERING_PROFILE].join(", ")}`);
 }
 
-// --- optional cross-check: guardian ids against data/arcanea-guardians.json, if present ---
+// --- optional cross-check: guardian/profile ids against a legacy local roster (data/arcanea-guardians.json), if present.
+// Private-repo albums are cross-checked by their own pipelines against their own profile pack. ---
 let guardiansById = new Map();
 try {
   const { guardians } = readHub("data/arcanea-guardians.json");
@@ -105,7 +106,7 @@ try {
 if (guardiansById.size && album.tracks) {
   album.tracks.forEach((t, i) => {
     if (t.guardian && !guardiansById.has(t.guardian)) {
-      err(`tracks[${i}] (${t.title}): guardian '${t.guardian}' not found in data/arcanea-guardians.json`);
+      err(`tracks[${i}] (${t.title}): guardian '${t.guardian}' not found in the local roster`);
     }
   });
 }

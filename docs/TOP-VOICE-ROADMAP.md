@@ -32,7 +32,7 @@ ambition.
 
 **Ship:**
 - **One canon-compliant Arcanea track, end to end.** Per D9(3), this is "the case study everything
-  else sells on." The slot already exists: `albums/arcanea-vol-1/album.json` has "Alera — Theme
+  else sells on." The slot already exists: `FrankX/albums/arcanea-vol-1/album.json` (private, per docs/PACKAGING.md) has "Alera — Theme
   No. 1" specified at 528 Hz, Lydian, 86 BPM — the exact worked example from CANON.md. Run it
   through the full pipeline: prompt pack → Suno session (WORKFLOW.md Loop A) → intake →
   Guardian-tag → mastering QC (LUFS window per `schemas/album.schema.json`) → release gate.
@@ -82,7 +82,7 @@ backlog in L99) before scaling volume.
 
 **Ship:**
 - **Arcanea, Vol. 1 completed** — the remaining Guardian-bound slots (Lyssandria 174 Hz Aeolian,
-  Maylinn 417 Hz Dorian, per `albums/arcanea-vol-1/album.json`) plus enough canon tracks for a
+  Maylinn 417 Hz Dorian, per `FrankX/albums/arcanea-vol-1/album.json`) plus enough canon tracks for a
   coherent release, sequenced and mastered through the album pipeline. The album is the proof at
   scale; canon/lore posts (archetype 4) finally have something to point at.
 - **The system-in-public series** — a numbered build-log series (the swarm router, the Guardian
