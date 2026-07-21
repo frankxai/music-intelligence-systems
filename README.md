@@ -17,6 +17,7 @@ Music creation with AI is fragmented: prompts live in one tool, agents in anothe
                        │                               │
                        │  registry/   what exists      │
                        │  schemas/    shared contracts │
+                       │  specs/      MUSIC.md standard│
                        │  agents/     net-new agents   │
                        │  exports/    portable formats │
                        │  research/   open science     │

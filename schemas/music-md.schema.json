@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/music-md.schema.json",
+  "title": "MUSIC.md frontmatter",
+  "description": "Contract for the YAML frontmatter of a MUSIC.md agent-readable music context file. Spec: specs/music-md/SPEC.md (v0.1). Everything beyond music_spec/scope/title is optional — omit over invent: an absent key means 'not stated', never a default.",
+  "type": "object",
+  "required": ["music_spec", "scope", "title"],
+  "additionalProperties": true,
+  "properties": {
+    "music_spec": { "type": "string", "description": "Spec version this file targets, e.g. \"0.1\"." },
+    "scope": { "enum": ["catalog", "album", "track"] },
+    "title": { "type": "string" },
+    "artist": { "type": "string", "description": "Display name or persona name." },
+    "label": { "type": "string" },
+    "profile_pack": { "type": "string", "description": "Path/URL to a profile-pack.json (schemas/profile-pack.schema.json). May reference a private location without inlining content (SPEC §5.5)." },
+    "profile": { "type": "string", "description": "Track scope: bound profile id. Omit if unbound — never guess." },
+    "album_manifest": { "type": "string", "description": "Album scope: path to the album.json this file annotates." },
+    "functional_intent": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Vibe-state ids or free-text functional targets the music serves."
+    },
+    "sound_dna": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "bpm": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+        "modes": { "type": "array", "items": { "type": "string" } },
+        "instrumentation": { "type": "string" },
+        "references": { "type": "string" }
+      }
+    },
+    "generation": {
+      "type": "object",
+      "description": "Mandatory when any AI contributed audio, lyrics, or arrangement (SPEC §5.3). Absence asserts human-made.",
+      "required": ["provider", "ai_contribution"],
+      "additionalProperties": true,
+      "properties": {
+        "provider": { "type": "string", "description": "e.g. suno | udio | elevenlabs | lyria | stable-audio | ace-step | heartmula | live | daw | hybrid | human | other" },
+        "model": { "type": "string" },
+        "ai_contribution": { "enum": ["human", "assisted", "generated"] },
+        "prompt_provenance": { "type": "string", "description": "Where prompts/takes are logged (e.g. a take-log path)." },
+        "human_edits": { "type": "string" }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "license_state": { "type": "string", "description": "The claimed license basis, e.g. suno-paid-commercial (a license, not ownership). Unknown/absent = not cleared (SPEC §5.4)." },
+        "owner": { "type": "string" },
+        "ai_disclosure": { "type": "string", "description": "Plain-language disclosure; mapped to DDEX-style fields at export." },
+        "sync_ready": { "type": "boolean" }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "masters": { "type": "array", "items": { "type": "string" } },
+        "stems": { "type": ["string", "array", "null"] },
+        "cover": { "type": ["string", "null"] },
+        "video": { "type": ["string", "null"] }
+      }
+    },
+    "measurements": {
+      "type": "object",
+      "description": "Measured values override declared ones for scoring/gating (SPEC §5.2).",
+      "additionalProperties": true,
+      "properties": {
+        "lufs_integrated": { "type": "number" },
+        "bpm_measured": { "type": "number" },
+        "key_measured": { "type": "string" }
+      }
+    },
+    "links": { "type": "object", "additionalProperties": { "type": ["string", "null"] } },
+    "updated": { "type": "string" }
+  }
+}

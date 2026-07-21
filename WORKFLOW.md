@@ -48,7 +48,7 @@ continuously. Each stage names its real owning agent or tool.
 flowchart TD
     sidecar["Sidecar JSON detected<br/>(Drive intake folder)"]
     catalogidx["Catalog-index<br/>music-catalog-indexer (FrankX)"]
-    guardiantag["Guardian-tag<br/>tools/tag-arcanea-guardian.mjs"]
+    guardiantag["Profile-tag<br/>tools/tag-vibe-profile.mjs"]
     briefwriter["Brief-writer<br/>@music-brief-writer (module 8, BUILT — sunoId-identity fixes pending)<br/>sets tool per asset from MEDIA-TOOLING-DOCTRINE.md"]
     cover["Cover<br/>nb-generate nb2 (Higgsfield Soul if identity-locked)"]
     video["Video<br/>Remotion (music-video-batch)"]
@@ -71,7 +71,7 @@ Notes on the real stages (per `docs/engineering/2026-07-album-os.md` §2 and
 `docs/AGENTIC-MUSIC-INTELLIGENCE-BLUEPRINT.md` §3):
 
 - **Catalog-index** and **Guardian-tag** are fully built and deterministic (no LLM calls in the
-  tagger — see `tools/tag-arcanea-guardian.mjs`).
+  tagger — see `tools/tag-vibe-profile.mjs`, driven per-label by a profile pack).
 - **Brief-writer** shipped 2026-07-08 (`FrankX/.claude/agents/music-brief-writer.md`, proven against
   the `FrankX/briefs/ocean-chorus.yaml` fixture) — it applies the tool-routing decisions in
   `docs/MEDIA-TOOLING-DOCTRINE.md` automatically per asset. Remaining gap: the fixture's `sunoId` is a
@@ -104,7 +104,7 @@ Before scaling a batch (a new album, a batch of covers, a new engine), run the e
 `evals/music/` rather than trusting a single listen or a single generated asset:
 
 - **`evals/music/RUBRICS.md`** defines four rubrics: canon-fit (0–100, mirrors the Guardian-matching
-  math in `tools/tag-arcanea-guardian.mjs`), mastering-pass (LUFS-integrated gate against the
+  math in `tools/tag-vibe-profile.mjs`), mastering-pass (LUFS-integrated gate against the
   album's `masteringTarget` window, default [-18, -16] per `schemas/album.schema.json`), cover
   brand-gate (checklist derived from the Album OS cover/visual stage), and a model A/B comparison
   template (cost / quality / brand-fit columns) for engine decisions like nb2 vs. Higgsfield Soul for

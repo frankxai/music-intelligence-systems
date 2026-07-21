@@ -38,7 +38,7 @@ flowchart LR
 
   subgraph POST["POST-APPROVAL"]
     catalog["4 Catalog<br/>music-catalog-indexer"]:::built
-    canontag["5 Canon-tag<br/>tag-arcanea-guardian.mjs"]:::built
+    canontag["5 Canon-tag<br/>tag-vibe-profile.mjs"]:::built
     qc["6 QC / master<br/>music-mastering-qc (ffmpeg)"]:::built
     sequence["7 Sequence<br/>album-builder.mjs"]:::built
     brief["8 Brief ★<br/>music-brief-writer — BUILT (sunoId-identity fixes pending)"]:::partial
@@ -104,7 +104,7 @@ Full contracts and data-flow diagram: `ECOSYSTEM.md` (this repo). Machine-readab
 | `workflows` | agentic-creator-os | 1 | acos-music-production |
 
 Tools + MCP servers in `registry/tools.json` (14 entries): `vibe-os-mcp-server` (7 MCP tools),
-`vibe-prompt-generator`, `frequency-generator-pro`, `vibe-os-mixer` (all vibe-os, shipped); `tag-arcanea-guardian.mjs`
+`vibe-prompt-generator`, `frequency-generator-pro`, `vibe-os-mixer` (all vibe-os, shipped); `tag-vibe-profile.mjs`
 and `album-builder.mjs` (this hub, shipped this cycle); `export-agents.mjs`, `validate-registry.mjs`
 (this hub); `create-music-command` (FrankX), `sound-commands` + `music-is-commands` (Starlight,
 30 + 7 slash commands); `music-lab` (website, 8 free instruments); `music-catalog-mcp` (specified,
@@ -121,6 +121,9 @@ duplicate it.
 
 ## Deeper docs
 
+- `specs/music-md/SPEC.md` — **MUSIC.md v0.1**: the proposed agent-readable music context file
+  standard (identity, lineage, rights, assets, measured-vs-declared), dogfooded at
+  `albums/example-album/MUSIC.md`.
 - `docs/AGENTIC-MUSIC-INTELLIGENCE-BLUEPRINT.md` — the full 12-module value chain, the honest
   three-actor boundary map (Claude Code / Claude-in-Chrome / Container Playwright), the ordered
   roadmap, and monetization status.
