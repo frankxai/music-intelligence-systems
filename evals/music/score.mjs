@@ -20,8 +20,10 @@
  *                      why this one can't be a number.
  *
  * Usage:
- *   node evals/music/score.mjs canon-fit --guardian alera --frequencyHz 528 --bpm 86 --mode lydian --vocalPosture "choral languageless resonant"
- *   node evals/music/score.mjs canon-fit '{"guardian":"alera","frequencyHz":528,"bpm":86,"mode":"lydian"}'
+ *   node evals/music/score.mjs canon-fit --profile glasshouse --frequencyHz 880 --bpm 86 --mode lydian --vocalPosture "clear crystalline weightless"
+ *   node evals/music/score.mjs canon-fit '{"profile":"glasshouse","frequencyHz":880,"bpm":86,"mode":"lydian"}'
+ *   node evals/music/score.mjs canon-fit --profile-pack path/to/pack.json --profile <id> ...
+ *   (--guardian remains a back-compat alias for --profile; default pack is the shipped example)
  *   node evals/music/score.mjs mastering-pass --lufsIntegrated -17
  *   node evals/music/score.mjs mastering-pass --lufsIntegrated -17 --low -18 --high -16
  *   node evals/music/score.mjs brand-gate --paletteMatch true --typographyLock true --bannedStyleClean true --godbeastPresent n/a
@@ -153,14 +155,23 @@ function bandFor(total) {
 }
 
 function scoreCanonFit(input) {
-  if (!input.guardian) {
-    console.error("canon-fit requires --guardian <id> (or \"guardian\" in the JSON blob)");
+  // --profile is the generic name; --guardian kept as a back-compat alias.
+  const claimed = input.profile ?? input.guardian;
+  if (!claimed) {
+    console.error("canon-fit requires --profile <id> (or \"profile\" in the JSON blob)");
     process.exit(1);
   }
-  const { guardians } = readHub("data/arcanea-guardians.json");
-  const guardian = guardians.find((g) => g.id === String(input.guardian).toLowerCase());
+  const packPath = input.profilePack ?? input["profile-pack"] ?? "profile-packs/example-profile-pack.json";
+  let pack;
+  try {
+    pack = JSON.parse(readFileSync(resolve(process.cwd(), packPath), "utf8"));
+  } catch {
+    pack = readHub(packPath);
+  }
+  const guardians = pack.profiles ?? pack.guardians;
+  const guardian = guardians.find((g) => g.id === String(claimed).toLowerCase());
   if (!guardian) {
-    console.error(`Unknown guardian '${input.guardian}'. Known ids: ${guardians.map((g) => g.id).join(", ")}`);
+    console.error(`Unknown profile '${claimed}' in ${packPath}. Known ids: ${guardians.map((g) => g.id).join(", ")}`);
     process.exit(1);
   }
 

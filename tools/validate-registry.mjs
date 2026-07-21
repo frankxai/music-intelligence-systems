@@ -65,7 +65,7 @@ for (const s of skills.skills) {
 
 // --- tools ---
 const toolIds = new Set();
-const KIND = new Set(["mcp-server", "cli", "command", "web"]);
+const KIND = new Set(["mcp-server", "cli", "command", "web", "lib"]);
 for (const t of tools.tools) {
   const where = `tool ${t.id ?? "(no id)"}`;
   for (const f of ["id", "kind", "repo", "path", "status"])

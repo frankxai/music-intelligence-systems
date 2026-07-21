@@ -121,16 +121,17 @@
       ]
     },
     {
-      "id": "tag-arcanea-guardian",
+      "id": "tag-vibe-profile",
       "kind": "cli",
       "repo": "music-intelligence-systems",
-      "path": "music-intelligence-systems/tools/tag-arcanea-guardian.mjs",
+      "path": "music-intelligence-systems/tools/tag-vibe-profile.mjs",
       "status": "shipped",
       "provides": [
-        "guardian-matching",
+        "profile-matching",
         "frequency-scoring",
-        "arcanea-label-tagging"
-      ]
+        "bring-your-own-profile-pack"
+      ],
+      "note": "Generic successor to tag-arcanea-guardian (same scoring engine, pack-driven). Arcanea's pack is private in FrankX per docs/PACKAGING.md; tools/tag-arcanea-guardian.mjs remains as a deprecation shim."
     },
     {
       "id": "album-builder",

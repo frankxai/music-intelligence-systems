@@ -1,0 +1,37 @@
+{
+  "$schema_note": "Demo album manifest so tools/album-builder.mjs is runnable with zero private data. Profiles reference profile-packs/example-profile-pack.json. Real albums live in a private repo (the FrankX pattern) — see docs/PACKAGING.md.",
+  "title": "Example Label, Vol. 0",
+  "label": "Example Label",
+  "tracks": [
+    {
+      "title": "First Light",
+      "sunoId": "00000000-0000-0000-0000-000000000001",
+      "status": "published"
+    },
+    {
+      "title": "Glasshouse — Theme No. 1",
+      "frequencyHz": 880,
+      "bpm": 88,
+      "mode": "Lydian",
+      "durationSec": 244,
+      "status": "planned"
+    },
+    {
+      "title": "Ironworks — Theme No. 1",
+      "frequencyHz": 440,
+      "bpm": 148,
+      "mode": "Phrygian",
+      "status": "planned"
+    }
+  ],
+  "sequence": [
+    "00000000-0000-0000-0000-000000000001",
+    "Glasshouse — Theme No. 1",
+    "Ironworks — Theme No. 1"
+  ],
+  "releaseTargets": ["Spotify", "Apple Music"],
+  "masteringTarget": {
+    "lufsIntegrated": [-14, -13],
+    "notes": "Streaming-loudness demo target. Swap for your label's mastering posture."
+  }
+}

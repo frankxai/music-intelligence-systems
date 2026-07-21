@@ -8,7 +8,7 @@
  * Zero dependencies. Deterministic. No network, no LLM calls.
  *
  * Usage:
- *   node tools/album-builder.mjs albums/arcanea-vol-1/album.json
+ *   node tools/album-builder.mjs albums/example-album/album.json
  */
 
 import { readFileSync } from "node:fs";

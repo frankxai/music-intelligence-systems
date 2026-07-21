@@ -1,0 +1,49 @@
+{
+  "$schema_note": "Generic four-profile demo pack so tools/tag-vibe-profile.mjs is runnable and legible with zero private data. These are deliberately demo-grade identities — write your own pack for real work (docs/BRING-YOUR-OWN-PROFILE-PACK.md). Anchor frequencies are octaves of A (110/220/440/880 Hz): musically meaningful, obviously not a hidden brand.",
+  "name": "Example Label",
+  "version": "1.0.0",
+  "description": "Demo sound-identity roster covering four common functional corners: grounding ambient, warm uplift, high-energy drive, and clear focus.",
+  "updated": "2026-07-21",
+  "profiles": [
+    {
+      "id": "low-tide",
+      "name": "Low Tide",
+      "archetype": "Grounding",
+      "frequencyHz": 110,
+      "modePreference": ["Aeolian", "Dorian"],
+      "tempoBandBpm": [60, 80],
+      "voiceTone": "hushed, spacious, unhurried",
+      "palette": "Slate blue, sea glass"
+    },
+    {
+      "id": "daybreak",
+      "name": "Daybreak",
+      "archetype": "Uplift",
+      "frequencyHz": 220,
+      "modePreference": ["Ionian", "Mixolydian"],
+      "tempoBandBpm": [95, 120],
+      "voiceTone": "bright, open, encouraging",
+      "palette": "Amber, soft white"
+    },
+    {
+      "id": "ironworks",
+      "name": "Ironworks",
+      "archetype": "Drive",
+      "frequencyHz": 440,
+      "modePreference": ["Phrygian", "Aeolian"],
+      "tempoBandBpm": [130, 160],
+      "voiceTone": "commanding, percussive, relentless",
+      "palette": "Gunmetal, ember orange"
+    },
+    {
+      "id": "glasshouse",
+      "name": "Glasshouse",
+      "archetype": "Clarity",
+      "frequencyHz": 880,
+      "modePreference": ["Lydian"],
+      "tempoBandBpm": [80, 100],
+      "voiceTone": "clear, crystalline, weightless",
+      "palette": "Pale cyan, silver"
+    }
+  ]
+}

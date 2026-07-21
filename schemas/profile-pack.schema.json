@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/frankxai/music-intelligence-systems/schemas/profile-pack.schema.json",
+  "title": "Profile Pack",
+  "description": "A label or producer's sound-identity roster: named profiles with the musical anchors (frequency, mode, tempo band, vocal posture) that tools/tag-vibe-profile.mjs scores tracks against. The engine is generic; the pack is where a specific brand's taste lives. Frank's Arcanea pack is the private worked example (FrankX repo); profile-packs/example-profile-pack.json is the public demo.",
+  "type": "object",
+  "required": ["name", "version", "profiles"],
+  "additionalProperties": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable pack name, e.g. a label name."
+    },
+    "version": {
+      "type": "string",
+      "description": "Semver-ish version of the pack contents."
+    },
+    "description": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "description": "Optional provenance pointer (canon doc, brand bible) this pack mirrors."
+    },
+    "updated": {
+      "type": "string",
+      "description": "ISO date of last edit."
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$",
+            "description": "Stable lowercase identifier used in album manifests and scoring output."
+          },
+          "name": { "type": "string" },
+          "archetype": {
+            "type": "string",
+            "description": "Optional role label (e.g. 'Power', 'Clarity') — display only, not scored."
+          },
+          "frequencyHz": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Canonical anchor frequency scored by proximity (50-point axis)."
+          },
+          "modePreference": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Preferred modes (e.g. 'Lydian'). Special values 'modal mixture' and 'all modes / modulating' score 22/20 instead of the full 30 — a catch-all preference is a weaker signal than a specific one."
+          },
+          "tempoBandBpm": {
+            "type": "array",
+            "items": { "type": "number", "exclusiveMinimum": 0 },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "[low, high] BPM band (15-point axis, linear falloff to 15 BPM outside). Omit if the profile has no canonical tempo."
+          },
+          "voiceTone": {
+            "type": "string",
+            "description": "Vocal/tonal posture keywords; overlap with a track's vocalPosture adds up to 5 points."
+          },
+          "palette": {
+            "type": "string",
+            "description": "Visual identity hint for cover art — display only, not scored."
+          }
+        }
+      }
+    }
+  }
+}
