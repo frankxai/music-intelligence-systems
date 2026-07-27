@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/hero.svg" width="100%" alt="Music Intelligence Systems — Sovereign sound domain · Six sub-systems · Compounding catalog"/>
+</p>
+
 <div align="center">
 
 # 🎼 Music Intelligence Systems
